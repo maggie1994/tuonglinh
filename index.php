@@ -1,13 +1,13 @@
 <html>
 	<head>
 		<title>Disney Chanel</title>
-		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<script src="../jquery-1.10.2.min.js"></script>
-		<script src="../js/main.js"></script>
+		<script src="jquery-1.10.2.min.js"></script>
+		<script src="js/main.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 		
 	</head>
@@ -22,14 +22,14 @@
 				</div>
 			</div>
 			<div class="list_menudoc">
-				<li><a href="#"><img src="../img/iconDisney.png"> Disney.co.za</a></li>
-				<li><a href="#"><img src="../img/iconTV.png"> TV</a></li>
-				<li><a href="#"><img src="../img/iconGame.png"> Games</a></li>
-				<li><a href="#"><img src="../img/iconCreate.png"> Create</a></li>
-				<li><a href="#"><img src="../img/iconMovie.png"> Movies</a></li>
-				<li><a href="#"><img src="../img/iconVideo.png"> Video</a></li>
-				<li><a href="#"><img src="../img/iconParks.png"> Parks</a></li>
-				<li><a href="#"><img src="../img/iconFavourites.png"> Disney Favourites</a></li>
+				<li><a href="#"><img src="img/iconDisney.png"> Disney.co.za</a></li>
+				<li><a href="#"><img src="img/iconTV.png"> TV</a></li>
+				<li><a href="#"><img src="img/iconGame.png"> Games</a></li>
+				<li><a href="#"><img src="img/iconCreate.png"> Create</a></li>
+				<li><a href="#"><img src="img/iconMovie.png"> Movies</a></li>
+				<li><a href="#"><img src="img/iconVideo.png"> Video</a></li>
+				<li><a href="#"><img src="img/iconParks.png"> Parks</a></li>
+				<li><a href="#"><img src="img/iconFavourites.png"> Disney Favourites</a></li>
 				<li><a href="#" class="footer_menudoc"></a></li>
 			</div>
 		</div>
@@ -44,7 +44,7 @@
 							<i class="fa fa-bars fa-2x" style="color:white"></i>
 						</button>
 						<a href="#" id="link_Disney">
-							<img src="../img/titleDisney.png" style="margin-top: 0px;">
+							<img src="img/titleDisney.png" style="margin-top: 0px;">
 						</a>
 						<!-- **************SCREEN 1025px trở lên*************** -->
 						<a href="#" style="margin-left: 20px">Games</a>
@@ -84,7 +84,7 @@
 					<!-- *****************BUTTON DISNEY******************* -->
 					<button id="btnDisney">
 						<div style="width:80px;height:0px">
-							<img src="../img/titleDisney.png" style="margin-left:7px;margin-top:-9px">
+							<img src="img/titleDisney.png" style="margin-left:7px;margin-top:-9px">
 						</div>
 						<div style="margin-left:85px">
 							<i class="fa fa-chevron-down fa-lg" style="color:#108ff7;margin-left:10px"></i>
@@ -115,28 +115,28 @@
 					    <!-- Wrapper for slides -->
 					    <div class="carousel-inner" role="listbox">
 					      <div class="item active">
-					        <img src="../img/slider/img1.png" alt="Chania">
+					        <img src="img/slider/img1.png" alt="Chania">
 					      </div>
 					      <div class="item">
-					        <img src="../img/slider/img2.png" alt="Chania">
+					        <img src="img/slider/img2.png" alt="Chania">
 					      </div>
 					      <div class="item ">
-					        <img src="../img/slider/img3.png" alt="Chania">
+					        <img src="img/slider/img3.png" alt="Chania">
 					      </div>
 					      <div class="item ">
-					        <img src="../img/slider/img4.png" alt="Chania">
+					        <img src="img/slider/img4.png" alt="Chania">
 					      </div>
 					      <div class="item ">
-					        <img src="../img/slider/img5.png" alt="Chania">
+					        <img src="img/slider/img5.png" alt="Chania">
 					      </div>
 					    </div>
 					    <!-- Left and right controls -->
 					    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" id="iconleft">
-					      <span aria-hidden="true"><img src="../img/iconleft.png"></span>
+					      <span aria-hidden="true"><img src="img/iconleft.png"></span>
 					      <span class="sr-only">Previous</span>
 					    </a>
 					    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" id="iconright">
-					      <span aria-hidden="true"><img src="../img/iconright.png"></span>
+					      <span aria-hidden="true"><img src="img/iconright.png"></span>
 					      <span class="sr-only">Next</span>
 					    </a>
 				  	</div>
@@ -145,7 +145,7 @@
 				<div class="content_whatnew">
 					<div class="body_content_whatnew">
 						<div style="height:0px" id="icon_whatnew">
-							<img src="../img/icon-whatnew.png">
+							<img src="img/icon-whatnew.png">
 						</div>
 						<div style="margin-left:58px;margin-top:-6px">
 							<span>What's New</span>
@@ -153,14 +153,14 @@
 						</div>
 						<div class="component_whatnew imgfist">
 							<div class="component_whatnew_img">
-								<img src="../img/whatnew/img1.png">
+								<img src="img/whatnew/img1.png">
 							</div>
 							<a href="#" class="name_game">Houst of Haunts</a>
 							<p>Find your way out of the spooktacular Monstober mansion!</p>
 						</div>
 						<div class="component_whatnew">
 							<div class="component_whatnew_img">
-								<img src="../img/whatnew/img2.png">
+								<img src="img/whatnew/img2.png">
 							</div>
 							<a href="#" class="name_game">Join Forces</a>
 							<p>Disney Infinity 3.0: Play Without Limits available now!</p>
@@ -172,7 +172,7 @@
 					<div class="body_content_videos">
 						<div class="title_videos">
 							<div style="height:0px" id="icon_videos">
-								<img src="../img/iconVideos.png">
+								<img src="img/iconVideos.png">
 							</div>
 							<div style="margin-left:58px;margin-top:-6px">
 								<span>Videos</span> 
@@ -183,13 +183,13 @@
 						
 						<!-- Left Controls -->
 						<div class="left_video">
-							<button id="left-controls"><img src="../img/iconleft.png"></button>
+							<button id="left-controls"><img src="img/iconleft.png"></button>
 						</div>
 						<div class="component_videos">
 							<!-- Video 1 -->
 							<div class="videos first" id="video_1">
 								<div class="videos_img">
-									<img src="../img/Videos/img1.png" id="img_video1">
+									<img src="img/Videos/img1.png" id="img_video1">
 								</div>
 								<a href="#" class="name_video" id="name_video1">
 									Guardians Of The Galaxy - Starlord Part 1
@@ -198,7 +198,7 @@
 							<!-- Video 2 -->
 							<div class="videos first" id="video_2">
 								<div class="videos_img">
-									<img src="../img/Videos/img2.png" id="img_video2">
+									<img src="img/Videos/img2.png" id="img_video2">
 								</div>
 								<a href="#" class="name_video" id="name_video2">
 									Descendants | DIY Accessorised Tutorials - Collar
@@ -208,7 +208,7 @@
 							<!-- Video 3 -->
 							<div class="videos" id="video_3">
 								<div class="videos_img">
-									<img src="../img/Videos/img3.png" id="img_video3">
+									<img src="img/Videos/img3.png" id="img_video3">
 								</div>
 								<a href="#" class="name_video" id="name_video3">
 									Descendants | DIY Accessorised Tutorials - Pearl
@@ -218,7 +218,7 @@
 							<!-- Video 4 -->
 							<div class="videos" id="video_4">
 								<div class="videos_img">
-									<img src="../img/Videos/img4.png" id="img_video4">
+									<img src="img/Videos/img4.png" id="img_video4">
 								</div>
 								<a href="#" class="name_video" id="name_video4">
 									Star Wars: Episode VII The Force Awakens
@@ -227,7 +227,7 @@
 							<!-- Video 5 -->
 							<div class="videos" id="video_5">
 								<div class="videos_img">
-									<img src="../img/Videos/img5.png" id="img_video4">
+									<img src="img/Videos/img5.png" id="img_video4">
 								</div>
 								<a href="#" class="name_video" id="name_video4">
 									Descendants | DIY Accessorised Tutorials - Pearl
@@ -237,7 +237,7 @@
 							<!-- Video 6 -->
 							<div class="videos" id="video_6">
 								<div class="videos_img">
-									<img src="../img/Videos/img6.png" id="img_video4">
+									<img src="img/Videos/img6.png" id="img_video4">
 								</div>
 								<a href="#" class="name_video" id="name_video4">
 									Descendants | DIY Accessorised Tutorials - Pearl
@@ -247,7 +247,7 @@
 						</div>
 						<!-- Right Controls -->
 						<div class="right_video">
-							<button id="right-controls"><img src="../img/iconright.png"></button>
+							<button id="right-controls"><img src="img/iconright.png"></button>
 						</div>
 					</div>
 				</div>
@@ -255,7 +255,7 @@
 			</div>
 			<div class="footer"></div>
 
-		<img src="../img/27e6.gif" title="Dự báo thời tiết - Thủ đô Hà Nội" height="41" width="127">
+		<img src="img/27e6.gif" title="Dự báo thời tiết - Thủ đô Hà Nội" height="41" width="127">
 		</div>
 	</body>
 </html>
