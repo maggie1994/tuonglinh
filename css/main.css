@@ -1,0 +1,167 @@
+body{
+	background-color: white;
+	margin: 0px;
+	height: 100%;
+	font-family: 'Signika', sans-serif !important;
+}
+button{
+	background-color: transparent;
+	border: 1px solid transparent;
+	outline: 0px;
+}
+input{
+	background-color: transparent;
+	outline: 0px;
+}
+
+.page{
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/bg.jpg');
+	background-size: 100% 100%;
+	position: relative;
+}
+.page-02{
+	background-image: url('../img/bg-02.jpg');
+}
+.bg-page-02{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #A3DFEB;
+	opacity: 0.7;
+}
+.content{
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+}
+.title-logo{
+	font-family: 'Pacifico', cursive;
+	color: #DCF3F9;
+	font-size: 25px;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+.cloud{
+	position: absolute;
+	left: 30%;
+	top: -20px;
+}
+.cloud-large{
+	width: 400px;
+	height: 248px;
+	background-image: url('../img/cloud.png');
+	background-size: 100%;
+	position: relative;
+}
+.cloud-large .hello{
+	position: absolute;
+	top: 50px;
+	left: 34%;
+	font-size: 38px;
+	color: #82D3E6;
+}
+.cloud-large .text-linh{
+	position: absolute;
+	top: 90px;
+	left: 25%;
+	font-size: 30px;
+	color: #888;
+}
+.cloud-large .text-linh span{
+	font-weight: 700;
+	font-size: 46px;
+	margin-left: 8px;
+	font-family: 'Archivo Black', sans-serif;
+	color: #82D3E6;
+}
+.cloud-large h6{
+	position: absolute;
+	top: 145px;
+	left: 25%;
+	font-size: 13px;
+	font-family: 'Raleway', sans-serif;
+	color: #888;
+}
+.cloud-large h6 span{
+	display: block;
+	font-size: 18px;
+	margin-top: 5px;
+	letter-spacing: 1.5px;
+	font-weight: 600;
+	color: #82D3E6;
+}
+.circle{
+	background: white;
+	border-radius: 50%;
+}
+.cirle-01{
+	width: 30px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: 140px;
+}
+.cirle-02{
+	width: 20px;
+	height: 20px;
+	margin-top: 0px;
+	margin-left: 110px;
+}
+.cirle-03{
+	width: 18px;
+	height: 18px;
+	margin-left: 80px;
+}
+.cirle-04{
+	width: 15px;
+	height: 15px;
+	margin-left: 55px;
+}
+.cirle-05{
+	width: 12px;
+	height: 12px;
+	margin-left: 35px;
+}
+.cirle-06{
+	width: 11px;
+	height: 11px;
+	margin-left: 15px;
+}
+.cirle-07{
+	width: 8px;
+	height: 8px;
+	margin-left: 0px;
+}
+.boat{
+
+}
+.boat img{
+	/* width: 290px;
+	height: 150px; */
+	bottom: 25%;
+	left: 3%;
+	position: absolute;
+}
+.scroll{
+	background-color: white;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.scroll h6{
+	color: #82D3E6;
+	margin-bottom: 2px;
+	margin-top: 5px;
+	font-size: 15px;
+}
+.scroll i{
+	color: #82D3E6;
+	font-size: 20px;
+}
