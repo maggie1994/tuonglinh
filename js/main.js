@@ -1,7 +1,10 @@
 $(document).ready(function(){
 	var scroll = $('.page').height();
+	var scroll_top = 0;
 	$('.scroll').click(function(event) {
-		$('body').animate({'scrollTop': scroll},500);
+		scroll_top = scroll_top + scroll;
+		$('body').animate({'scrollTop': scroll_top},500);
+		// alert(scroll_top);
 	});
 });
 

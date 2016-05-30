@@ -54,13 +54,6 @@
 					<h1>My Skill</h1>
 				</div>
 				<div class="content-skill container-fluid">
-					<!-- <ul class="box-skill">
-						<li>HTML5</li>
-						<li>CSS3</li>
-						<li>JQUERY</li>
-						<li>PHOTOSHOP</li>
-						<li>ILLUSTRATOR</li>
-					</ul> -->
 					<div class="level-skill">
 						<ul class="level">
 							<li></li>
@@ -109,5 +102,127 @@
 				</button>
 			</div>
 		</div><!-- Page 02 -->
+
+		<!-- Page 03 -->
+		<div class="page page-02">
+			<div class="bg-page-02"></div>
+			<div class="content">
+				<div class="mernaid">
+					<img src="img/mermaid.png" alt="" width="320px" style="margin-top: 30px">
+				</div>
+				<div class="history">
+					<div class="history-content">
+						<!-- History 01 -->
+						<div class="history-element">
+							<img src="img/castle.png" alt="" width="120px">
+							<div class="history-content">
+								<h4>9/2012 - 6/2015</h4>
+								<p>Studied at University of Science</p>
+							</div>
+						</div><!-- History 01 -->
+						
+						<!-- Line -->
+						<ul class="circle-list">
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+
+						<!-- History 02 -->
+						<div class="history-element history-02">
+							<img src="img/boat-02.png" alt="" width="145px">
+							<div class="history-content">
+								<h4>8/2012 - 10/2015</h4>
+								<!-- <p>Worked at Emotive Company at Tester Position</p> -->
+								<h6>
+									<img src="img/starfish.png" alt="" width="14px" class="icon-text">
+									Company: Emotive
+								</h6>
+								<h6>
+									<img src="img/starfish.png" alt="" width="14px" class="icon-text">
+									Position: Tester
+								</h6>
+							</div>
+						</div><!-- History 02 -->
+						
+						<!-- Line -->
+						<ul class="circle-list circle-list-02">
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul><!-- Line -->
+
+						<!-- History 03 -->
+						<div class="history-element history-03">
+							<img src="img/taungam.png" alt="" width="140px">
+							<div class="history-content">
+								<h4>10/2015 - 12/2015</h4>
+								<h6>
+									<img src="img/seashell.png" alt="" width="14px" class="icon-text">
+									Company: CloudTeam
+								</h6>
+								<h6>
+									<img src="img/seashell.png" alt="" width="14px" class="icon-text">
+									Position: Fresher Front-end
+								</h6>
+							</div>
+						</div><!-- History 03 -->
+						
+						<!-- Line -->
+						<ul class="circle-list circle-list-03">
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul><!-- Line -->
+
+						<!-- History 04 -->
+						<div class="history-element history-04">
+							<img src="img/treasure.png" alt="" width="100px" style="margin-top: 12px;">
+							<div class="history-content">
+								<h4>12/2015 - Present</h4>
+								<h6>
+									<img src="img/oc.png" alt="" width="14px" class="icon-text">
+									Company: Golden Owl
+								</h6>
+								<h6>
+									<img src="img/oc.png" alt="" width="14px" class="icon-text">
+									Position: Front-end Developer
+								</h6>
+							</div>
+						</div><!-- History 04 -->
+					</div>
+				</div>
+				</div>
+				<button class="scroll">
+					<h6>Scroll</h6>
+					<i class="fa fa-chevron-down" aria-hidden="true"></i>
+				</button>
+			</div>
+		</div><!-- Page 03 -->
 	</body>
 </html>

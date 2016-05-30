@@ -24,7 +24,7 @@ ul{
 .page{
 	width: 100%;
 	height: 100%;
-	background-image: url('../img/bg.jpg');
+	background-image: url('../img/bg-01.jpg');
 	background-size: 100% 100%;
 	position: relative;
 }
@@ -76,11 +76,11 @@ ul{
 .cloud{
 	position: absolute;
 	left: 30%;
-	top: -20px;
+	top: 8%;
 }
 .cloud-large{
-	width: 400px;
-	height: 248px;
+	width: 440px;
+	height: 275px;
 	background-image: url('../img/cloud.png');
 	background-size: 100%;
 	position: relative;
@@ -169,7 +169,7 @@ ul{
 .boat img{
 	/* width: 290px;
 	height: 150px; */
-	bottom: 25%;
+	bottom: 10%;
 	left: 3%;
 	position: absolute;
 }
@@ -245,3 +245,186 @@ ul{
 	width: 90px;
 	height: 60px;
 }
+
+.mernaid{
+	position: absolute;
+}
+.history{
+	margin-left: 50px;
+	padding-left: 350px;
+}
+.history-content{
+	position: relative;
+	height: 100%;
+}
+.history-element img{
+	float: left;
+}
+.history-02{
+	position: absolute;
+	top: 250px;
+	left: 80px;
+}
+.history-03{
+	position: absolute;
+	top: 100px;
+	left: 400px;
+}
+.history-04{
+	position: absolute;
+	top: 425px;
+	left: 375px;
+}
+.history-content{
+	overflow: hidden;
+	padding-left: 15px;
+	font-family: 'Nunito', sans-serif;
+}
+.history-content h4{
+	color: white;
+	font-weight: 700;
+	margin-top: 30px;
+}
+.history-content p, .history-content h6{
+	color: #a7e3f1;
+	letter-spacing: 0.5px;
+	width: 160px;
+	word-spacing: 1.5px;
+	font-size: 14px;
+}
+.history-content h6{
+	width: auto;
+}
+.icon-text{
+	margin-right: 10px;
+}
+.circle-list{
+	position: absolute;
+	top: 130px;
+	left: 50px;
+}
+.circle-list li {
+	width: 10px;
+	height: 10px;
+	background-color: #F8E072;
+	border-radius: 50%;
+	margin-top: 8px;
+}
+.circle-list li:nth-child(2) {
+	margin-left: -14px;
+}
+.circle-list li:nth-child(3) {
+	margin-left: -20px;
+}
+.circle-list li:nth-child(4) {
+	margin-left: -22px;
+}
+.circle-list li:nth-child(5) {
+	margin-left: -21px;
+}
+.circle-list li:nth-child(6) {
+	margin-left: -17px;
+}
+.circle-list li:nth-child(7) {
+	margin-left: -8px;
+}
+.circle-list li:nth-child(8) {
+	margin-left: 2px;
+}
+.circle-list li:nth-child(9) {
+	margin-left: 15px;
+}
+.circle-list li:nth-child(10) {
+	margin-left: 30px;
+}
+
+/* circle-list-02 */
+.circle-list-02{
+	top: 160px;
+	left: 370px;
+}
+.circle-list-02 li:nth-child(2) {
+	margin-left: -20px !important;
+	margin-top: -16px !important;
+}
+.circle-list-02 li:nth-child(3) {
+	margin-left: -40px !important;
+	margin-top: -11px !important;
+}
+.circle-list-02 li:nth-child(4) {
+	margin-left: -59px !important;
+	margin-top: -8px !important;
+}
+.circle-list-02 li:nth-child(5) {
+	margin-left: -79px !important;
+	margin-top: -4px !important;
+}
+.circle-list-02 li:nth-child(6) {
+	margin-left: -97px !important;
+	margin-top: -1px !important;
+}
+.circle-list-02 li:nth-child(7) {
+	margin-left: -115px !important;
+	margin-top: 0px !important;
+}
+.circle-list-02 li:nth-child(8) {
+	margin-left: -131px !important;
+	margin-top: 1px !important;
+}
+.circle-list-02 li:nth-child(9) {
+	margin-left: -147px !important;
+	margin-top: 4px !important;
+}
+.circle-list-02 li:nth-child(10) {
+	margin-left: -161px !important;
+	margin-top: 5px !important;
+}
+.circle-list-02 li:nth-child(11) {
+	margin-left: -173px !important;
+	margin-top: 4px !important;
+}
+.circle-list-02 li:nth-child(12) {
+	margin-left: -183px !important;
+	margin-top: 6px !important;
+}
+
+/* circle-list-03 */
+.circle-list-03{
+	top: 210px;
+	left: 460px;
+}
+.circle-list-03 li:nth-child(2) {
+	margin-left: 9px !important;
+}
+.circle-list-03 li:nth-child(3) {
+	margin-left: 18px !important;
+}
+.circle-list-03 li:nth-child(4) {
+	margin-left: 22px !important;
+}
+.circle-list-03 li:nth-child(5) {
+	margin-left: 24px !important;
+}
+.circle-list-03 li:nth-child(6) {
+	margin-left: 23px !important;
+}
+.circle-list-03 li:nth-child(7) {
+	margin-left: 19px !important;
+}
+.circle-list-03 li:nth-child(8) {
+	margin-left: 11px !important;
+}
+.circle-list-03 li:nth-child(9) {
+	margin-left: 1px !important;
+}
+.circle-list-03 li:nth-child(10) {
+	margin-left: -10px !important;
+}
+.circle-list-03 li:nth-child(11) {
+	margin-left: -23px !important;
+}
+.circle-list-03 li:nth-child(12) {
+	margin-left: -37px !important;
+}
+
+
