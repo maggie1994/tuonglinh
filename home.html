@@ -2,6 +2,7 @@
 	<head>
 		<title>Linh's Profile</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/demo.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<!-- Font -->
@@ -224,5 +225,53 @@
 				</button>
 			</div>
 		</div><!-- Page 03 -->
+
+		<!-- Page 04 -->
+		<div class="page page-02">
+			<div class="bg-page-02"></div>
+			<div class="content">
+				<div class="demo">
+					<div class="demo-section">
+						<ul class="list-demo">
+							<li>Website</li>
+							<li>Amination</li>
+							<li>Design</li>
+							<li>SVG CSS</li>
+						</ul>
+						<ul class="demo-element">
+							<li>
+								<h4>Input Effect</h4>
+								<a href="html/svg.html"><img src="" alt=""></a>
+							</li>
+							<li>
+								<h4>Input Effect</h4>
+								<img src="" alt="">
+							</li>
+							<li>
+								<h4>Input Effect</h4>
+								<img src="" alt="">
+							</li>
+							<li>
+								<h4>Input Effect</h4>
+								<img src="" alt="">
+							</li>
+							<li>
+								<h4>Input Effect</h4>
+								<img src="" alt="">
+							</li>
+							<li>
+								<h4>Input Effect</h4>
+								<img src="" alt="">
+							</li>
+						</ul>
+						<img src="img/cangua.png" alt="" class="tree">
+					</div>
+				</div>
+				<button class="scroll scroll-right">
+					<h6>Scroll</h6>
+					<i class="fa fa-chevron-down" aria-hidden="true"></i>
+				</button>
+			</div>
+		</div><!-- Page 04 -->
 	</body>
 </html>

@@ -1,0 +1,68 @@
+.demo{
+	/* width: 900px;
+	margin: auto; */
+}
+.demo-section{
+	background-image: url('../img/bg-board-01.png');
+	width: 800px;
+	height: 640px;
+	background-size: 100% 100%;
+	position: relative;
+	margin-left: 20px;
+	margin-top: -10px;
+}
+.list-demo{
+	padding-top: 80px;
+	padding-left: 40px;
+}
+.list-demo li{
+	width: 160px;
+	height: 40px;
+	background-image: url('../img/skill-box.png');
+	background-size: 100% 100%;
+	text-align: center;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: 700;
+	display: inline-block;
+	margin-right: 10px;
+}
+.demo-element{
+	padding-top: 10px;
+	padding-left: 40px;
+}
+.demo-element li {
+	width: 215px;
+	background-color: #00BFF3;
+	display: inline-block;
+	margin-right: 15px;
+	text-align: center;
+	border-radius: 8px;
+	margin-top: 30px;
+}
+.demo-element li h4{
+	text-align: center;
+	margin-top: 20px;
+	color: #0054A6;
+	font-family: 'Nunito', sans-serif;
+	margin-bottom: 15px;
+}
+.demo-element li img{
+	width: 85%;
+	height: 130px;
+	margin-bottom: 15px;
+	background-color: #fff;
+	border-radius: 8px;
+}
+.tree{
+	position: absolute;
+	right: -135px;
+	bottom: -10px;
+	width: 230px;
+}
+
+
+
+
