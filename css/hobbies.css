@@ -31,7 +31,7 @@
 .content-hobbies ul li{
 	width: 100px;
 	height: 100px;
-	background-color: #ED1C24;
+	background-color: #09547f;
 	border-radius: 50%;
 	position: absolute;
 	text-align: center;
@@ -67,27 +67,27 @@
 .content-hobbies ul .hobby-01{
 	top: 20px;
 	left: 160px;
-	background-color: #ECBF30;
+	background-color: #82D3E6;
 }
 .content-hobbies ul .hobby-02{
 	top: 110px;
 	left: 300px;
-	background-color: #ECBF30;
+	background-color: #82D3E6;
 }
 .content-hobbies ul .hobby-03{
 	top: 280px;
 	left: 300px;
-	background-color: #ECBF30;
+	background-color: #82D3E6;
 }
 .content-hobbies ul .hobby-04{
 	top: 370px;
 	left: 160px;
-	background-color: #ECBF30;
+	background-color: #82D3E6;
 }
 .content-hobbies ul .hobby-05{
 	top: 280px;
 	left: 20px;
-	background-color: #ECBF30;
+	background-color: #82D3E6;
 }
 .content-hobbies ul .hobby-05 img{
 	width: 60px;
@@ -97,5 +97,5 @@
 .content-hobbies ul .hobby-06{
 	top: 110px;
 	left: 20px;
-	background-color: #ECBF30;
+	background-color: #82D3E6;
 }
