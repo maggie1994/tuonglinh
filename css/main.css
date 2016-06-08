@@ -28,7 +28,7 @@ a{
 .page{
 	width: 100%;
 	height: 100%;
-	background-image: url('../img/bg-01.jpg');
+	background-image: url('../img/bg-header.png');
 	background-size: 100% 100%;
 	position: relative;
 }
@@ -81,113 +81,60 @@ a{
 	padding-top: 6px;
 	font-family: 'Lobster', cursive;
 }
-.title-logo{
-	font-family: 'Pacifico', cursive;
-	color: #259FBB;
-	font-size: 25px;
-	padding-top: 20px;
-	margin-left: 20px;
-	margin-top: 0px;
-}
-.cloud{
-	position: absolute;
-	left: 30%;
-	top: 8%;
-}
-.cloud-large{
-	width: 440px;
-	height: 275px;
-	background-image: url('../img/cloud.png');
-	background-size: 100%;
+.title-section{
 	position: relative;
+	width: 600px;
+	margin: auto;
 }
-.cloud-large .hello{
-	position: absolute;
-	top: 50px;
-	left: 34%;
-	font-size: 38px;
-	color: #82D3E6;
-}
-.cloud-large .text-linh{
-	position: absolute;
-	top: 90px;
-	left: 25%;
-	font-size: 30px;
-	color: #888;
-}
-.cloud-large .text-linh span{
+.title-logo{
+	font-family: 'Grand Hotel', cursive;
+	color: #fff;
+	font-size: 90px;
+	text-align: center;
+	margin-top: 0;
 	font-weight: 700;
-	font-size: 46px;
-	margin-left: 8px;
-	font-family: 'Archivo Black', sans-serif;
-	color: #82D3E6;
+	letter-spacing: 0.5px;
+	height: 400px;
+	line-height: 400px;
+	position: relative;
+	z-index: 1;
 }
-.cloud-large h6{
+.img-sun{
+	width: 150px;
 	position: absolute;
-	top: 145px;
-	left: 25%;
-	font-size: 13px;
-	font-family: 'Raleway', sans-serif;
-	color: #888;
+	top: 40px;
+	left: 40px;
 }
-.cloud-large h6 span{
-	display: block;
-	font-size: 18px;
-	margin-top: 5px;
-	letter-spacing: 1.5px;
-	font-weight: 600;
-	color: #82D3E6;
-}
-.circle{
-	background: white;
-	border-radius: 50%;
-}
-.cirle-01{
-	width: 30px;
-	height: 30px;
-	margin-top: 0px;
-	margin-left: 140px;
-}
-.cirle-02{
-	width: 20px;
-	height: 20px;
-	margin-top: 0px;
-	margin-left: 110px;
-}
-.cirle-03{
-	width: 18px;
-	height: 18px;
-	margin-left: 80px;
-}
-.cirle-04{
-	width: 15px;
-	height: 15px;
-	margin-left: 55px;
-}
-.cirle-05{
-	width: 12px;
-	height: 12px;
-	margin-left: 35px;
-}
-.cirle-06{
-	width: 11px;
-	height: 11px;
-	margin-left: 15px;
-}
-.cirle-07{
-	width: 8px;
-	height: 8px;
-	margin-left: 0px;
-}
-.boat{
-
-}
-.boat img{
-	/* width: 290px;
-	height: 150px; */
-	bottom: 10%;
-	left: 3%;
+.img-balloon{
+	width: 80px;
 	position: absolute;
+	top: 80px;
+	right: 110px;
+	z-index: 0;
+}
+.img-cloud-01{
+	width: 60px;
+	position: absolute;
+	top: 85px;
+	right: 170px;
+}
+.img-cloud-02{
+	width: 60px;
+	position: absolute;
+	top: 120px;
+	right: 70px;
+}
+.img-cloud-03{
+	width: 60px;
+	position: absolute;
+	top: 220px;
+	left: 70px;
+}
+.img-plane{
+	width: 90px;
+	position: absolute;
+	top: 260px;
+	left: 44%;
 }
 .scroll{
 	background-color: white;
