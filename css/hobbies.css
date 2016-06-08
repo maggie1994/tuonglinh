@@ -1,0 +1,101 @@
+.hobbies{
+	width: 900px;
+	margin: 0px auto;
+}
+.title-hobbies{
+	float: left;
+	padding-top: 150px;
+}
+.title-hobbies h1{
+	font-family: 'Nunito', sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	color: #fff;
+}
+.title-hobbies h1 span{
+	display: block;
+}
+.title-hobbies h5 {
+	color: #013d77;
+	font-size: 22px;
+	letter-spacing: 0.5px;
+	margin-top: 25px;
+}
+.content-hobbies{
+	float: left;
+}
+.content-hobbies ul{
+	position: relative;
+	margin: 50px 0px 0px 100px;
+}
+.content-hobbies ul li{
+	width: 100px;
+	height: 100px;
+	background-color: #ED1C24;
+	border-radius: 50%;
+	position: absolute;
+	text-align: center;
+}
+.content-hobbies ul li div{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	position: relative;
+}
+.content-hobbies ul li h6{
+	margin-top: 10px;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 1.3;
+	letter-spacing: 0.8px;
+	font-weight: 400;
+	white-space: nowrap;
+	font-family: "Open Sans";
+}
+.content-hobbies ul li img{
+	width: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.content-hobbies ul .center{
+	top: 200px;
+	left: 160px;
+}
+.content-hobbies ul .hobby-01{
+	top: 20px;
+	left: 160px;
+	background-color: #ECBF30;
+}
+.content-hobbies ul .hobby-02{
+	top: 110px;
+	left: 300px;
+	background-color: #ECBF30;
+}
+.content-hobbies ul .hobby-03{
+	top: 280px;
+	left: 300px;
+	background-color: #ECBF30;
+}
+.content-hobbies ul .hobby-04{
+	top: 370px;
+	left: 160px;
+	background-color: #ECBF30;
+}
+.content-hobbies ul .hobby-05{
+	top: 280px;
+	left: 20px;
+	background-color: #ECBF30;
+}
+.content-hobbies ul .hobby-05 img{
+	width: 60px;
+	margin-top: -5px;
+	margin-left: -5px;
+}
+.content-hobbies ul .hobby-06{
+	top: 110px;
+	left: 20px;
+	background-color: #ECBF30;
+}

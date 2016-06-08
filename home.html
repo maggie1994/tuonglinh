@@ -3,8 +3,11 @@
 		<title>Linh's Profile</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/demo.css">
+		<link rel="stylesheet" type="text/css" href="css/hobbies.css">
+		<link rel="stylesheet" type="text/css" href="css/contact.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 		<!-- Font -->
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
@@ -13,6 +16,8 @@
 		<link href='https://fonts.googleapis.com/css?family=Raleway:400,500,300,100,200,800,700,600,900' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Nunito:400,700,300' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!-- Font -->
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -46,7 +51,8 @@
 				<i class="fa fa-chevron-down" aria-hidden="true"></i>
 			</button>
 		</div><!-- Page 01 -->
-
+		
+		<img src="img/bg-02.jpg" alt="" id="bg">
 		<!-- Page 02 -->
 		<div class="page page-02">
 			<div class="bg-page-02"></div>
@@ -273,5 +279,84 @@
 				</button>
 			</div>
 		</div><!-- Page 04 -->
+
+		<!-- Page 05 -->
+		<div class="page page-02">
+			<div class="bg-page-02"></div>
+			<div class="content">
+				<div class="hobbies">
+					<div class="title-hobbies">
+						<h1>What are <span>My hobbies?</span></h1>
+						<h5>In my free time, I am ...</h5>
+					</div>
+					<div class="content-hobbies">
+						<ul>
+							<li class="center"><div><img src="img/heart-icon.png" alt=""></div><h6>Hobbies</h6></li>
+							<li class="hobby-01"><div><img src="img/icon-book.png" alt=""></div><h6>Reading</h6></li>
+							<li class="hobby-02"><div><img src="img/icon-headphone.png" alt=""></div><h6>Listening</h6></li>
+							<li class="hobby-03"><div><img src="img/icon-tivi.png" alt=""></div><h6>Watching</h6></li>
+							<li class="hobby-04"><div><img src="img/icon-piano.png" alt=""></div><h6>Playing</h6></li>
+							<li class="hobby-05"><div><img src="img/icon-paint.png" alt=""></div><h6>Painting</h6></li>
+							<li class="hobby-06"><div><img src="img/icon-work.png" alt=""></div><h6>Studying</h6></li>
+						</ul>
+					</div>
+				</div>
+				<button class="scroll">
+					<h6>Scroll</h6>
+					<i class="fa fa-chevron-down" aria-hidden="true"></i>
+				</button>
+			</div>
+		</div><!-- Page 05 -->
+
+		<!-- Page 06 -->
+		<div class="page page-02">
+			<div class="bg-page-02"></div>
+			<div class="content">
+				<div class="info">
+					<div class="info-content">
+						<h4>Infomation</h4>
+						<h6>
+							<span>01663569501</span>
+							<img src="img/icon-phone.png" alt="">
+						</h6>
+						<h6 class="mail">
+							<span>tuonglinhtong@gmail.com</span>
+							<img src="img/icon-mail.png" alt="">
+						</h6>
+						<h6 class="skype">
+							<span>tuonglinh1994</span>
+							<img src="img/icon-skype.png" alt="">
+						</h6>
+						<h6 class="face">
+							<span>Tuong Linh</span>
+							<img src="img/icon-facebook.png" alt="">
+						</h6>
+					</div>
+				</div>
+				<div class="contact">
+					<img src="img/cua.png" alt="" class="img-contact">
+					<h4>Get in touch!</h4>
+					<div class="contact-form">
+						<div class="contact-info">
+							<h6>Your Email</h6>
+							<input type="text">
+						</div>
+						<div class="contact-info">
+							<h6>Subject</h6>
+							<input type="text">
+						</div>
+						<div class="contact-info">
+							<h6 class="lb-message">Message</h6>
+							<textarea name="" id="" cols="30" rows="10"></textarea>
+						</div>
+						<button>Send Message</button>
+					</div>
+				</div>
+				<!-- <button class="scroll">
+					<h6>Scroll</h6>
+					<i class="fa fa-chevron-down" aria-hidden="true"></i>
+				</button> -->
+			</div>
+		</div><!-- Page 06
 	</body>
 </html>

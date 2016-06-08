@@ -1,0 +1,129 @@
+.info{
+	float: left;
+	position: relative;
+	height: 100%;
+	margin-left: 20px;
+}
+.contact{
+	float: right;
+	width: 550px;
+	height: 460px;
+	background-color: #FB7222;
+	border-radius: 15px;
+	margin-top: 150px;
+	margin-right: 30px;
+	position: relative;
+	/* border-top-left-radius: 50px;
+	border-top-right-radius: 50px; */
+}
+.img-contact{
+	position: absolute;
+	width: 260px;
+	top: -150px;
+	z-index: -1;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.contact h4{
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.contact-form{
+	width: 450px;
+	height: 340px;
+	background: #fff;
+	margin: auto;
+	border-radius: 15px;
+	border-top-left-radius: 70px;
+	border-top-right-radius: 70px;
+	padding-top: 20px;
+}
+.contact-info{
+	padding-top: 20px;
+}
+.contact-form h6 {
+	color: #f95c01;
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 18px;
+	width: 90px;
+	margin-left: 20px;
+}
+.contact-form input, .contact-form textarea {
+	background: #f95c01;
+	display: inline-block;
+	color: #fff;
+	width: 300px;
+	padding: 5px 15px;
+	position: relative;
+	top: -3px;
+	border-radius: 25px;
+}
+.contact-form textarea {
+	height: 110px;
+}
+.lb-message{
+	position: relative;
+	top: -55px;
+}
+.contact-form button{
+	background: #f95c01;
+	color: #fff;
+	padding: 6px 15px;
+	border-radius: 10px;
+	font-family: 'Nunito', sans-serif;
+	float: right;
+	margin-right: 30px;
+	margin-top: 5px;
+}
+.info-content{
+	width: 350px;
+	height: 500px;
+	background-image: url('../img/bg-info.png');
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: -20px;
+}
+.info-content h4{
+	color: #D89B6D;
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	margin-top: 25px;
+	margin-left: 55px;
+}
+.info-content h6{
+	margin-top: 45px;
+	margin-left: 35px;
+	font-family: 'Nunito', sans-serif;
+}
+.info-content h6 span{
+	color: #962C0E;
+	font-size: 18px;
+}
+.info-content h6 img{
+	width: 30px;
+	margin-left: 35px;
+	margin-top: -10px;
+}
+.info-content .mail{
+	margin-top: 50px;
+}
+.info-content .skype{
+	margin-top: 55px;
+}
+.info-content .face{
+	margin-top: 50px;
+	transform: rotate(3deg);
+	margin-top: 55px;
+	margin-left: 40px;
+}
+.info-content .face img{
+	margin-left: 120px;
+}
+
+

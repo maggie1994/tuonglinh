@@ -6,6 +6,14 @@ $(document).ready(function(){
 		$('body').animate({'scrollTop': scroll_top},500);
 		// alert(scroll_top);
 	});
+
+	$(window).scroll(function(){
+		if($(this).scrollTop() >= $('.page').height()){
+			$('#bg').css('display','block');
+		}else{
+			$('#bg').css('display','none');
+		}
+	});
 });
 
 //Smooth Scroll Mouse
