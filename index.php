@@ -17,6 +17,8 @@
 		<link href='https://fonts.googleapis.com/css?family=Nunito:400,700,300' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
 		<!-- Font -->
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -28,23 +30,13 @@
 	<body>
 		<!-- Page 01 -->
 		<div class="page">
-			<h1 class="title-logo">Linh's Profile!</h1>
-			<div class="cloud">
-				<div class="cloud-large">
-					<h5 class="hello">hello!</h5>
-					<h5 class="text-linh">I'm <span>LINH</span></h5>
-					<h6>what I like the most is to make <span>PRETTY WEBSITES</span></h6>
-				</div>
-				<div class="circle cirle-01"></div>
-				<div class="circle cirle-02"></div>
-				<div class="circle cirle-03"></div>
-				<div class="circle cirle-04"></div>
-				<div class="circle cirle-05"></div>
-				<div class="circle cirle-06"></div>
-				<div class="circle cirle-07"></div>
-			</div>
-			<div class="boat">
-				<img src="img/boat01.png" alt="">
+			<div class="title-section">
+				<h1 class="title-logo">Linh's Profile</h1>
+				<img src="img/sun-cloud.png" alt="" class="img-sun">
+				<img src="img/airballoon.png" alt="" class="img-balloon">
+				<img src="img/cloud-01.png" alt="" class="img-cloud-01">
+				<img src="img/cloud-01.png" alt="" class="img-cloud-02">
+				<img src="img/plane.png" alt="" class="img-plane">
 			</div>
 			<button class="scroll">
 				<h6>Scroll</h6>
