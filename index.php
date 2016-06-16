@@ -110,9 +110,9 @@
 					<img src="img/mermaid.png" alt="" width="320px" style="margin-top: 30px">
 				</div>
 				<div class="history">
-					<div class="history-content">
+					<div class="history-body">
 						<!-- History 01 -->
-						<div class="history-element">
+						<div class="history-element history-01">
 							<img src="img/castle.png" alt="" width="120px">
 							<div class="history-content">
 								<h4>9/2012 - 6/2015</h4>
@@ -121,7 +121,7 @@
 						</div><!-- History 01 -->
 						
 						<!-- Line -->
-						<ul class="circle-list">
+						<ul class="circle-list circle-list-01">
 							<li></li>
 							<li></li>
 							<li></li>

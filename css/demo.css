@@ -1,24 +1,38 @@
+.page-demo > .content{
+	padding: 0px 0px;
+}
 .demo{
-	/* width: 900px;
-	margin: auto; */
+	
 }
 .demo-section{
-	background-image: url('../img/bg-board-01.png');
-	width: 800px;
-	height: 640px;
+	/* background-image: url('../img/bg-board-01.png'); */
+	/* width: 800px;
+	height: 630px;
 	background-size: 100% 100%;
 	position: relative;
-	margin-left: 20px;
-	margin-top: -10px;
+	margin-left: 40px;
+	margin-top: -10px; */
+}
+.bg-demo{
+	background-image: url('../img/bg-banner-demo-01.png');
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 100px;
+	background-size: 750px;
+	position: relative;
+	z-index: 2;
+	opacity: 0;
+	transition: 0.5s;
 }
 .list-demo{
-	padding-top: 80px;
+	padding-top: 50px;
 	padding-left: 40px;
+	text-align: center;
 }
 .list-demo li{
-	width: 160px;
-	height: 40px;
-	background-image: url('../img/skill-box.png');
+	width: 200px;
+	height: 50px;
+	background-image: url('../img/skill-box-demo.png');
 	background-size: 100% 100%;
 	text-align: center;
 	color: white;
@@ -28,30 +42,46 @@
 	font-weight: 700;
 	display: inline-block;
 	margin-right: 10px;
+	position: relative;
+	top: -130px;
+	transition: 0.5s;
+	opacity: 0;
+}
+.list-demo li:hover, 
+.list-demo .active{
+	background-image: url('../img/skill-box-demo-hover.png');
 }
 .demo-element{
-	padding-top: 10px;
-	padding-left: 40px;
+	text-align: center;
+	margin-top: 70px;
+	transition: 2s;
+	width: 100%;
+	transform: translateZ(0);
+	transform: translateX(100%);
 }
 .demo-element li {
-	width: 215px;
-	background-color: #00BFF3;
+	width: 225px;
+	background-color: #0056A8;
 	display: inline-block;
-	margin-right: 15px;
+	margin-right: 20px;
 	text-align: center;
 	border-radius: 8px;
 	margin-top: 30px;
 }
+.demo-element li:last-of-type{
+	margin-right: 0px;
+}
 .demo-element li h4{
 	text-align: center;
-	margin-top: 20px;
-	color: #0054A6;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 25px 0px;
+	color: #fff;
 	font-family: 'Nunito', sans-serif;
-	margin-bottom: 15px;
 }
 .demo-element li img{
 	width: 85%;
-	height: 130px;
+	height: 150px;
 	margin-bottom: 15px;
 	background-color: #fff;
 	border-radius: 8px;

@@ -124,12 +124,6 @@ a{
 	top: 120px;
 	right: 70px;
 }
-.img-cloud-03{
-	width: 60px;
-	position: absolute;
-	top: 220px;
-	left: 70px;
-}
 .img-plane{
 	width: 90px;
 	position: absolute;
@@ -145,7 +139,15 @@ a{
 	bottom: 20px;
 	left: 50%;
 	transform: translateX(-50%);
+	transform: translateY(150%);
 	z-index: 10;
+	transition: 0.5s;
+	opacity: 1;
+	cursor: pointer;
+}
+.page:nth-child(1) .scroll{
+	opacity: 1;
+	transform: translateY(0%);
 }
 .scroll-right{
 	bottom: 20px;
@@ -156,10 +158,12 @@ a{
 	margin-bottom: 2px;
 	margin-top: 5px;
 	font-size: 13px;
+	cursor: pointer;
 }
 .scroll i{
 	color: #82D3E6;
 	font-size: 20px;
+	cursor: pointer;
 }
 .level-skill{
 	float: left;
@@ -212,6 +216,7 @@ a{
 .number-skill li img{
 	width: 90px;
 	height: 60px;
+	margin-left: 1000px;
 }
 
 .mernaid{
@@ -221,12 +226,14 @@ a{
 	margin-left: 50px;
 	padding-left: 350px;
 }
-.history-content{
+.history-body{
 	position: relative;
 	height: 100%;
 }
 .history-element img{
 	float: left;
+	transform: scale(0);
+	transition: 0.5s;
 }
 .history-02{
 	position: absolute;
@@ -245,8 +252,10 @@ a{
 }
 .history-content{
 	overflow: hidden;
-	padding-left: 15px;
+	padding-left: 150px;
 	font-family: 'Nunito', sans-serif;
+	transition: 0.5s;
+	opacity: 0;
 }
 .history-content h4{
 	color: white;
@@ -259,6 +268,7 @@ a{
 	width: 160px;
 	word-spacing: 1.5px;
 	font-size: 14px;
+	white-space: nowrap;
 }
 .history-content h6{
 	width: auto;
@@ -277,6 +287,8 @@ a{
 	background-color: #F8E072;
 	border-radius: 50%;
 	margin-top: 8px;
+	transform: scale(0);
+	transition: 0.3s;
 }
 .circle-list li:nth-child(2) {
 	margin-left: -14px;
