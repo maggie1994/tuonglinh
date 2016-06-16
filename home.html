@@ -171,7 +171,7 @@
 						<div class="history-element history-03">
 							<img src="img/taungam.png" alt="" width="140px">
 							<div class="history-content">
-								<h4>/2015 - 12/2015</h4>
+								<h4>10/2015 - 12/2015</h4>
 								<h6>
 									<img src="img/seashell.png" alt="" width="14px" class="icon-text">
 									Company: CloudTeam
@@ -297,32 +297,25 @@
 		</div><!-- Page 05 -->
 
 		<!-- Page 06 -->
-		<div class="page page-02">
+		<div class="page page-02 page-contact">
 			<div class="bg-page-02"></div>
 			<div class="content">
 				<div class="info">
-					<ul class="info-content">
-						<li>
-							<span>01663569501</span>
-							<img src="img/icon-phone.png" alt="">
-						</li>
-						<li class="mail">
-							<span>tuonglinhtong@gmail.com</span>
-							<img src="img/icon-mail.png" alt="">
-						</li>
-						<li class="skype">
-							<span>tuonglinh1994</span>
-							<img src="img/icon-skype.png" alt="">
-						</li>
-						<li class="face">
-							<span>tuonglinh.tong</span>
-							<img src="img/icon-facebook.png" alt="">
-						</li>
-					</ul>
+					<div class="info-bg"></div>
+					<div class="name-info"></div>
+					<div class="birthday-info"></div>
+					<div class="mail-info"></div>
+					<div class="phone-info"></div>
+					<div class="facebook-info"></div>
 				</div>
+				<img src="img/seaweed.png" alt="" class="img-seaweed">
 				<div class="contact">
-					<img src="img/cua.png" alt="" class="img-contact">
 					<h4>Get in touch!</h4>
+					<ul class="line">
+						<li></li>
+						<li class="icon"><img src="img/icon-treasure.png" alt=""></li>
+						<li></li>
+					</ul>
 					<div class="contact-form">
 						<div class="contact-info">
 							<h6>Your Email</h6>

@@ -221,6 +221,8 @@ a{
 
 .mernaid{
 	position: absolute;
+	opacity: 0;
+	transition: 0.5s;
 }
 .history{
 	margin-left: 50px;

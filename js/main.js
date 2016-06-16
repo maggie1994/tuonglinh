@@ -25,7 +25,8 @@ $(document).ready(function(){
 		}
 		if(index === 3){
 			scroll_top = 2 * scroll;
-			var delay_s = 1.5;
+			$('.mernaid').css({'opacity':'1', 'transition-delay': '1.5s'});
+			var delay_s = 2;
 			for(var i = 1; i <= 4; i++){
 				$('.history-0' + i + ' img').css({'transform':'scale(1)', 'transition-delay': delay_s + 's'});
 				$('.history-0' + i + ' .history-content').css({'padding-left':'15px', 'opacity':'1', 'transition-delay': delay_s + 's'});
@@ -75,6 +76,16 @@ $(document).ready(function(){
 		}
 		if(index === 6){
 			scroll_top = 5 * scroll;
+			$('.info-bg').css({'opacity':'1', 'transition-delay': '1.5s'});
+			$('.name-info').css({'opacity':'1', 'transition-delay': '2s'});
+			$('.birthday-info').css({'opacity':'1', 'transition-delay': '2.3s'});
+			$('.mail-info').css({'opacity':'1', 'transition-delay': '2.6s'});
+			$('.phone-info').css({'opacity':'1', 'transition-delay': '2.9s'});
+			$('.facebook-info').css({'opacity':'1', 'transition-delay': '3.2s'});
+			$('.contact').css({'transform':'rotateX(0deg)', 'transition-delay': '4s'});
+			$('.contact h4').css({'opacity':'1', 'transition-delay': '5.5s'});
+			$('.line').css({'opacity':'1', 'transition-delay': '5.5s'});
+			$('.contact-form').css({'opacity':'1', 'transition-delay': '5.5s'});
 		}
 		$('body').delay(500).animate({'scrollTop': scroll_top},1000);
 		// alert(scroll_top);
