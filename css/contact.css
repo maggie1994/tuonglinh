@@ -178,10 +178,11 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	z-index: 2;
 }
 .name-info{
-	top: 18px;
-	left: 26px;
+	top: -92px;
+	left: 38px;
 	width: 85px;
 	height: 220px;
 	background-image: url('../img/name.png');
@@ -192,9 +193,10 @@
 	z-index: -1;
 	opacity: 0;
 	transition: 0.5s;
+	background-position: center bottom;
 }
 .birthday-info{
-	top: 22px;
+	top: -89px;
 	left: 140px;
 	width: 100px;
 	height: 220px;
@@ -206,9 +208,10 @@
 	z-index: -1;
 	opacity: 0;
 	transition: 0.5s;
+	background-position: center bottom;
 }
 .mail-info{
-	top: 26px;
+	top: -79px;
 	left: 255px;
 	width: 90px;
 	height: 210px;
@@ -220,9 +223,10 @@
 	z-index: -1;
 	opacity: 0;
 	transition: 0.5s;
+	background-position: center bottom;
 }
 .phone-info{
-	top: 23px;
+	top: -82px;
 	left: 370px;
 	width: 90px;
 	height: 210px;
@@ -234,10 +238,11 @@
 	z-index: -1;
 	opacity: 0;
 	transition: 0.5s;
+	background-position: center bottom;
 }
 .facebook-info{
-	top: 11px;
-	right: 18px;
+	top: -103px;
+	right: 17px;
 	width: 105px;
 	height: 230px;
 	background-image: url('../img/facebook.png');
@@ -248,17 +253,48 @@
 	z-index: -1;
 	opacity: 0;
 	transition: 0.5s;
+	background-position: center bottom;
 }
 /* Chrome, Safari, Opera */ 
-@-webkit-keyframes info_animate {
+@-webkit-keyframes info_name {
     from {transform: 0px;}
     to {transform: 200px;}
 } 
 
 /* Standard syntax */ 
-@keyframes info_animate {
-    from {top: 0px;}
-    to {top: 200px;}
+@keyframes info_name {
+    0% {transform: rotate(7deg);}
+    50% {transform: rotate(15deg);}
+	100% {transform: rotate(7deg);}
+}
+
+
+/* Standard syntax */ 
+@keyframes info_birthday {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(8deg);}
+	100% {transform: rotate(0deg);}
+}
+
+/* Standard syntax */ 
+@keyframes info_mail {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(8deg);}
+	100% {transform: rotate(0deg);}
+}
+
+/* Standard syntax */ 
+@keyframes info_phone {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(8deg);}
+	100% {transform: rotate(0deg);}
+}
+
+/* Standard syntax */ 
+@keyframes info_facebook {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(8deg);}
+	100% {transform: rotate(0deg);}
 }
 
 

@@ -25,6 +25,49 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script src="jquery-1.10.2.min.js"></script>
 		<script src="js/main.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+				/*
+				* Plugin intialization
+				*/
+		    	$('#pagepiling').pagepiling({
+		    		menu: '#menu',
+		    		anchors: ['page1', 'page2', 'page3', 'page4'],
+				    sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C'],
+				    navigation: {
+				    	'position': 'right',
+				   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4']
+				   	},
+				    afterRender: function(){
+				    	$('#pp-nav').addClass('custom');
+				    },
+				    afterLoad: function(anchorLink, index){
+				    	if(index>1){
+				    		$('#pp-nav').removeClass('custom');
+				    	}else{
+				    		$('#pp-nav').addClass('custom');
+				    	}
+				    }
+				});
+
+
+				/*
+			    * Internal use of the demo website
+			    */
+			    $('#showExamples').click(function(e){
+					e.stopPropagation();
+					e.preventDefault();
+					$('#examplesList').toggle();
+				});
+
+				$('html').click(function(){
+					$('#examplesList').hide();
+				});
+		    });
+	    </script>
 		
 	</head>
 	<body>
@@ -337,6 +380,6 @@
 					<i class="fa fa-chevron-down" aria-hidden="true"></i>
 				</button> -->
 			</div>
-		</div><!-- Page 06
+		</div><!-- Page 06 -->
 	</body>
 </html>
