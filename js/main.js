@@ -7,7 +7,7 @@ $(document).ready(function(){
 	var x = location.href;
 	var length = x.length;
 	var stop = length - 1;
-	var page = x.slice(0,stop) + '1';
+	var page = x.slice(0,stop);
 	window.location.assign(page);
 
 	$('#pagepiling').pagepiling({
