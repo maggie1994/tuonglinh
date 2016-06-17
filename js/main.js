@@ -8,7 +8,7 @@ $(document).ready(function(){
 	var length = x.length;
 	var stop = length - 1;
 	var page = x.slice(0,stop);
-	window.location.assign(page);
+	// window.location.assign(page);
 
 	$('#pagepiling').pagepiling({
 		menu: '#menu',
