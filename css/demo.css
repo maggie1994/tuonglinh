@@ -46,6 +46,7 @@
 	top: -130px;
 	transition: 0.5s;
 	opacity: 0;
+	cursor: pointer;
 }
 .list-demo li:hover, 
 .list-demo .active{
@@ -58,6 +59,30 @@
 	width: 100%;
 	transform: translateZ(0);
 	transform: translateX(100%);
+	position: absolute;
+}
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes demo_before {
+    0% {transform: translateX(0%);}
+	100% {transform: translateX(-100%);}
+} 
+
+/* Standard syntax */ 
+@keyframes demo_before {
+    0% {transform: translateX(0%);}
+	100% {transform: translateX(-100%);}
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes demo_after{
+    0% {transform: translateX(100%);}
+	100% {transform: translateX(0%);}
+} 
+
+/* Standard syntax */ 
+@keyframes demo_after {
+    0% {transform: translateX(100%);}
+	100% {transform: translateX(0%);}
 }
 .demo-element li {
 	width: 225px;
@@ -67,6 +92,7 @@
 	text-align: center;
 	border-radius: 8px;
 	margin-top: 30px;
+	cursor: pointer;
 }
 .demo-element li:last-of-type{
 	margin-right: 0px;

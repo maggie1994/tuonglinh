@@ -82,7 +82,7 @@ $(document).ready(function(){
 				$('.list-demo li:nth-child(3)').css({'top':'0px', 'transition-delay': '1.1s'});
 				$('.list-demo li:nth-child(4)').css({'top':'0px', 'transition-delay': '1.3s'});
 
-				$('.demo-element').css({'transform':'translateX(0%)', 'transition-delay': '1.8s'});
+				$('#website-demo').css({'transform':'translateX(0%)', 'transition-delay': '1.8s'});
 
 				$('.page:nth-child(5) .content .scroll').css({'opacity': '1', 'transform': 'translateY(0%)', 'transition-delay': '3.8s'});
 				$('.list-demo li').delay(300).animate({'transition-delay': '0s'},0);
@@ -136,7 +136,12 @@ $(document).ready(function(){
 		$('#examplesList').hide();
 	});
 
-	
+	var id = 'website';
+	$('.list-demo li').click(function(){
+		$('#' + id + '-demo').css({'animation':'demo_before 2s forwards', 'animation-delay': '0s'});
+		id = $(this).attr('id');
+		$('#' + id + '-demo').css({'animation':'demo_after 2s forwards', 'animation-delay': '0s'});
+	});
 	
 });
 

@@ -239,15 +239,15 @@
 					<div class="demo-section">
 						<div class="bg-demo"></div>
 						<ul class="list-demo">
-							<li class="active">Website</li>
-							<li>Amination</li>
-							<li>Design</li>
-							<li>SVG CSS</li>
+							<li class="active" id='website'>Website</li>
+							<li id='animation'>Amination</li>
+							<li id='design'>Design</li>
+							<li id='svg'>SVG CSS</li>
 						</ul>
-						<ul class="demo-element">
+						<ul  id='website-demo' class="demo-element">
 							<li>
 								<h4>Input Effect</h4>
-								<a href="html/svg.html"><img src="" alt=""></a>
+								<a href="html/inputeffect.html" target="_blank"><img src="img/demo-input.png" alt=""></a>
 							</li>
 							<li>
 								<h4>Input Effect</h4>
@@ -261,12 +261,61 @@
 								<h4>Input Effect</h4>
 								<img src="" alt="">
 							</li>
-							<!-- <li>
-								<h4>Input Effect</h4>
-								<img src="" alt="">
-							</li> -->
 						</ul>
-						<!-- <img src="img/cangua.png" alt="" class="tree"> -->
+						<ul id='animation-demo' class="demo-element">
+							<li>
+								<h4>Input Effect</h4>
+								<a href="html/inputeffect.html" target="_blank"><img src="img/demo-input.png" alt=""></a>
+							</li>
+							<li>
+								<h4>Input Effect</h4>
+								<img src="" alt="">
+							</li>
+							<li>
+								<h4>Input Effect</h4>
+								<img src="" alt="">
+							</li>
+							<li>
+								<h4>Input Effect</h4>
+								<img src="" alt="">
+							</li>
+						</ul>
+						<ul id='design-demo' class="demo-element">
+							<li>
+								<h4>Profile Design</h4>
+								<a href="html/profile.html" target="_blank"><img src="img/CV-profile-demo.png" alt=""></a>
+							</li>
+							<li>
+								<h4>App Mobile</h4>
+								<a href="html/app.html" target="_blank"><img src="img/app-bg.png" alt=""></a>
+							</li>
+							<li>
+								<h4>Website</h4>
+								<img src="" alt="">
+							</li>
+							<li>
+								<h4>Input Effect</h4>
+								<img src="" alt="">
+							</li>
+						</ul>
+						<ul id='svg-demo' class="demo-element">
+							<li>
+								<h4>Input Effect</h4>
+								<a href="html/inputeffect.html" target="_blank"><img src="img/demo-input.png" alt=""></a>
+							</li>
+							<li>
+								<h4>Input Effect</h4>
+								<img src="" alt="">
+							</li>
+							<li>
+								<h4>Input Effect</h4>
+								<img src="" alt="">
+							</li>
+							<li>
+								<h4>Input Effect</h4>
+								<img src="" alt="">
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
