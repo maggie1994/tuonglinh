@@ -8,7 +8,7 @@ $(document).ready(function(){
 	var length = x.length;
 	var stop = length - 1;
 	var page = x.slice(0,stop) +'1';
-	window.location.assign('https://tuonglinh.herokuapp.com/#page1');
+	// window.location.assign('https://tuonglinh.herokuapp.com/#page1');
 
 	$('#pagepiling').pagepiling({
 		menu: '#menu',
@@ -136,10 +136,14 @@ $(document).ready(function(){
 		$('#examplesList').hide();
 	});
 
+ 	var menu_active = $('#website');
 	var id = 'website';
 	$('.list-demo li').click(function(){
+		menu_active.removeClass('active');
 		$('#' + id + '-demo').css({'animation':'demo_before 2s forwards', 'animation-delay': '0s'});
 		id = $(this).attr('id');
+		menu_active = $(this);
+		menu_active.addClass('active');
 		$('#' + id + '-demo').css({'animation':'demo_after 2s forwards', 'animation-delay': '0s'});
 	});
 	
