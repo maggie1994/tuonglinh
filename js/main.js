@@ -8,7 +8,7 @@ $(document).ready(function(){
 	var length = x.length;
 	var stop = length - 1;
 	var page = x.slice(0,stop) +'1';
-	// window.location.assign('https://tuonglinh.herokuapp.com/#page1');
+	//window.location.assign('https://tuonglinh.herokuapp.com/#page1');
 
 	$('#pagepiling').pagepiling({
 		menu: '#menu',
