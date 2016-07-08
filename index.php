@@ -247,7 +247,7 @@
 						<ul  id='website-demo' class="demo-element">
 							<li>
 								<h4>Input Effect</h4>
-								<a href="html/inputeffect.html" target="_blank"><img src="img/demo-input.png" alt=""></a>
+								<a href="html/cake.html" target="_blank"><img src="img/demo-input.png" alt=""></a>
 							</li>
 							<li>
 								<h4>Input Effect</h4>
