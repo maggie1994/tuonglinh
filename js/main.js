@@ -147,6 +147,7 @@ $(document).ready(function(){
 		$('#' + id + '-demo').css({'animation':'demo_after 2s forwards', 'animation-delay': '0s'});
 	});
 	
+	
 });
 
 // Scroll Smooth

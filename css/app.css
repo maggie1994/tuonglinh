@@ -32,3 +32,15 @@
 	position: relative;
 	top: 10px;
 }
+.list-website li{
+	background-color: #fff !important;
+}
+.img-website{
+	width: 28%;
+	margin-top: 40px;
+	float: left;
+	margin-right: 8%;
+}
+.img-website-right{
+	margin-right: 0%;
+}
