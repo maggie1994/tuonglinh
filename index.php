@@ -246,19 +246,19 @@
 						</ul>
 						<ul  id='website-demo' class="demo-element">
 							<li>
-								<h4>Landing Page</h4>
+								<h4>Website 02</h4>
 								<a href="#" target="_blank"><img src="" alt=""></a>
 							</li>
 							<li>
-								<h4>Input Effect</h4>
+								<h4>Website 02</h4>
 								<img src="" alt="">
 							</li>
 							<li>
-								<h4>Input Effect</h4>
+								<h4>Website 03</h4>
 								<img src="" alt="">
 							</li>
 							<li>
-								<h4>Input Effect</h4>
+								<h4>Website 04</h4>
 								<img src="" alt="">
 							</li>
 						</ul>
