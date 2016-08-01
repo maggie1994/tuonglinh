@@ -43,7 +43,7 @@ a{
 	position: relative;
 }
 .page-02{
-	background-image: url('../img/bg-02.jpg');
+	background-image: url('../img/bg-01.png');
 }
 .page-06{
 	background-image: url('../img/bg-contact.jpg');
@@ -60,7 +60,7 @@ a{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	background: #0072BC;
+	background: #017aef;
 	opacity: 0.7;
 	z-index: 2;
 }
@@ -72,7 +72,7 @@ a{
 	padding: 20px;
 }
 .content-skill{
-	width: 1000px;
+	width: 1068px;
 	margin: 20px auto;
 }
 .title{
@@ -200,7 +200,7 @@ a{
 	text-transform: uppercase;
 }
 .number-skill{
-	margin-top: 30px;
+	margin-top: 35px;
 }
 .number-skill li{
 	width: 120px;
@@ -226,7 +226,7 @@ a{
 .number-skill li img{
 	width: 90px;
 	height: 60px;
-	margin-left: 1000px;
+	margin-left: 950%;
 }
 
 .mernaid{
@@ -237,6 +237,7 @@ a{
 .history{
 	margin-left: 50px;
 	padding-left: 350px;
+	margin-top: 30px;
 }
 .history-body{
 	position: relative;
@@ -281,6 +282,7 @@ a{
 	word-spacing: 1.5px;
 	font-size: 14px;
 	white-space: nowrap;
+	font-family: 'Questrial', sans-serif;
 }
 .history-content h6{
 	width: auto;

@@ -8,15 +8,15 @@ $(document).ready(function(){
 	var length = x.length;
 	var stop = length - 1;
 	var page = x.slice(0,stop) +'1';
-	//window.location.assign('https://tuonglinh.herokuapp.com/#page1');
+	window.location.assign('https://tuonglinh.herokuapp.com/#page1');
 
 	$('#pagepiling').pagepiling({
 		menu: '#menu',
-		anchors: ['page1', 'page2', 'page3', 'page4'],
+		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
 	    sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C'],
 	    navigation: {
 	    	'position': 'right',
-	   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4']
+	   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4', 'Page 5', 'Page 6']
 	   	},
 	    afterRender: function(){
 	    	$('#pp-nav').addClass('custom');
@@ -75,16 +75,18 @@ $(document).ready(function(){
             //Page 04
             else if(index == 3 && direction == 'down'){
             	$('.bg-demo').css({'opacity':'1', 'transition-delay': '0.5s'});
-				$('.list-demo li').css({'opacity':'1', 'transition-delay': '0.5s'});
+            	$('.logo-demo').css({'opacity':'1', 'transition-delay': '0.5s'});
+            	$('.fish-01').css({'opacity':'1', 'transition-delay': '0.5s'});
+				$('.list-demo li').css({'opacity':'1', 'transition-delay': '0.7s'});
 
-				$('.list-demo li:nth-child(1)').css({'top':'0px', 'transition-delay': '0.7s'});
-				$('.list-demo li:nth-child(2)').css({'top':'0px', 'transition-delay': '0.9s'});
-				$('.list-demo li:nth-child(3)').css({'top':'0px', 'transition-delay': '1.1s'});
-				$('.list-demo li:nth-child(4)').css({'top':'0px', 'transition-delay': '1.3s'});
+				$('.list-demo li:nth-child(1)').css({'top':'0px', 'transition-delay': '0.9s'});
+				$('.list-demo li:nth-child(2)').css({'top':'0px', 'transition-delay': '1.1s'});
+				$('.list-demo li:nth-child(3)').css({'top':'0px', 'transition-delay': '1.3s'});
+				$('.list-demo li:nth-child(4)').css({'top':'0px', 'transition-delay': '1.5s'});
 
-				$('#website-demo').css({'transform':'translateX(0%)', 'transition-delay': '1.8s'});
+				$('#website-demo').css({'transform':'translateX(0%)', 'transition-delay': '2s'});
 
-				$('.page:nth-child(5) .content .scroll').css({'opacity': '1', 'transform': 'translateY(0%)', 'transition-delay': '3.8s'});
+				$('.page:nth-child(5) .content .scroll').css({'opacity': '1', 'transform': 'translateY(0%)', 'transition-delay': '4s'});
 				$('.list-demo li').delay(300).animate({'transition-delay': '0s'},0);
             }
 
