@@ -8,7 +8,7 @@ $(document).ready(function(){
 	var length = x.length;
 	var stop = length - 1;
 	var page = x.slice(0,stop) +'1';
-	window.location.assign('https://tuonglinh.herokuapp.com/#page1');
+	//window.location.assign('https://tuonglinh.herokuapp.com/#page1');
 
 	$('#pagepiling').pagepiling({
 		menu: '#menu',
@@ -45,6 +45,17 @@ $(document).ready(function(){
 				delay = delay + 500;
 				delay_s = delay_s + 0.5;
 				$('.page:nth-child(3) .content .scroll').css({'opacity': '1', 'transform': 'translateY(0%)', 'transition-delay': delay_s + 's'});
+            	var num_01 = $('.water span').size()/2;
+            	var transition = -0.4;
+				for(var i = 1; i <= num_01; i++){
+					transition = transition + 0.4;
+					$('.water span:nth-child(' + i + ')').css({'animation-name': 'animate_water','animation-delay': transition + 's'});
+				}
+				transition = 0;
+				for(var i = $('.water span').size(); i > num_01; i--){
+					transition = transition + 0.4;
+					$('.water span:nth-child(' + i + ')').css({'animation-name': 'animate_water','animation-delay': transition + 's'});
+				}
             }
 
             //Page 03
@@ -138,6 +149,18 @@ $(document).ready(function(){
 		$('#examplesList').hide();
 	});
 
+	var num_title = $('.title-logo span').size();
+	var delay_title = 0;
+	for(var i = 1; i <= num_title; i++){
+		delay_title = delay_title + 0.2;
+		$('.title-logo span:nth-child(' + i + ')').css({'opacity':'1','transform':'translateY(0%)','transition-delay': delay_title + 's'});
+	}
+	$('.img-plane').css({'left':'44%','transition-delay':'0s'});
+	$('.img-sun').css({'opacity':'1','transition-delay':'3s'});
+	$('.img-balloon').css({'opacity':'1','transition-delay':'3.5s'});
+	$('.img-cloud-01').css({'opacity':'1','transition-delay':'3.8s'});
+	$('.img-cloud-02').css({'opacity':'1','transition-delay':'4s'});
+
  	var menu_active = $('#website');
 	var id = 'website';
 	$('.list-demo li').click(function(){
@@ -149,50 +172,12 @@ $(document).ready(function(){
 		$('#' + id + '-demo').css({'animation':'demo_after 2s forwards', 'animation-delay': '0s'});
 	});
 	
+
+	var num_water = $('.water span').size();
+	var position_water = -40;
+	for(var i = 1; i <= num_water; i++){
+		position_water = position_water + 65;
+		$('.water span:nth-child(' + i + ')').css({'left': position_water + 'px'});
+	}
 	
 });
-
-// Scroll Smooth
-if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
-window.onmousewheel = document.onmousewheel = wheel;
-
-function wheel(event) {
-    var delta = 0;
-    if (event.wheelDelta) delta = event.wheelDelta / 120;
-    else if (event.detail) delta = -event.detail / 3;
-
-    handle(delta);
-    if (event.preventDefault) event.preventDefault();
-    event.returnValue = false;
-}
-
-var goUp = true;
-var end = null;
-var interval = null;
-
-function handle(delta) {
-	var animationInterval = 20; //lower is faster
-  var scrollSpeed = 20; //lower is faster
-
-	if (end == null) {
-  	end = $(window).scrollTop();
-  }
-  end -= 20 * delta;
-  goUp = delta > 0;
-
-  if (interval == null) {
-    interval = setInterval(function () {
-      var scrollTop = $(window).scrollTop();
-      var step = Math.round((end - scrollTop) / scrollSpeed);
-      if (scrollTop <= 0 || 
-          scrollTop >= $(window).prop("scrollHeight") - $(window).height() ||
-          goUp && step > -1 || 
-          !goUp && step < 1 ) {
-        clearInterval(interval);
-        interval = null;
-        end = null;
-      }
-      $(window).scrollTop(scrollTop + step );
-    }, animationInterval);
-  }
-}

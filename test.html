@@ -42,7 +42,21 @@
 	    <!-- Page 01 -->
 	    <div class="section page" id="section1">
 	    	<div class="title-section">
-				<h1 class="title-logo">Linh's Profile</h1>
+				<h1 class="title-logo">
+					<span>L</span>
+					<span>i</span>
+					<span>n</span>
+					<span>h</span>
+					<span>'</span>
+					<span>s</span>
+					<span class="txt-space">P</span>
+					<span>r</span>
+					<span>o</span>
+					<span>f</span>
+					<span>i</span>
+					<span>l</span>
+					<span>e</span>
+				</h1>
 				<img src="img/sun-cloud.png" alt="" class="img-sun">
 				<img src="img/airballoon.png" alt="" class="img-balloon">
 				<img src="img/cloud-01.png" alt="" class="img-cloud-01">
@@ -58,6 +72,37 @@
 	     <!-- Page 02 -->
 	    <div class="section page page-02" id="section2">
 	    	<div class="bg-page-02"></div>
+
+		    <!-- Animation Water -->
+		    <div class="water">
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    </div>
 			<div class="content">
 				<div class="title">
 					<h1>My Skill</h1>
@@ -115,6 +160,36 @@
 	    <!-- Page 03 -->
 	    <div class="section page page-02" id="section3">
 	    	<div class="bg-page-02"></div>
+	    	<!-- Animation Water -->
+		    <div class="water">
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    </div>
 			<div class="content">
 				<div class="mernaid">
 					<img src="img/mermaid.png" alt="" width="320px" style="margin-top: 30px">
@@ -220,7 +295,7 @@
 								</h6>
 								<h6>
 									<img src="img/oc.png" alt="" width="14px" class="icon-text">
-									Position: Front-end Developer
+									Position: Junior Front-end
 								</h6>
 							</div>
 						</div><!-- History 04 -->
@@ -236,6 +311,36 @@
 	    <!-- Page 04 -->
 	    <div class="section page page-02 page-demo" id="section4">
 	    	<div class="bg-page-02"></div>
+	    	<!-- Animation Water -->
+		    <div class="water">
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    </div>
 			<div class="content">
 				<div class="demo">
 					<div class="demo-section">
@@ -250,8 +355,8 @@
 						</ul>
 						<ul  id='website-demo' class="demo-element">
 							<li>
-								<h4>Landing Page</h4>
-								<a href="#" target="_blank"><img src="" alt=""></a>
+								<h4>Fashion</h4>
+								<a href="html/fashion.html" target="_blank"><img src="img/demo-web-fashion.png" alt=""></a>
 							</li>
 							<li>
 								<h4>Input Effect</h4>
@@ -332,6 +437,36 @@
 	     <!-- Page 05 -->
 	   	<div class="section page page-02" id="section5">
 	    	<div class="bg-page-02"></div>
+	    	<!-- Animation Water -->
+		    <div class="water">
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    </div>
 	    	<img src="img/bg-hobbies.png" alt="" class="bg-hobbies">
 			<div class="content">
 				<div class="hobbies">
@@ -361,6 +496,36 @@
 	     <!-- Page 06 -->
 	    <div class="section page page-02 page-contact" id="section6">
 	    	<div class="bg-page-02"></div>
+	    	<!-- Animation Water -->
+		    <div class="water">
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    </div>
 	    	<img src="img/bg-footer.png" alt="" class="img-seaweed">
 	    	<img src="img/fish-02.png" alt="" class="fish-02">
 			<div class="content">
@@ -398,6 +563,7 @@
 				</div>
 			</div>
 	    </div> <!-- Page 06 -->
+
 	</div>
 
 </body>

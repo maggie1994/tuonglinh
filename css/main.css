@@ -109,11 +109,23 @@ a{
 	position: relative;
 	z-index: 1;
 }
+.title-logo span{
+	margin-left: -21px;
+	opacity: 0;
+	transition: 0.5s;
+	display: inline-block;
+	transform: translateY(-20%) translateZ(0);
+}
+.title-logo .txt-space{
+	margin-left: 3px;
+}
 .img-sun{
 	width: 150px;
 	position: absolute;
 	top: 40px;
 	left: 40px;
+	opacity: 0;
+	transition: 0.5s;
 }
 .img-balloon{
 	width: 80px;
@@ -121,24 +133,31 @@ a{
 	top: 80px;
 	right: 110px;
 	z-index: 0;
+	opacity: 0;
+	transition: 1s;
 }
 .img-cloud-01{
 	width: 60px;
 	position: absolute;
 	top: 85px;
 	right: 170px;
+	opacity: 0;
+	transition: 1s;
 }
 .img-cloud-02{
 	width: 60px;
 	position: absolute;
 	top: 120px;
 	right: 70px;
+	opacity: 0;
+	transition: 1s;
 }
 .img-plane{
 	width: 90px;
 	position: absolute;
 	top: 260px;
-	left: 44%;
+	left: -150%;
+	transition: 5s;
 }
 .scroll{
 	background-color: white;
@@ -421,7 +440,48 @@ a{
 	margin-left: -37px !important;
 }
 
-
+.water{
+	position: fixed;
+	bottom: 0;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+}
+.water span{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-color: #55a6f3;
+	border-radius: 50%;
+	top: 100%;
+	position: absolute;
+	animation-duration: 50s;
+	animation-iteration-count: infinite;
+	opacity: 0;
+}
+.water span:nth-child(2n){
+	width: 20px;
+	height: 20px;
+	animation-duration: 40s;
+	animation-iteration-count: infinite;
+}
+.water span:nth-child(3n+1){
+	width: 25px;
+	height: 25px;
+	animation-duration: 60s;
+	animation-iteration-count: infinite;
+}
+.water span:nth-child(4n+3){
+	width: 12px;
+	height: 12px;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+@keyframes animate_water {
+    0% {top: 100%;opacity: 0}
+    10% {opacity: 0.5;}
+    100% {top: -10%;}
+}
 
 
 
