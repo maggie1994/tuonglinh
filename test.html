@@ -349,9 +349,9 @@
 						<img src="img/fish-01.png" alt="" class="fish-01">
 						<ul class="list-demo">
 							<li class="active" id='website'>Website</li>
-							<li id='animation'>Amination</li>
+							<li id='animation'>Animation</li>
 							<li id='design'>Design</li>
-							<li id='svg'>SVG CSS</li>
+							<li id='svg' style="display: none">SVG CSS</li>
 						</ul>
 						<ul  id='website-demo' class="demo-element">
 							<li>
@@ -359,8 +359,8 @@
 								<a href="html/fashion.html" target="_blank"><img src="img/demo-web-fashion.png" alt=""></a>
 							</li>
 							<li>
-								<h4>Input Effect</h4>
-								<img src="" alt="">
+								<h4>Avaya</h4>
+								<a href="html/avaya.html" target="_blank"><img src="img/demo-web-avaya.png" alt=""></a>
 							</li>
 							<li>
 								<h4>Input Effect</h4>
@@ -407,7 +407,7 @@
 								<img src="" alt="">
 							</li>
 						</ul>
-						<ul id='svg-demo' class="demo-element">
+						<ul id='svg-demo' class="demo-element" style="display: none">
 							<li>
 								<h4>Input Effect</h4>
 								<a href="html/inputeffect.html" target="_blank"><img src="img/demo-input.png" alt=""></a>

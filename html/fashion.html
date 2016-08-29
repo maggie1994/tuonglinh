@@ -5,9 +5,36 @@
 		<link rel="icon" type="image/png" href="img/fish-01.png">
 		<link rel="stylesheet" type="text/css" href="../css/fashion.css">
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="../jquery-1.10.2.min.js"></script>
+		<script src="../js/fashion.js"></script>
 	</head>
 	<body>
 		<div class="first-section">
+			<div class="container-fluid sub-header">
+				<h6 class='open-hour'>
+					<i class="fa fa-clock-o" aria-hidden="true"></i>
+					9:00 am - 10:00 pm
+				</h6>
+				<h6 class='open-hour'>
+					Hotline: 0166 356 9501
+				</h6>
+				<div class="account">
+					<h6 class='open-hour'>
+						<i class="fa fa-user" aria-hidden="true"></i>
+						My Account
+					</h6>
+					<div class="shop-cart">
+						<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+						<span class="number-cart">
+							1
+						</span>
+					</div>
+				</div>
+			</div>
 			<div class="container-fluid header">
 				<h1 class="logo">FASHION</h1>
 				<ul class="menu-header">
@@ -45,7 +72,7 @@
 				<div class="dress-collection">
 					<div class="collection-general">
 						<button class="btn-shop">
-							<img src="../img/img-fashion/icon-shop.png" alt="">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 						</button>
 						<img src="../img/img-fashion/collection-1-1.png" alt="">
 						<div class="info">
@@ -55,7 +82,7 @@
 					</div>
 					<div class="collection-general">
 						<button class="btn-shop">
-							<img src="../img/img-fashion/icon-shop.png" alt="">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 						</button>
 						<img src="../img/img-fashion/collection-1-3.png" alt="" style="width: 70px">
 						<div class="info">
@@ -67,7 +94,7 @@
 				<div class="dress-collection">
 					<div class="collection-general collection-large">
 						<button class="btn-shop">
-							<img src="../img/img-fashion/icon-shop.png" alt="">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 						</button>
 						<img src="../img/img-fashion/collection-1-2.png" alt="">
 						<div class="info">
@@ -77,7 +104,7 @@
 					</div>
 					<div class="collection-general collection-small">
 						<button class="btn-shop">
-							<img src="../img/img-fashion/icon-shop.png" alt="">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 						</button>
 						<img src="../img/img-fashion/collection-1-4.png" alt="">
 						<div class="info">
@@ -91,7 +118,7 @@
 				<div class="dress-collection">
 					<div class="collection-general collection-large">
 						<button class="btn-shop">
-							<img src="../img/img-fashion/icon-shop.png" alt="">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 						</button>
 						<img src="../img/img-fashion/collection-2-3.png" alt="" style="width: 90px">
 						<div class="info">
@@ -101,7 +128,7 @@
 					</div>
 					<div class="collection-general collection-small">
 						<button class="btn-shop">
-							<img src="../img/img-fashion/icon-shop.png" alt="">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 						</button>
 						<img src="../img/img-fashion/collection-2-4.png" alt="" style="width: 55px">
 						<div class="info">
@@ -113,7 +140,7 @@
 				<div class="dress-collection">
 					<div class="collection-general">
 						<button class="btn-shop">
-							<img src="../img/img-fashion/icon-shop.png" alt="">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 						</button>
 						<img src="../img/img-fashion/collection-2-1.png" alt="" style="width: 80px">
 						<div class="info">
@@ -123,7 +150,7 @@
 					</div>
 					<div class="collection-general">
 						<button class="btn-shop">
-							<img src="../img/img-fashion/icon-shop.png" alt="">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 						</button>
 						<img src="../img/img-fashion/collection-2-2.png" alt="" style="width: 70px">
 						<div class="info">
@@ -138,6 +165,387 @@
 					<p>LA newborn baby could’ve distracted Simone Rocha from the task of making her Fall collection; on the contrary, it energized her. Chalk it up to mother love. There was pink, lilac, gold, and red, but it wasn’t all sweetness and light. She ended with a series of sparkly neo-Victorian frocks, close inspection of which revealed they were disintegrating.</p>
 				</div>
 				<img src="../img/img-fashion/model-02.png" alt="" class='model' style="width: 134px">
+			</div>
+		</div>
+		<div class="section new-clother-section">
+			<h5 class="title">
+				<span>NEW </span>
+				CLOTHERS
+			</h5>
+			<div class="new-clother-content">
+				<button class="btn-left" id="btn-left-clother">
+					<img src="../img/img-fashion/left-arrow.png" alt="">
+				</button>
+				<button class="btn-right" id="btn-right-clother">
+					<img src="../img/img-fashion/right-arrow.png" alt="">
+				</button>
+				<div class="container-fluid new-clother">
+					<div class="new-clother-flex" id="new-clother-flex">
+						<div class="new-clother-element">
+							<div class="img-clother-section">
+								<img src="../img/img-fashion/clother-01.png" alt="" class="img-clother">
+							</div>
+							<h5>Black Shirt</h5>
+							<div class="group-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+							</div>
+							<h6>$ 7,470 </h6>
+							<button class="btn-shop">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="new-clother-element">
+							<div class="img-clother-section">
+								<img src="../img/img-fashion/clother-02.png" alt="" class="img-clother">
+							</div>
+							<h5>Black Shirt</h5>
+							<div class="group-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+							</div>
+							<h6>$ 7,470 </h6>
+							<button class="btn-shop">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="new-clother-element">
+							<div class="img-clother-section">
+								<img src="../img/img-fashion/clother-03.png" alt="" class="img-clother">
+							</div>
+							<h5>Black Shirt</h5>
+							<div class="group-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+							</div>
+							<h6>$ 7,470 </h6>
+							<button class="btn-shop">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="new-clother-element">
+							<div class="img-clother-section">
+								<img src="../img/img-fashion/clother-04.png" alt="" class="img-clother">
+							</div>
+							<h5>Black Shirt</h5>
+							<div class="group-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+							</div>
+							<h6>$ 7,470 </h6>
+							<button class="btn-shop">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="new-clother-element">
+							<div class="img-clother-section">
+								<img src="../img/img-fashion/clother-01.png" alt="" class="img-clother">
+							</div>
+							<h5>Black Shirt</h5>
+							<div class="group-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+							</div>
+							<h6>$ 7,470 </h6>
+							<button class="btn-shop">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="new-clother-element">
+							<div class="img-clother-section">
+								<img src="../img/img-fashion/clother-02.png" alt="" class="img-clother">
+							</div>
+							<h5>Black Shirt</h5>
+							<div class="group-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+							</div>
+							<h6>$ 7,470 </h6>
+							<button class="btn-shop">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="new-clother-element">
+							<div class="img-clother-section">
+								<img src="../img/img-fashion/clother-03.png" alt="" class="img-clother">
+							</div>
+							<h5>Black Shirt</h5>
+							<div class="group-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+							</div>
+							<h6>$ 7,470 </h6>
+							<button class="btn-shop">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="new-clother-element">
+							<div class="img-clother-section">
+								<img src="../img/img-fashion/clother-04.png" alt="" class="img-clother">
+							</div>
+							<h5>Black Shirt</h5>
+							<div class="group-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+							</div>
+							<h6>$ 7,470 </h6>
+							<button class="btn-shop">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="section hand-bag-section">
+			<h5 class="title">
+				<span>NEW </span>
+				HAND BAG
+			</h5>
+			<div class="new-clother-content">
+				<button class="btn-left" id="btn-left-bag">
+					<img src="../img/img-fashion/left-arrow.png" alt="">
+				</button>
+				<button class="btn-right" id="btn-right-bag">
+					<img src="../img/img-fashion/right-arrow.png" alt="">
+				</button>
+				<div class="container-fluid new-clother">
+					<div class="new-clother-flex" id="new-bag-flex">
+						<div class="new-clother-element">
+							<div class="img-clother-section">
+								<img src="../img/img-fashion/bag-01.png" alt="" class="img-clother">
+							</div>
+							<h5>White Hand Bag</h5>
+							<div class="group-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+							</div>
+							<h6>$ 7,470 </h6>
+							<button class="btn-shop">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="new-clother-element">
+							<div class="img-clother-section">
+								<img src="../img/img-fashion/bag-02.png" alt="" class="img-clother">
+							</div>
+							<h5>White Hand Bag</h5>
+							<div class="group-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+							</div>
+							<h6>$ 7,470 </h6>
+							<button class="btn-shop">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="new-clother-element">
+							<div class="img-clother-section">
+								<img src="../img/img-fashion/bag-03.png" alt="" class="img-clother">
+							</div>
+							<h5>White Hand Bag</h5>
+							<div class="group-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+							</div>
+							<h6>$ 7,470 </h6>
+							<button class="btn-shop">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="new-clother-element">
+							<div class="img-clother-section">
+								<img src="../img/img-fashion/bag-04.png" alt="" class="img-clother">
+							</div>
+							<h5>White Hand Bag</h5>
+							<div class="group-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+							</div>
+							<h6>$ 7,470 </h6>
+							<button class="btn-shop">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="new-clother-element">
+							<div class="img-clother-section">
+								<img src="../img/img-fashion/bag-01.png" alt="" class="img-clother">
+							</div>
+							<h5>White Hand Bag</h5>
+							<div class="group-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+							</div>
+							<h6>$ 7,470 </h6>
+							<button class="btn-shop">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="new-clother-element">
+							<div class="img-clother-section">
+								<img src="../img/img-fashion/bag-02.png" alt="" class="img-clother">
+							</div>
+							<h5>White Hand Bag</h5>
+							<div class="group-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+							</div>
+							<h6>$ 7,470 </h6>
+							<button class="btn-shop">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="new-clother-element">
+							<div class="img-clother-section">
+								<img src="../img/img-fashion/bag-03.png" alt="" class="img-clother">
+							</div>
+							<h5>White Hand Bag</h5>
+							<div class="group-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+							</div>
+							<h6>$ 7,470 </h6>
+							<button class="btn-shop">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</button>
+						</div>
+						<div class="new-clother-element">
+							<div class="img-clother-section">
+								<img src="../img/img-fashion/bag-04.png" alt="" class="img-clother">
+							</div>
+							<h5>White Hand Bag</h5>
+							<div class="group-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+								<img src="../img/img-fashion/icon-star-01.png" alt="" class="icon-star">
+							</div>
+							<h6>$ 7,470 </h6>
+							<button class="btn-shop">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="container-fluid banner">
+			<img src="../img/img-fashion/banner.png" alt="">
+			<div class="banner-content">
+				<h6 class="title-extra">Extra</h6>
+				<h5>40% OFF</h5>
+				<h6>ON ORDER ABOVE 999$</h6>
+				<button class="btn-general">Shop new arrivals <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+			</div>
+		</div>
+		<div class="container-fluid footer">
+			<div class="footer-element">
+				<h5>ABOUT US</h5>
+				<p>A newborn baby could’ve distracted Simone Rocha from the task of making her Fall collection; on the contrary, it energized her. Chalk it up to mother love. There was pink, lilac, gold, and red, but it wasn’t all sweetness.</p>
+				<div class="group-share">
+					<button><i class="fa fa-facebook" aria-hidden="true"></i></button>
+					<button><i class="fa fa-twitter" aria-hidden="true"></i></button>
+					<button><i class="fa fa-linkedin" aria-hidden="true"></i></button>
+				</div>
+			</div>
+			<div class="footer-element">
+				<h5>INFORMATION</h5>
+				<h6>
+					Phone:
+					<span>0166 356 9501</span>
+				</h6>
+				<h6>
+					Hotline:
+					<span>0166 356 9501</span>
+				</h6>
+				<h6>
+					Email:
+					<span>tuonglinhtong@gmail.com</span>
+				</h6>
+				<h6>
+					Address:
+					<span>219/25/5 Ta Quang Buu, p3, q8, tphcm</span>
+				</h6>
+			</div>
+			<div class="footer-element">
+				<h5>NEWSLETTER</h5>
+				<p>Please let us know your feeling about our product!</p>
+				<div class="input-group">
+					<input type="text" placeholder="Enter text">
+					<button>Subcribe</button>
+				</div>
+			</div>
+			<div class="container-fluid copyright">
+				<p>Copyright @2016, designed by Tuong Linh</p>
+				<ul class="list-menu">
+					<li>
+						<a href="#">Home</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="#">Men</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="#">Women</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="#">Special</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</body>
