@@ -364,7 +364,7 @@
 							</li>
 							<li>
 								<h4>Input Effect</h4>
-								<img src="" alt="">
+								<a href="html/restaurant.html" target="_blank"><img src="img/demo-web-restaurant.png" alt=""></a>
 							</li>
 							<li>
 								<h4>Input Effect</h4>
