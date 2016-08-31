@@ -1,10 +1,10 @@
 $(document).ready(function(){
 	var position_clother = 0;
-	var width_flex = $('#new-clother-flex .new-clother-element').width() * $('#new-clother-flex .new-clother-element').size();
+	var width_flex = 240 * $('#new-clother-flex .new-clother-element').size();
 	$('#btn-right-clother').click(function(event) {
 		// alert(width_flex);
-		position_clother = position_clother + 480;
-		if(position_clother <= width_flex){
+		position_clother = position_clother + 240;
+		if(position_clother <= width_flex - 240){
 			$('#new-clother-flex').css('transform','translateX(-' + position_clother + 'px)');
 		}
 		if(position_clother > width_flex){
@@ -13,7 +13,7 @@ $(document).ready(function(){
 	});
 	$('#btn-left-clother').click(function(event) {
 		// alert(width_flex);
-		position_clother = position_clother - 480;
+		position_clother = position_clother - 240;
 		if(position_clother >= 0){
 			$('#new-clother-flex').css('transform','translateX(-' + position_clother + 'px)');
 		}
@@ -24,11 +24,11 @@ $(document).ready(function(){
 
 
 	var position_bag = 0;
-	var width_bag = $('#new-bag-flex .new-clother-element').width() * $('#new-bag-flex .new-clother-element').size();
+	var width_bag = 240 * $('#new-bag-flex .new-clother-element').size();
 	$('#btn-right-bag').click(function(event) {
 		// alert(width_flex);
-		position_bag = position_bag + 480;
-		if(position_bag <= width_bag){
+		position_bag = position_bag + 240;
+		if(position_bag <= width_bag - 240){
 			$('#new-bag-flex').css('transform','translateX(-' + position_bag + 'px)');
 		}
 		if(position_bag > width_flex){
@@ -37,7 +37,7 @@ $(document).ready(function(){
 	});
 	$('#btn-left-bag').click(function(event) {
 		// alert(width_flex);
-		position_bag = position_bag - 480;
+		position_bag = position_bag - 240;
 		if(position_bag >= 0){
 			$('#new-bag-flex').css('transform','translateX(-' + position_bag + 'px)');
 		}
@@ -66,5 +66,14 @@ $(document).ready(function(){
 	  		$('.header').css('animation','header_static 0.5s forwards');
 	      	$('.header').removeClass('header-scroll');
 	  	}
+	});
+
+
+	//
+	$('.icon-bar').click(function(event) {
+		$('.menu-header').css('right','0');
+	});
+	$('.icon-remove').click(function(event) {
+		$('.menu-header').css('right','-124px');
 	});
 });

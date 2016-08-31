@@ -391,8 +391,8 @@
 						</ul>
 						<ul id='design-demo' class="demo-element">
 							<li>
-								<h4>Profile Design</h4>
-								<a href="html/profile.html" target="_blank"><img src="img/CV-profile-demo.png" alt=""></a>
+								<h4>My Profile</h4>
+								<a href="html/profile.html" target="_blank"><img src="img/CV.png" alt=""></a>
 							</li>
 							<li>
 								<h4>App Mobile</h4>
