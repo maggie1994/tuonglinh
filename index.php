@@ -6,6 +6,7 @@
 	<link rel="icon" type="image/png" href="img/img-profile/air-balloon-orange.png">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<link rel="stylesheet" type="text/css" href="css/animation.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
@@ -26,18 +27,24 @@
 				<img src="img/img-profile/cloud.png" alt="" class="cloud" style="right: 300px; top: 200px">
 
 				<!-- Image Air Balloon -->
-				<img src="img/img-profile/air-balloon-red.png" alt="" class="air-balloon" style="left: 40px; top: 120px">
-				<img src="img/img-profile/air-balloon-orange.png" alt="" class="air-balloon air-balloon-small" style="left: 170px; top: 30px">
-				<img src="img/img-profile/air-balloon-blue.png" alt="" class="air-balloon air-balloon-small" style="right: 300px; top: 20px">
-				<img src="img/img-profile/air-balloon-orange.png" alt="" class="air-balloon air-balloon-small" style="right: 90px; top: 150px">
-				<img src="img/img-profile/air-balloon-red.png" alt="" class="air-balloon" style="right: 180px; top: 300px">
-				
+				<div class="group-air-balloon">
+					<img src="img/img-profile/air-balloon-red.png" alt="" class="air-balloon" style="left: 40px">
+					<img src="img/img-profile/air-balloon-orange.png" alt="" class="air-balloon air-balloon-small" style="left: 170px">
+					<img src="img/img-profile/air-balloon-blue.png" alt="" class="air-balloon air-balloon-small" style="right: 300px">
+					<img src="img/img-profile/air-balloon-orange.png" alt="" class="air-balloon air-balloon-small" style="right: 90px">
+					<img src="img/img-profile/air-balloon-red.png" alt="" class="air-balloon" style="right: 180px">
+				</div>
 				<!-- Title -->
 				<h1 class="title">Linh's Profile</h1>
 				<h2 class="sub-title">
 					<span>UX/UI</span>
 					Designer
 				</h2>
+				<div class="btn-down">
+					<button class="down">
+						<img src="img/img-profile/icon-down.png" alt="">
+					</button>
+				</div>
 			</div>
 			<!-- Image Fence Left -->
 			<div class="left">
