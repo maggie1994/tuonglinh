@@ -9,6 +9,16 @@
     font-style: normal;
 }
 @font-face {
+    font-family: 'Verlag-Book';
+    src: url('../font/Verlag-Book.eot');
+    src: local('Verlag-Book'), 
+    url('../font/Verlag-Book.woff') format('woff'), 
+    url('../font/Verlag-Book.ttf') format('truetype'), 
+    url('../font/Verlag-Book.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'UTM Gloria';
     src: url('../font/UTM Gloria.eot');
     src: local('UTM Gloria'), 
