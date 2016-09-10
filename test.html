@@ -254,11 +254,19 @@
 					<img src="img/img-profile/tree-tall.png" alt="" class="tree tree-tall" style="left: 60px; top: 55px">
 					<img src="img/img-profile/chair.png" alt="" class="chair" style="left: 150px; top: 85px">
 					<!-- Couple -->
-					<img src="img/img-profile/couple.png" alt="" class="couple" style="left: 192px; top: 0px">
+					<div class="group-heart">
+						<img src="img/img-profile/icon-heart.png" alt="" class="heart" style="left: 192px; width: 10px">
+						<img src="img/img-profile/icon-heart.png" alt="" class="heart" style="left: 215px;">
+						<img src="img/img-profile/icon-heart.png" alt="" class="heart" style="left: 235px; width: 10px">
+						<img src="img/img-profile/icon-heart.png" alt="" class="heart" style="left: 250px; width: 10px">
+						<img src="img/img-profile/icon-heart.png" alt="" class="heart" style="left: 255px; width: 10px">
+						<img src="img/img-profile/icon-heart.png" alt="" class="heart" style="left: 275px;">
+						<img src="img/img-profile/couple.png" alt="" class="couple" style="left: 192px; top: 0px">
+					</div>
 					<!-- Flower	 -->
 					<div class="flower-section" style="right: 150px; top: 220px">
-						<img src="img/img-profile/flower.png" alt="" class="flower">
 						<img src="img/img-profile/flower.png" alt="" class="flower" style="left: 60px; top: -20px">
+						<img src="img/img-profile/flower.png" alt="" class="flower">
 					</div>
 				</div>
 
@@ -318,6 +326,16 @@
 						<span>tuonglinh1994</span>
 					</h6>
 				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="portfolio-section">
+		<div class="portfolio-bg"></div>
+		<div class="portfolio-content">
+			<h4 class='title'>Portfolio</h4>
+			<div class="portfolio">
+				<h5>Website</h5>
 			</div>
 		</div>
 	</div>
