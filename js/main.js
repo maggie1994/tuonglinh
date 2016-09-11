@@ -29,6 +29,38 @@ $(document).ready(function(){
 		$('.portfolio-section').css('display','none');
 	});
 
+	//Animation Demo
+	var count = 2;
+	var position = 0;
+	var with_demo = $('.demo-flex .demo-element').size() * 265;
+	$('.btn-left').click(function(event) {
+		$('.demo-element:nth-child(' + count + ')').removeClass('active');
+		position = position - 265;
+		if(position >= 0){
+			$('.demo-flex').css({'transform':'translateX(-' + position + 'px'});
+			count = count - 1;
+			$('.demo-element:nth-child(' + count + ')').addClass('active');
+		}
+		else{
+			position = 0;
+			count = 2;
+			$('.demo-element:nth-child(2)').addClass('active');
+		}
+	});
+	$('.btn-right').click(function(event) {
+		$('.demo-element:nth-child(' + count + ')').removeClass('active');
+		position = position + 265;
+		if(position < with_demo){
+			$('.demo-flex').css({'transform':'translateX(-' + position + 'px'});
+			count = count + 1;
+			$('.demo-element:nth-child(' + count + ')').addClass('active');
+		}
+		else{
+			position = with_demo;
+			count = count + 1;
+		}
+	});
+
 	//Animation Scroll
 	$(window).scroll(function(){
 		if($(this).scrollTop() > 150){

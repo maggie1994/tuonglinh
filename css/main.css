@@ -37,7 +37,7 @@ a{
 }
 /* scroll */
 ::-webkit-scrollbar-thumb {
-    background-color: #cae594;
+    background-color: #609604;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -235,6 +235,22 @@ a{
 	position: absolute;
 	width: 300px;
 }
+.children-horse{
+	position: absolute;
+	width: 100px;
+}
+.children-horse-01{
+	-webkit-animation: children_horse_01 5s infinite; /* Chrome, Safari, Opera */
+    animation: children_horse_01 5s infinite;
+}
+.children-horse-02{
+	-webkit-animation: children_horse_02 6s infinite; /* Chrome, Safari, Opera */
+    animation: children_horse_02 6s infinite;
+}
+.children-horse-03{
+	-webkit-animation: children_horse_03 5s infinite; /* Chrome, Safari, Opera */
+    animation: children_horse_03 5s infinite;
+}
 .trash{
 	position: absolute;
 	width: 50px;
@@ -345,7 +361,7 @@ a{
 	text-align: center;
 	padding-top: 7px;
 	opacity: 0;
-	transition: 1s;
+	transition: 0.5s;
 	animation: location 1s infinite;
 }
 .info{
@@ -470,7 +486,7 @@ a{
 	display: none;
 }
 .portfolio-bg{
-	background-color: #fff;
+	background-color: #adcf6b;
 	opacity: 0.8;
 	position: absolute;
 	width: 100%;
@@ -478,7 +494,7 @@ a{
 }
 .portfolio-content{
 	position: relative;
-	width: 900px;
+	width: 950px;
 	margin: 20px auto;
 	transform: translateY(-100%);
 	transition: 1s;
@@ -488,7 +504,7 @@ a{
 .portfolio-content .title{
 	background-image: url('../img/img-profile/bg-demo.png');
 	background-size: 100% 100%;
-	width: 900px;
+	width: 950px;
 	height: 160px;
 	color: #fff;
 	font-size: 35px;
@@ -498,9 +514,9 @@ a{
 	z-index: 1;
 }
 .portfolio{
-	width: 850px;
+	width: 900px;
 	background-color: #fff;
-	padding: 50px 30px 20px;
+	padding: 70px 10px 70px;
 	margin: auto;
 	position: relative;
 	top: -35px;
@@ -509,12 +525,53 @@ a{
 .portfolio h5{
 	background-image: url('../img/img-profile/skill-box-demo.png');
 	background-size: 100% 100%;
-	color: #fff;
+	color: #000;
 	display: inline-block;
-	text-transform: uppercase;
-	padding: 10px 50px 14px;
-	font-size: 16px;
+	padding: 15px 70px 21px;
+	font-size: 17px;
 	font-weight: bold;
+}
+.group-portfolio{
+	margin-top: 50px;
+	position: relative;
+}
+.btn-left, .btn-right{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.btn-left img, .btn-right img{
+	width: 30px;
+}
+.btn-left{
+	float: left;
+	left: 0;
+}
+.btn-right{
+	float: right;
+	right: 0;
+}
+.demo-portfolio{
+	width: 820px;
+	margin: auto;
+	overflow: hidden;
+}
+.demo-flex{
+	display: flex;
+	transition: 0.5s;
+}
+.demo-element{
+	float: left;
+}
+.demo-element a img{
+	width: 265px;
+	height: 160px;
+	transform: scale(0.8);
+	transition: 0.8s;
+}
+.demo-portfolio .active a img{
+	transform: scale(1);
+	transition: 0.8s;
 }
 
 
