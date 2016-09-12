@@ -495,7 +495,7 @@ a{
 .portfolio-content{
 	position: relative;
 	width: 950px;
-	margin: 20px auto;
+	margin: 45px auto;
 	transform: translateY(-100%);
 	transition: 1s;
 	-webkit-animation: demo 1s forwards; /* Chrome, Safari, Opera */
@@ -514,12 +514,13 @@ a{
 	z-index: 1;
 }
 .portfolio{
-	width: 900px;
-	background-color: #fff;
+	width: 890px;
+	height: 440px;
+	background-color: #000;
 	padding: 70px 10px 70px;
 	margin: auto;
 	position: relative;
-	top: -35px;
+	top: -36px;
 	text-align: center;
 }
 .portfolio h5{
@@ -532,13 +533,14 @@ a{
 	font-weight: bold;
 }
 .group-portfolio{
-	margin-top: 50px;
+	margin-top: 60px;
 	position: relative;
 }
 .btn-left, .btn-right{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	z-index: 2;
 }
 .btn-left img, .btn-right img{
 	width: 30px;
@@ -552,7 +554,7 @@ a{
 	right: 0;
 }
 .demo-portfolio{
-	width: 820px;
+	width: 840px;
 	margin: auto;
 	overflow: hidden;
 }
@@ -569,9 +571,18 @@ a{
 	transform: scale(0.8);
 	transition: 0.8s;
 }
+.demo-element a{
+	display: inline-block;
+	transition: 0.8s;
+}
 .demo-portfolio .active a img{
 	transform: scale(1);
 	transition: 0.8s;
+}
+.demo-portfolio .active a{
+	display: inline-block;
+	padding: 8px;
+	background: #fff;
 }
 
 

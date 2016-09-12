@@ -6,7 +6,7 @@ $(document).ready(function(){
 	//Animation Air Balloon
 	$('.group-air-balloon img:nth-child(1)').css({'animation-delay': '0s'});
 	$('.group-air-balloon img:nth-child(2)').css({'animation-delay': '80s'});
-	$('.group-air-balloon img:nth-child(3)').css({'animation-delay': '70s'});
+	$('.group-air-balloon img:nth-child(3)').css({'animation-delay': '90s'});
 	$('.group-air-balloon img:nth-child(4)').css({'animation-delay': '10s'});
 	$('.group-air-balloon img:nth-child(5)').css({'animation-delay': '40s'});
 
