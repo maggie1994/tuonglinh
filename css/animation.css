@@ -88,6 +88,41 @@
     50%   {transform: translateY(10px);}
     100% {transform: translateY(0);}
 }
+
+/* Standard syntax */
+@keyframes light {
+    0%   {box-shadow: 0px 0px 8px #fff;}
+    50%  {box-shadow: 0px 0px 0px #fff;}
+    100% {box-shadow: 0px 0px 8px #fff;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes light {
+    0%   {box-shadow: 0px 0px 8px #fff;}
+    50%  {box-shadow: 0px 0px 0px #fff;}
+    100% {box-shadow: 0px 0px 8px #fff;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rotation {
+    100% { transform: rotate(360deg); }
+}
+
+/* Standard syntax */
+@keyframes rotation {
+    100% { transform: rotate(360deg); }
+}
+
+@-webkit-keyframes myOrbit {
+    from { -webkit-transform: rotate(0deg) translateX(160px) rotate(0deg); opacity: 1}
+    to   { -webkit-transform: rotate(360deg) translateX(160px) rotate(-360deg); opacity: 1 }
+}
+@keyframes myOrbit {
+    from { transform: rotate(0deg) translateX(160px) rotate(0deg); opacity: 1 }
+    to   { transform: rotate(360deg) translateX(160px) rotate(-360deg); opacity: 1 }
+}
+
+
 /* Chrome, Safari, Opera */
 @-webkit-keyframes air_balloon {
     0%   {transform: translateX(-2); top: 600px;}

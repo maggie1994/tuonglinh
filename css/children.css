@@ -1,0 +1,25 @@
+body{
+	font-family: 'UTM Avo', sans-serif !important;
+}
+.header{
+	background-image: url('../img/img-bed/bg-logo.png');
+	background-size: 100%;
+}
+.logo{
+	font-family: 'Alpaca Scarlett Demo', sans-serif;
+	margin-top: 0px;
+	float: left;
+}
+.group-search{
+	float: right;
+}
+.group-search h6{
+	display: inline-block;
+	margin-left: 25px;
+	font-size: 11px;
+	color: #f85204;
+}
+.group-search h6 span{
+	margin-right: 5px;
+	font-family: 'UTM AvoBold', sans-serif !important;
+}

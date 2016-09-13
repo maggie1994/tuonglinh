@@ -61,6 +61,14 @@ $(document).ready(function(){
 		}
 	});
 
+
+	//Animation Ferris
+	var delay_rotation = 0;
+	for(var i = 1; i <= 16; i++){
+		$('.rotation-' + i).css({'animation-delay': delay_rotation + 's'});
+		delay_rotation = delay_rotation + 0.94;
+	}
+
 	//Animation Scroll
 	$(window).scroll(function(){
 		if($(this).scrollTop() > 150){

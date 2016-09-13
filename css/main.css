@@ -93,8 +93,8 @@ a{
 	position: absolute;
 	top: 0;
 	width: 80px;
-	-webkit-animation: air_balloon 60s infinite; /* Chrome, Safari, Opera */
-    animation: air_balloon 60s infinite;
+	-webkit-animation: air_balloon 60s linear infinite; /* Chrome, Safari, Opera */
+    animation: air_balloon 60s linear infinite;
     top: 600px;
 }
 .air-balloon-small{
@@ -218,6 +218,18 @@ a{
 .light{
 	position: absolute;
 	width: 90px;
+}
+.group-light span{
+	display: inline-block;
+	width: 39px;
+	height: 39px;
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	box-shadow: 0px 0px 10px #fff;
+	-webkit-animation: light 1s infinite; /* Chrome, Safari, Opera */
+    animation: light 1s infinite;
 }
 .balloon{
 	position: absolute;
@@ -439,6 +451,25 @@ a{
 	width: 350px;
 	left: 15px;
 	top: 0;
+}
+.rotation{
+	position: absolute;
+	width: 350px;
+	left: 15px;
+	-webkit-animation: rotation 15s linear infinite; /* Chrome, Safari, Opera */
+    animation: rotation 15s linear infinite;
+}
+.rotation-element{
+	position: absolute;
+	opacity: 0;
+	width: 31px;
+	left: 174px;
+	top: 160px;
+	-webkit-animation: myOrbit 15s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit 15s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit 15s linear infinite; /* Opera 12+ */
+            animation: myOrbit 15s linear infinite; /* Chrome, Firefox 16+, 
+                                                      IE 10+, Safari 5 */
 }
 .form-info{
 	background-image: url('../img/img-profile/message-green.png');
