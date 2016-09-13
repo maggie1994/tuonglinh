@@ -107,7 +107,12 @@
 				<!-- Chair -->
 				<div class="background">
 					<img src="img/img-profile/tree-small.png" alt="" class="tree tree-small" style="right: 280px; top: 40px">
-					<img src="img/img-profile/light.png" alt="" class="light" style="right: 0px; top: 0px">
+					<!-- Light -->
+					<div class="group-light">
+						<img src="img/img-profile/light.png" alt="" class="light" style="right: 0px; top: 0px">
+						<span></span>
+						<span style="right: 51px;"></span>
+					</div>
 					<img src="img/img-profile/pine-01.png" alt="" class="tree pine" style="right: 100px; top:-10px; width: 70px;">
 					<img src="img/img-profile/pine.png" alt="" class="tree pine" style="right: 140px; top: 20px; width: 60px;">
 					<img src="img/img-profile/tree-tall.png" alt="" class="tree tree-tall" style="right: 60px; top: 55px">
@@ -137,7 +142,7 @@
 								9/2012 - 6/2015
 							</h6>
 							<h5>University Of Science</h5>
-							<p>I graduated at University Of Science. I just recently learn front-end about one year. I am a hard worker.</p>
+							<p>I graduated from IT college with Honour Class. After graduation, I decided to become a tester.</p>
 						</div>
 					</div>
 				</div>
@@ -148,10 +153,10 @@
 						<div class="info">
 							<h6>
 								<img src="img/img-profile/icon-work.png" alt="">
-								8/2015 - 10/2015
+								9/2015 - 10/2015
 							</h6>
 							<h5>Emotive Company</h5>
-							<p>I graduated at University Of Science. I just recently learn front-end about one year. I am a hard worker.</p>
+							<p>I was a tester for a month and I realised that direction was not suitable for me. I started to learn to be a front end developer.</p>
 						</div>
 					</div>
 				</div>
@@ -165,7 +170,7 @@
 								12/2015 - Present
 							</h6>
 							<h5>Golden Owl Consulting</h5>
-							<p>I graduated at University Of Science. I just recently learn front-end about one year. I am a hard worker.</p>
+							<p>Currently, I work as junior front end developer. I was trained well about HTML, CSS, JQUERY and also taught to be web designer.</p>
 						</div>
 					</div>
 				</div>
@@ -253,7 +258,11 @@
 					<img src="img/img-profile/tree-tall.png" alt="" class="tree tree-tall" style="right: 10px; top: -258px; width: 80px;">
 					<img src="img/img-profile/tree-small.png" alt="" class="tree tree-small" style="right: 60px; top: -170px">
 					<img src="img/img-profile/tree-small.png" alt="" class="tree tree-small" style="left: 280px; top: 40px">
-					<img src="img/img-profile/light.png" alt="" class="light" style="left: 0px; top: 0px">
+					<div class="group-light">
+						<img src="img/img-profile/light.png" alt="" class="light" style="left: 0px; top: 0px">
+						<span style="left: 0px;"></span>
+						<span style="left: 51px;"></span>
+					</div>
 					<img src="img/img-profile/pine-01.png" alt="" class="tree pine" style="left: 100px; top:-10px; width: 70px;">
 					<img src="img/img-profile/pine.png" alt="" class="tree pine" style="left: 140px; top: 20px; width: 60px;">
 					<img src="img/img-profile/tree-tall.png" alt="" class="tree tree-tall" style="left: 60px; top: 55px">
@@ -314,7 +323,26 @@
 
 				<!-- Infomation (Ferris) -->
 				<div class="infomation">
-					<img src="img/img-profile/ferris.png" alt="" class="ferris">
+					<div class="group-ferris">
+						<img src="img/img-profile/rotation.png" alt="" class="rotation">
+						<img src="img/img-profile/rotation-blue.png" alt="" class="rotation-element rotation-1">
+						<img src="img/img-profile/rotation-red.png" alt="" class="rotation-element rotation-2">
+						<img src="img/img-profile/rotation-orange.png" alt="" class="rotation-element rotation-3">
+						<img src="img/img-profile/rotation-green.png" alt="" class="rotation-element rotation-4">
+						<img src="img/img-profile/rotation-blue.png" alt="" class="rotation-element rotation-5">
+						<img src="img/img-profile/rotation-red.png" alt="" class="rotation-element rotation-6">
+						<img src="img/img-profile/rotation-orange.png" alt="" class="rotation-element rotation-7">
+						<img src="img/img-profile/rotation-green.png" alt="" class="rotation-element rotation-8">
+						<img src="img/img-profile/rotation-blue.png" alt="" class="rotation-element rotation-9">
+						<img src="img/img-profile/rotation-red.png" alt="" class="rotation-element rotation-10">
+						<img src="img/img-profile/rotation-orange.png" alt="" class="rotation-element rotation-11">
+						<img src="img/img-profile/rotation-green.png" alt="" class="rotation-element rotation-12">
+						<img src="img/img-profile/rotation-blue.png" alt="" class="rotation-element rotation-13">
+						<img src="img/img-profile/rotation-red.png" alt="" class="rotation-element rotation-14">
+						<img src="img/img-profile/rotation-orange.png" alt="" class="rotation-element rotation-15">
+						<img src="img/img-profile/rotation-green.png" alt="" class="rotation-element rotation-16">
+						<img src="img/img-profile/ferris.png" alt="" class="ferris">
+					</div>
 					<h6 class="form-info">
 						<img src="img/img-profile/call.png" alt="">
 						<span>01663569501</span>
