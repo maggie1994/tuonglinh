@@ -141,19 +141,28 @@ a{
 }
 .section-content{
 	width: 40%;
-	height: 2250px;
+	height: 2280px;
 	background-color: #ADCF6B;
 	float: left;
 	position: relative;
 }
+@media screen and (max-width: 1036px) {
+    .section-content{
+		height: 4000px;
+	}
+}
 .road{
 	width: 20%;
-	height: 2250px;
+	height: 2280px;
 	background-color: #D4E7B4;
 	float: left;
 	position: relative;
 }
-
+@media screen and (max-width: 1036px) {
+    .road{
+		float: right;
+	}
+}
 .about-section{
 	background-image: url('../img/img-profile/table.png');
 	background-size: 100% 100%;
@@ -310,6 +319,11 @@ a{
 	margin-left: 10px;
 	position: relative;
 }
+@media screen and (max-width: 1036px) {
+    .myskill{
+		margin-top: 850px;
+	}
+}
 .myskill h6{
 	color: #fff;
 	font-weight: bold;
@@ -349,6 +363,11 @@ a{
 
 .education{
 	margin-top: 700px;
+}
+@media screen and (max-width: 1036px) {
+    .education{
+		margin-top: 1500px;
+	}
 }
 .icon-location{
 	position: relative;
@@ -616,5 +635,14 @@ a{
 	background: #fff;
 }
 
+
+@media screen and (max-width: 1036px) {
+    .right, .bg-horse{
+		display: none;
+	}
+	.section-content-01{
+		z-index: 1;
+	}
+}
 
 
