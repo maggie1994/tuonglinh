@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	$('.down').click(function(event) {
 		$('html, body').animate({scrollTop : 600},800);
 	});

@@ -122,6 +122,14 @@
     to   { transform: rotate(360deg) translateX(160px) rotate(-360deg); opacity: 1 }
 }
 
+@-webkit-keyframes myOrbit_540 {
+    from { -webkit-transform: rotate(0deg) translateX(140px) rotate(0deg); opacity: 1}
+    to   { -webkit-transform: rotate(360deg) translateX(140px) rotate(-360deg); opacity: 1 }
+}
+@keyframes myOrbit_540 {
+    from { transform: rotate(0deg) translateX(140px) rotate(0deg); opacity: 1 }
+    to   { transform: rotate(360deg) translateX(140px) rotate(-360deg); opacity: 1 }
+}
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes air_balloon {

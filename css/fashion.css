@@ -447,12 +447,21 @@ a:hover, a:visited{
 }
 @media screen and (max-width: 840px) {
     .collection-content{
-		width: 415px;
+		width: 540px;
+	}
+}
+@media screen and (max-width: 589px) {
+    .collection-content{
+		width: 385px;
 	}
 }
 @media screen and (max-width: 480px) {
     .collection-content{
 		width: 295px;
+		margin-top: 30px;
+	}
+	.collection-section .title{
+		margin-bottom: 70px;
 	}
 }
 .collection-content .model{
@@ -483,16 +492,40 @@ a:hover, a:visited{
 }
 @media screen and (max-width: 480px) {
     .collection-content .model-02{
-		width: 75px !important;
+		width: 80px !important;
 	}
 }
 .introduce{
 	margin-top: 230px;
 	float: left;
 }
+.model-2-1{
+	display: none;
+}
+.model-2-1 .introduce{
+	margin-left: 50px;
+	margin-top: 150px !important;
+}
+.model-2-1 .introduce h5, .model-2-1 .introduce h6, .model-2-1 .introduce p{
+	text-align: left !important;
+}
 @media screen and (max-width: 1036px) {
     .introduce{
 		margin-top: 100px;
+	}
+}
+@media screen and (max-width: 840px) {
+    .model-2-1{
+		display: block;
+	}
+	.model-2-2{
+		display: none;
+	}
+}
+@media screen and (max-width: 480px) {
+	.model-2-1 .introduce{
+		margin-right: 0px !important;
+		margin-top: 20px !important;
 	}
 }
 @media screen and (max-width: 480px) {
@@ -504,11 +537,11 @@ a:hover, a:visited{
 	margin-top: 0px;
 	margin-right: 40px;
 }
-@media screen and (max-width: 840px) {
+/* @media screen and (max-width: 840px) {
     .collection-content-right {
 		padding-left: 0px !important;
 	}
-}
+} */
 .introduce h5{
 	font-size: 16px;
 	font-family: 'Biko_Bold', sans-serif;
@@ -559,7 +592,65 @@ a:hover, a:visited{
 }
 @media screen and (max-width: 840px) {
     .collection-content .dress-collection:nth-child(3){
+		/* clear: left; */
+		margin-left: 40px;
+	}
+	.collection-content .dress-collection:nth-child(4) .collection-general{
+		float: left;
+	}
+	.collection-content .dress-collection:nth-child(4) .collection-large{
+		width: 260px;
+	}
+	.collection-content .dress-collection:nth-child(4) .collection-small{
+		width: 205px;
+		margin-left: 30px;
+		height: 240px;
+	}
+	.collection-content .dress-collection:nth-child(4) .collection-small img{
+		float: none;
+		width: 70px;
+		margin-top: 70px;
+	}
+	.collection-content .dress-collection:nth-child(4) .collection-small .info{
+		padding-top: 5px;
+		padding-left: 0px;
+
+	}
+}
+@media screen and (max-width: 589px) {
+    .collection-content .dress-collection:nth-child(3){
 		clear: left;
+		margin-left: 0px;
+	}
+	.collection-content .dress-collection:nth-child(4) .collection-general{
+		float: none;
+	}
+	.collection-content .dress-collection:nth-child(4) .collection-large{
+		width: 185px;
+	}
+	.collection-content .dress-collection:nth-child(4) .collection-small{
+		width: 185px;
+		margin-left: 0px;
+		height: 110px;
+	}
+	.collection-content .dress-collection:nth-child(4) .collection-small img{
+		float: left;
+		width: 50px;
+		margin-top: 40px;
+	}
+	.collection-content .dress-collection:nth-child(4) .collection-small .info{
+		padding-top: 45px;
+		padding-left: 20px;
+
+	}
+}
+@media screen and (max-width: 460px) {
+	.collection-content .dress-collection:nth-child(4) .collection-large{
+		width: 165px;
+	}
+	.collection-content .dress-collection:nth-child(4) .collection-small{
+		width: 165px;
+		height: 102px;
 	}
 }
 .dress-collection:last-child{
@@ -576,7 +667,13 @@ a:hover, a:visited{
 }
 @media screen and (max-width: 840px) {
     .collection-content-right .dress-collection{
-		margin-right: 20px;
+		margin-right: 0px;
+		margin-left: 40px;
+	}
+}
+@media screen and (max-width: 480px) {
+    .collection-content-right .dress-collection{
+		margin-left: 20px;
 	}
 }
 .collection-content-right .dress-collection:nth-child(2){
@@ -584,15 +681,15 @@ a:hover, a:visited{
 	margin-right: 90px;
 }
 @media screen and (max-width: 840px) {
-    .collection-content-right .dress-collection:nth-child(2){
-		margin-right: 50px;
+    .collection-content-right .dress-collection:nth-child(3){
+		margin-left: 0px;
 	}
 }
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .collection-content-right .dress-collection:nth-child(2){
 		margin-right: 0px;
 	}
-}
+} */
 .collection-general{
 	background-color: #e2e5e4;
 	padding: 10px 20px 2px;
@@ -1034,8 +1131,6 @@ a:hover, a:visited{
 }
 .copyright{
 	padding: 20px 0px !important;
-	margin-left: 20px !important;
-	margin-right: 20px !important;
 	clear: both;
 	border-top: 1px solid #e7e7e7;
 }

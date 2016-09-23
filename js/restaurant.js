@@ -41,12 +41,12 @@ $(document).ready(function(){
 			menu_active = $('#about');
 			menu_active.addClass('active');
 
-			$('.img-group').css({'opacity':'1', 'transform':'translateY(0%)'});
-			$('.about-us-section h3').css({'transform':'scale(1)', 'transition-delay': '1s'});
-			$('.about-us-section h5').css({'opacity':'1', 'transform':'translateY(0px)', 'transition-delay': '1.6s'});
-			$('.list-circle li').css({'opacity':'1', 'transition-delay': '1.8s'});
-			$('.about-us-section p').css({'opacity':'1', 'transition-delay': '2s'});
-			$('.about-us-section .btn-general').css({'opacity':'1', 'transform':'translateY(0%)', 'transition-delay': '2.5s'});
+			// $('.img-group').css({'opacity':'1', 'transform':'translateY(0%)'});
+			// $('.about-us-section h3').css({'transform':'scale(1)', 'transition-delay': '1s'});
+			// $('.about-us-section h5').css({'opacity':'1', 'transform':'translateY(0px)', 'transition-delay': '1.6s'});
+			// $('.list-circle li').css({'opacity':'1', 'transition-delay': '1.8s'});
+			// $('.about-us-section p').css({'opacity':'1', 'transition-delay': '2s'});
+			// $('.about-us-section .btn-general').css({'opacity':'1', 'transform':'translateY(0%)', 'transition-delay': '2.5s'});
 		}
 		if ($(this).scrollTop() > $('.service-section').offset().top - 100){
 			menu_active.removeClass('active');
@@ -62,7 +62,7 @@ $(document).ready(function(){
 			$('.menu-element:nth-child(2)').css({'opacity':'1', 'transform':'translateY(0px)'});
 			$('.menu-element:nth-child(3)').css({'opacity':'1', 'transform':'translateY(0px)'});
 			$('.menu-element:nth-child(4)').css({'transform':'translateX(0px)'});
-			$('.menu-content .btn-general').css({'opacity':'1', 'transform':'translateY(0%)', 'transition-delay': '1s'});
+			// $('.menu-content .btn-general').css({'opacity':'1', 'transform':'translateY(0%)', 'transition-delay': '1s'});
 		}
 	});
 
