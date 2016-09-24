@@ -84,6 +84,11 @@ a:hover, a:visited{
 	height: 100%;
 	position: relative;
 }
+@media screen and (max-width: 1036px) {
+    .first-section{
+		height: 660px;
+	}
+}
 @media screen and (max-width: 768px) {
     .first-section{
 		height: 500px;
