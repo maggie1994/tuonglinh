@@ -5,19 +5,19 @@ $(document).ready(function(){
 	});
 
 	//Animation Air Balloon
-	$('.group-air-balloon img:nth-child(1)').css({'animation-delay': '0s'});
-	$('.group-air-balloon img:nth-child(2)').css({'animation-delay': '80s'});
-	$('.group-air-balloon img:nth-child(3)').css({'animation-delay': '90s'});
-	$('.group-air-balloon img:nth-child(4)').css({'animation-delay': '10s'});
-	$('.group-air-balloon img:nth-child(5)').css({'animation-delay': '40s'});
+	$('.group-air-balloon img:nth-child(1)').css({'animation-delay': '0s','-webkit-animation-delay':'0'});
+	$('.group-air-balloon img:nth-child(2)').css({'animation-delay': '80s','-webkit-animation-delay':'80s'});
+	$('.group-air-balloon img:nth-child(3)').css({'animation-delay': '90s','-webkit-animation-delay':'90s'});
+	$('.group-air-balloon img:nth-child(4)').css({'animation-delay': '10s','-webkit-animation-delay':'10s'});
+	$('.group-air-balloon img:nth-child(5)').css({'animation-delay': '40s','-webkit-animation-delay':'40s'});
 
 	//Animation Heart
-	$('.group-heart img:nth-child(1)').css({'animation-delay': '0s'});
-	$('.group-heart img:nth-child(2)').css({'animation-delay': '2.2s'});
-	$('.group-heart img:nth-child(3)').css({'animation-delay': '0.7s'});
-	$('.group-heart img:nth-child(4)').css({'animation-delay': '4s'});
-	$('.group-heart img:nth-child(5)').css({'animation-delay': '1.3s'});
-	$('.group-heart img:nth-child(6)').css({'animation-delay': '3.2s'});
+	$('.group-heart img:nth-child(1)').css({'animation-delay': '0s','-webkit-animation-delay':'0'});
+	$('.group-heart img:nth-child(2)').css({'animation-delay': '2.2s','-webkit-animation-delay':'2.2s'});
+	$('.group-heart img:nth-child(3)').css({'animation-delay': '0.7s','-webkit-animation-delay':'0.7s'});
+	$('.group-heart img:nth-child(4)').css({'animation-delay': '4s','-webkit-animation-delay':'4s'});
+	$('.group-heart img:nth-child(5)').css({'animation-delay': '1.3s','-webkit-animation-delay':'1.3s'});
+	$('.group-heart img:nth-child(6)').css({'animation-delay': '3.2s','-webkit-animation-delay':'3.2s'});
 
 	//Popup Demo
 	$('.demo').click(function(event) {
