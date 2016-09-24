@@ -5,8 +5,8 @@ $(document).ready(function(){
 	});
 
 	//Animation Air Balloon
-	$('.group-air-balloon img:nth-child(1)').css({'animation-delay': '0s','-webkit-animation-delay':'0'});
-	$('.group-air-balloon img:nth-child(2)').css({'animation-delay': '80s','-webkit-animation-delay':'80s'});
+	$('.group-air-balloon img:nth-child(1)').css({'-webkit-animation-delay':'0','animation-delay': '0s','-moz-animation': '0s'});
+	$('.group-air-balloon img:nth-child(2)').css({'-webkit-animation-delay':'80s','animation-delay': '80s','-moz-animation': '80s'});
 	$('.group-air-balloon img:nth-child(3)').css({'animation-delay': '90s','-webkit-animation-delay':'90s'});
 	$('.group-air-balloon img:nth-child(4)').css({'animation-delay': '10s','-webkit-animation-delay':'10s'});
 	$('.group-air-balloon img:nth-child(5)').css({'animation-delay': '40s','-webkit-animation-delay':'40s'});
