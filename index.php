@@ -242,7 +242,7 @@
 				<!-- Demo -->
 				<div class="demo demo-02 layout-mobile">
 					<img src="img/img-profile/home.png" alt="" class="home">
-					<h6 class="form-clickme">Click me</h6>
+					<h6 class="form-clickme">Portfolio</h6>
 				</div>
 
 				<!-- Background Tree, Fountain, Children -->
@@ -412,7 +412,7 @@
 				<!-- Demo -->
 				<div class="demo">
 					<img src="img/img-profile/home.png" alt="" class="home">
-					<h6 class="form-clickme">Click me</h6>
+					<h6 class="form-clickme">Portfolio</h6>
 				</div>
 
 				<!-- Background Balloon, Tree -->
@@ -508,9 +508,15 @@
 								</a>
 							</div>
 							<div class="demo-element active">
-								<a href="html/restaurant.html" target="blank">
-									<h4>ABC Restaurant</h4>
-									<img src="img/img-profile/web-restaurant.png" alt="">
+								<a href="html/cartoon.html" target="blank">
+									<h4>Website Cartoon</h4>
+									<img src="img/img-profile/web-cartoon.png" alt="">
+								</a>
+							</div>
+							<div class="demo-element">
+								<a href="http://www.goldenowl.asia/" target="blank">
+									<h4>Golden Owl</h4>
+									<img src="img/img-profile/web-golden.png" alt="">
 								</a>
 							</div>
 							<div class="demo-element">
@@ -520,21 +526,9 @@
 								</a>
 							</div>
 							<div class="demo-element">
-								<a href="#" target="blank">
-									<h4>Website Cartoon</h4>
-									<img src="img/img-profile/web-cartoon.png" alt="">
-								</a>
-							</div>
-							<div class="demo-element">
-								<a href="#" target="blank">	
-									<h4>Website Wedding</h4>
-									<img src="img/img-profile/web-wedding.png" alt="">
-								</a>
-							</div>
-							<div class="demo-element">
-								<a href="http://www.goldenowl.asia/" target="blank">
-									<h4>Golden Owl</h4>
-									<img src="img/img-profile/web-golden.png" alt="">
+								<a href="html/restaurant.html" target="blank">
+									<h4>ABC Restaurant</h4>
+									<img src="img/img-profile/web-restaurant.png" alt="">
 								</a>
 							</div>
 						</div>

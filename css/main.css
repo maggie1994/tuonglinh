@@ -578,7 +578,7 @@ a{
 	background-size: 100% 100%;
 	width: 950px;
 	height: 160px;
-	color: #fff;
+	color: #FFD96C;
 	font-size: 35px;
 	padding-top: 18px;
 	margin-bottom: 0px;
@@ -740,6 +740,52 @@ a{
     	display: none;
     }
 }
+@media screen and (max-width: 986px){
+	.portfolio-content{
+		width: 95%;
+	}
+	.group-portfolio{
+		margin-top: 50px;
+	}
+	.portfolio-content .title{
+		width: 100%;
+	}
+	.portfolio{
+		width: 90%;
+	}
+	.btn-left, .btn-right{
+		display: none;
+	}
+	.demo-portfolio{
+		width: 655px;
+		height: 300px;
+		overflow: scroll;
+		overflow-x: hidden;
+		padding-top: 0px;
+	}
+	.demo-flex{
+		display: block;
+	}
+	.demo-element a, .demo-element:hover a, .active a {
+		transform: scale(1);
+		margin-top: 0px;
+		padding: 0px 20px;
+		margin-bottom: 20px;
+	}
+	.active a h4{
+		font-size: 18px;
+	}
+
+}
+@media screen and (max-width: 890px){
+	.demo-element a img{
+		width: 230px;
+		height: 140px;
+	}
+	.demo-portfolio{
+		width: 580px;
+	}
+}
 @media screen and (max-width: 768px){
 	.road{
 		display: none;
@@ -754,7 +800,46 @@ a{
 	.children{
 		display: none;
 	}
+	.group-portfolio{
+		padding: 0px !important;
+	}
+	.demo-element a, .demo-element:hover a, .active a{
+		padding: 0px 16px;
+	}
+	.demo-element a h4, .demo-element a:hover{
+		font-size: 15px;
+	}
+	.demo-element a img{
+		width: 200px;
+		height: 120px;
+	}
+	.demo-portfolio{
+		width: 505px;
+	}
 
+}
+@media screen and (max-width: 660px){
+	.demo-element{
+		width: 100%;
+	}
+	.demo-element a img{
+		width: 230px;
+		height: 140px;
+	}
+	.demo-portfolio{
+		width: 300px;
+		height: 430px;
+	}
+	.portfolio-content{
+		margin: 20px auto;
+	}
+	.portfolio-content .title{
+		height: 130px;
+		font-size: 27px;
+	}
+	.portfolio{
+		height: 530px;
+	}
 }
 @media screen and (max-width: 540px){
 	.section-content{
@@ -881,6 +966,29 @@ a{
 	}
 	.group-info-480{
 		display: block;
+	}
+}
+@media screen and (max-width: 420px){
+	.portfolio-content{
+		margin: 20px auto;
+	}
+	.portfolio-content .title{
+		height: 110px;
+		font-size: 22px;
+	}
+	.portfolio{
+		height: 550px;
+	}
+	.group-portfolio{
+		margin-top: 30px;
+	}
+	.demo-element a img{
+		width: 200px;
+		height: 120px;
+	}
+	.demo-portfolio{
+		width: 260px;
+		height: 450px;
 	}
 }
 @media screen and (max-width: 386px){	
