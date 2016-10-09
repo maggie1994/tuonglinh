@@ -149,6 +149,7 @@ button{
 	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 0.5px;
+	line-height: 1.4;
 }
 .sub-title-header{
 	margin-top: 100px;
@@ -159,6 +160,12 @@ button{
 		margin-top: 70px;
 		font-size: 1.3em;
 		padding: 0px 20px;
+	}
+	.sub-title{
+		padding: 0px 20px;
+	}
+	.section-body .sub-title{
+		padding: 0px !important;
 	}
 }
 .text-header{
@@ -604,7 +611,7 @@ button{
 }
 .portfolio-element{
 	width: 24%;
-	height: 320px;
+	height: 310px;
 	margin-right: 1.33%;
 	margin-top: 20px;
 	float: left;
@@ -673,7 +680,7 @@ button{
 @media screen and (max-width: 420px){
 	.portfolio{
 		width: 250px;
-		margin: 35px auto 150px;
+		margin: 35px auto 0px;
 	}
 	.portfolio-element{
 		width: 100%;

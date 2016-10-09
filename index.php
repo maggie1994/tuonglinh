@@ -154,7 +154,7 @@
 			</div>
 		</div>
 		<div class="section section-history">
-			<h4 class="title title-main title-center">Work Experience</h4>
+			<h4 class="title title-main title-center">Experience</h4>
 			<h5 class="sub-title">
 				History education and work experience
 			</h5>
