@@ -1,7 +1,9 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Linh's Profile</title>
+
 		<link rel="icon" type="image/png" href="img/fish-01.png">
 		<link rel="stylesheet" type="text/css" href="css/profile.css">
 		<link rel="stylesheet" type="text/css" href="css/font.css">
@@ -14,7 +16,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script src="jquery-1.10.2.min.js"></script>
-		<script src="js/restaurant.js"></script>
+		<script src="js/profile.js"></script>
 	</head>
 	<body>
 		<div class="section header-section">
@@ -213,67 +215,96 @@
 				These are some websites I have done. Please take a look at each website.
 			</h5>
 			<div class="container-fluid portfolio">
-				<div class="portfolio-element">
-					<img src="img/img-profile-02/fashion.jpg" alt="">
-					<div class="info-portfolio">
-						<div class="info">
-							<h6>Fashion</h6>
+				<a href="html/fashion.html" target="_blank" class="link">
+					<div class="portfolio-element">
+						<img src="img/img-profile-02/fashion.jpg" alt="">
+						<div class="info-portfolio">
+							<div class="info">
+								<h6>Fashion</h6>
+							</div>
 						</div>
-						<a href="html/fashion.html" target="_blank"><button class="btn-global">View</button></a>
 					</div>
-				</div>
-				<div class="portfolio-element">
-					<img src="img/img-profile-02/cartoon.jpg" alt="">
-					<div class="info-portfolio">
-						<div class="info">
-							<h6>Cartoon</h6>
+				</a>
+				<a href="html/cartoon.html" target="_blank" class="link">
+					<div class="portfolio-element">
+						<img src="img/img-profile-02/cartoon.jpg" alt="">
+						<div class="info-portfolio">
+							<div class="info">
+								<h6>Cartoon</h6>
+							</div>
 						</div>
-						<a href="html/cartoon.html" target="_blank"><button class="btn-global">View</button></a>
 					</div>
-				</div>
-				<div class="portfolio-element">
-					<img src="img/img-profile-02/golden.jpg" alt="">
-					<div class="info-portfolio">
-						<div class="info">
-							<h6>Golden Owl</h6>
+				</a>
+				<a href="http://www.goldenowl.asia/" target="_blank" class="link">
+					<div class="portfolio-element">
+						<img src="img/img-profile-02/golden.jpg" alt="">
+						<div class="info-portfolio">
+							<div class="info">
+								<h6>Golden Owl</h6>
+							</div>
 						</div>
-						<a href="http://www.goldenowl.asia/" target="_blank"><button class="btn-global">View</button></a>
 					</div>
-				</div>
-				<div class="portfolio-element">
-					<img src="img/img-profile-02/restaurant.jpg" alt="">
-					<div class="info-portfolio">
-						<div class="info">
-							<h6>Restaurant</h6>
+				</a>
+				<a href="html/restaurant.html" target="_blank" class="link">
+					<div class="portfolio-element">
+						<img src="img/img-profile-02/restaurant.jpg" alt="">
+						<div class="info-portfolio">
+							<div class="info">
+								<h6>Restaurant</h6>
+							</div>
 						</div>
-						<a href="html/restaurant.html" target="_blank"><button class="btn-global">View</button></a>
 					</div>
-				</div>
-				<div class="portfolio-element">
-					<img src="img/img-profile-02/serumi.jpg" alt="">
-					<div class="info-portfolio">
-						<div class="info">
-							<h6>Naturion</h6>
+				</a>
+				<a href="http://www.naturion.com/" target="_blank" class="link">
+					<div class="portfolio-element">
+						<img src="img/img-profile-02/serumi.jpg" alt="">
+						<div class="info-portfolio">
+							<div class="info">
+								<h6>Naturion</h6>
+							</div>
 						</div>
-						<a href="http://www.naturion.com/" target="_blank"><button class="btn-global">View</button></a>
 					</div>
-				</div>
-				<div class="portfolio-element">
-					<img src="img/img-profile-02/bed.jpg" alt="">
-					<div class="info-portfolio">
-						<div class="info">
-							<h6>Monazo</h6>
+				</a>
+				<a href="html/children.html" target="_blank" class="link">
+					<div class="portfolio-element">
+						<img src="img/img-profile-02/bed.jpg" alt="">
+						<div class="info-portfolio">
+							<div class="info">
+								<h6>Monazo</h6>
+							</div>
 						</div>
-						<a href="html/children.html" target="_blank"><button class="btn-global">View</button></a>
 					</div>
-				</div>
-				<div class="portfolio-element">
-					<img src="img/img-profile-02/profile.jpg" alt="">
+				</a>
+				<a href="profile.html" target="_blank" class="link">
+					<div class="portfolio-element">
+						<img src="img/img-profile-02/profile.jpg" alt="">
+						<div class="info-portfolio">
+							<div class="info">
+								<h6>Profile Graphic</h6>
+							</div>
+						</div>
+					</div>
+				</a>
+				<div class="portfolio-element mobile link">
+					<img src="img/img-profile-02/mimihi.jpg" alt="">
 					<div class="info-portfolio">
 						<div class="info">
-							<h6>Profile Graphic</h6>
+							<h6>Karaoke Mimihi</h6>
 						</div>
-						<a href="test.html" target="_blank"><button class="btn-global">View</button></a>
+					</div>
+					<div class="popup">
+						<div class="popup-content">
+							<div class="image-large">
+								<button class="btn-left"><i class="fa fa-angle-double-left" aria-hidden="true"></i></button>
+								<div class="list-img">
+									<img class="first" src="img/img-profile-02/mimihi-01.png" alt="">
+									<img src="img/img-profile-02/mimihi-02.png" alt="">
+									<img src="img/img-profile-02/mimihi-03.png" alt="">
+									<img src="img/img-profile-02/mimihi-04.png" alt="">
+								</div>
+								<button class="btn-right"><i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
