@@ -307,6 +307,29 @@
 						</div>
 					</div>
 				</div>
+				<div class="portfolio-element mobile link">
+					<img src="img/img-profile-02/chitchat.jpg" alt="">
+					<div class="info-portfolio">
+						<div class="info">
+							<h6>ChitChat</h6>
+						</div>
+					</div>
+					<div class="popup">
+						<div class="popup-content">
+							<div class="image-large">
+								<button class="btn-left"><i class="fa fa-angle-double-left" aria-hidden="true"></i></button>
+								<div class="list-img">
+									<img class="first" src="img/img-profile-02/chitchat-01.png" alt="">
+									<img src="img/img-profile-02/chitchat-02.png" alt="">
+									<img src="img/img-profile-02/chitchat-03.png" alt="">
+									<img src="img/img-profile-02/chitchat-04.png" alt="">
+									<img src="img/img-profile-02/chitchat-05.png" alt="">
+								</div>
+								<button class="btn-right"><i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="section section-footer">

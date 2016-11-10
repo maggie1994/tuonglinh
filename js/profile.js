@@ -26,10 +26,13 @@ $(document).ready(function(){
 	$('.popup').click(function(event) {
 		$('.popup').fadeOut();
 		event.stopPropagation();
-		img = 1;
 	});
 	$('.mobile').click(function(event) {
 		var index = $(this).index() + 1;
 		$('.mobile:nth-child(' + index + ') .popup').fadeIn();
+		
+		$('.list-img > img:nth-child(' + img + ')').css('animation','img_01 0.1s forwards');
+		img = 1;
+		$('.list-img > img:nth-child(' + img + ')').css('animation','img_02 0.1s forwards');
 	});
 });

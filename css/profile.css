@@ -1118,7 +1118,7 @@ button{
 	z-index: 11;
 	width: 500px;
 	height: 100%;
-	margin: 30px auto;
+	margin: 0px auto;
 }
 @media screen and (max-width: 589px){
 	.popup-content{
@@ -1150,9 +1150,10 @@ button{
 }
 .image-large img{
 	width: 300px;
-	transform: translateX(130%);
+	transform: translateX(130%) translateY(-50%);
 	transition: 0.8s;
 	position: absolute;
+	top: 50%;
 }
 @media screen and (max-width: 589px){
 	.image-large img{
@@ -1161,29 +1162,29 @@ button{
 	}
 }
 .image-large .first{
-	transform: translateX(0);
+	transform: translateX(0) translateY(-50%);
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes img_01 {
-    0%   {transform: translateX(0%);}
-    100% {transform: translateX(-130%)}
+    0%   {transform: translateX(0%) translateY(-50%);}
+    100% {transform: translateX(-130%) translateY(-50%)}
 }
 
 /* Standard syntax */
 @keyframes img_02 {
-    0%   {transform: translateX(130%);}
-    100% {transform: translateX(0%);}
+    0%   {transform: translateX(130%) translateY(-50%);}
+    100% {transform: translateX(0%) translateY(-50%);}
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes img_03 {
-    0%   {transform: translateX(-130%);}
-    100% {transform: translateX(0%);}
+    0%   {transform: translateX(-130%) translateY(-50%);}
+    100% {transform: translateX(0%) translateY(-50%);}
 }
 
 /* Standard syntax */
 @keyframes img_04 {
-    0%   {transform: translateX(0%);}
-    100% {transform: translateX(130%);}
+    0%   {transform: translateX(0%) translateY(-50%);}
+    100% {transform: translateX(130%) translateY(-50%);}
 }
 
 
