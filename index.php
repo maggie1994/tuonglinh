@@ -390,6 +390,16 @@
 					</div>
 				</div>
 			</div>
+			<!-- <div class="section section-footer">
+				<h1 class="title title-footer">
+					<span>Linh's</span> Profile
+				</h1>
+				<p>
+					Copyright and Designed by 
+					<span>Tuong </span>
+					<span class="color-white">Linh</span>
+				</p>
+			</div> -->
 		</div>
 	</body>
 </html>
