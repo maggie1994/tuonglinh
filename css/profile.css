@@ -23,13 +23,8 @@ body{
 	background-image: url('../img/img-profile-02/bg-body.jpg');
 	background-size: 600px;
 	margin: auto;
-	width: 1000px;
-	max-width: 100%;
-}
-@media screen and (max-width: 1036px){
-	.body-content{
-		width: 100%;
-	}
+	max-width: 1000px;
+	width: 100%;
 }
 button{
 	background-color: transparent;

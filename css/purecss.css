@@ -1,0 +1,137 @@
+.purecss-content{
+  margin: 100px 0;
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;   
+  flex-wrap: wrap;
+  width: 100%;
+}
+.purecss-element{
+  margin: 20px 0;
+  width: 33%;
+}
+.frame{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform: scale(0.7);
+  margin: auto;
+}
+.face{
+  width: 200px;
+  height: 200px;
+  background-color: #FFCC4D;
+  border-radius: 50%;
+}
+.eyesbrown{
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-top: 10px solid #664500;
+  border-left: 10px solid #664500;
+  border-top-left-radius: 100%;
+  top: 42px;
+  left: 28px;
+}
+.eyesbrown::before{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height:10px;
+  background: #664500;
+  border-radius: 25px;
+  top: -9px;
+  right: -4px;
+  transform: rotate(-12deg);
+}
+.eyesbrown::after{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height:10px;
+  background: #664500;
+  border-radius: 25px;
+  bottom: -4px;
+  left: -15px;
+  transform: rotate(-85deg);
+}
+.eyesbrown-right{
+  border-top: 10px solid #664500;
+  border-left: 0px solid #664500;
+  border-right: 10px solid #664500;
+  border-top-left-radius: 0;
+  border-top-right-radius: 100%;
+  position: absolute;
+  left: 138px;
+}
+.eyesbrown-right::before{
+  left: -5px;
+  top: -9px;
+  transform: rotate(9deg);
+}
+.eyesbrown-right::after{
+  left: 20px;
+  bottom: -4px;
+  transform: rotate(85deg);
+}
+.eyes{
+  width: 40px;
+  height: 30px;
+  border-top: 10px solid #664500;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  left: 50px;
+}
+.eyes-right{
+  left: 110px;
+}
+.lip{
+  width: 100px;
+  height: 45px;
+  border-bottom: 48px solid #664500;
+  border-radius: 0 0 50% 50%/0 0 100% 100%;
+  position: absolute;
+  top: 120px;
+  left: 50px;
+}
+.lip::before{
+  content: "";
+  width: 80px;
+  height: 30px;
+  border-bottom: 30px solid #fff;
+  border-radius: 0 0 50% 50%/0 0 100% 100%;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+.water{
+  position: absolute; 
+  transform: rotate(30deg);
+  top: 73px;
+  left: 40px;
+}
+.water::after{
+  content:'';
+  width: 0;
+	height: 0;
+	border-bottom: 40px solid #5DADEC;
+	border-right: 15px solid transparent;
+	border-left: 15px solid transparent;
+  position: absolute;
+}
+.water::before{
+  content:'';
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #5DADEC;
+  position: absolute;
+  top: 28px;
+  left: 0px;
+}
+.water-right{
+  left: 134px;
+  top: 88px;
+  transform: rotate(-30deg);
+}

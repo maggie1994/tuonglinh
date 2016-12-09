@@ -1,99 +1,89 @@
 $(document).ready(function(){
 
-	//Animation for Begin
-	$('.img-tomato').css({'transform':'translateY(0%)', 'transition-delay':'0.5s'});
-	$('.img-left').css({'transform':'translateX(40px)', 'transition-delay':'0.5s'});
-	$('.img-knif').css({'transform':'translateX(40px) translateY(0%)', 'transition-delay':'0.5s'});
-	$('.img-carrot').css({'transform':'translateY(30px)', 'transition-delay':'0.5s'});
-	$('.img-right').css({'transform':'translateX(0%) translateY(0%)', 'transition-delay':'0.5s'});
-	$('.img-pea1').css({'opacity':'1', 'transition-delay':'1.5s'});
-	$('.img-pea').css({'opacity':'1', 'transition-delay':'1.5s'});
-	$('.header').css({'transform':'translateY(0%)', 'transition-delay':'1.5s'});
+	//Set height parent for each element use absolute
+	$('.parent').each(function(){
+		var height = $('.element').height();
+		$(this).css('height', height + 'px');
+	});
+	
+	//Set height slider (use top: calccalc(((100vh - 41.66vw) / 4) * -2 ))
+	$('.slider').each(function(){
+		var height = $('.slide-img img').height();
+		$(this).css('height', height + 'px');
+	});
+	
+	
+	//Set height feed-body
+	var h_feed_body = $('.feed-element').height() + $('.carousel').height();
+	$('.feed-body').css('height', h_feed_body + 'px');
 
-	var num_title = $('.title h1 span').size();
-	var delay_title = 2.5;
-	for(var i = 1; i <= num_title; i++){
-		delay_title = delay_title + 0.1;
-		$('.title h1 span:nth-child(' + i + ')').css({'opacity':'1', 'transform':'translateX(0px)', 'transition-delay': delay_title + 's'});
+	//Auto slider
+	var id_slide = 1;
+	var slider = setInterval(slider_bg, 5000);
+	function slider_bg() {
+		var num = $('.slide-img img').size();
+		$('.slide-img img:nth-child(' + id_slide + ')').css('opacity','0');
+
+		id_slide += 1;
+		if(id_slide > num){
+			id_slide = 1;
+		}
+		$('.slide-img img:nth-child(' + id_slide + ')').css('opacity','1');
 	}
-	delay_title = delay_title + 0.5;
-	$('.title h2').css({'opacity':'1', 'transform':'scale(1)', 'transition-delay': delay_title + 's'});
-
-
-	//Animation for Scroll
-	var menu_active = $('#home');
-	$(window).scroll(function(){
-		if ($(this).scrollTop() > $('.bg-header').height() - 50) {
-	    	$('.header').css('animation','header_fixed 0.5s forwards');
-	      	$('.header').addClass('header-scroll');
-	  	}
-	  	else{
-	  		$('.header').css({'animation':'header_static 0.5s forwards', 'transition':'0s', 'transition-delay':'0s'});
-	      	$('.header').removeClass('header-scroll');
-	  	}
-	  	if($(this).scrollTop() <= $('.bg-header').height()){
-	  		menu_active.removeClass('active');
-			menu_active = $('#home');
-			menu_active.addClass('active');
-	  	}
-		if ($(this).scrollTop() > $('.about-us-section').offset().top - 100){
-			menu_active.removeClass('active');
-			menu_active = $('#about');
-			menu_active.addClass('active');
-
-			// $('.img-group').css({'opacity':'1', 'transform':'translateY(0%)'});
-			// $('.about-us-section h3').css({'transform':'scale(1)', 'transition-delay': '1s'});
-			// $('.about-us-section h5').css({'opacity':'1', 'transform':'translateY(0px)', 'transition-delay': '1.6s'});
-			// $('.list-circle li').css({'opacity':'1', 'transition-delay': '1.8s'});
-			// $('.about-us-section p').css({'opacity':'1', 'transition-delay': '2s'});
-			// $('.about-us-section .btn-general').css({'opacity':'1', 'transform':'translateY(0%)', 'transition-delay': '2.5s'});
-		}
-		if ($(this).scrollTop() > $('.service-section').offset().top - 100){
-			menu_active.removeClass('active');
-			menu_active = $('#service');
-			menu_active.addClass('active');
-		}
-		if ($(this).scrollTop() > $('.menu').offset().top - 100){
-			menu_active.removeClass('active');
-			menu_active = $('#menu');
-			menu_active.addClass('active');
-
-			$('.menu-element:nth-child(1)').css({'transform':'translateX(0px)'});
-			$('.menu-element:nth-child(2)').css({'opacity':'1', 'transform':'translateY(0px)'});
-			$('.menu-element:nth-child(3)').css({'opacity':'1', 'transform':'translateY(0px)'});
-			$('.menu-element:nth-child(4)').css({'transform':'translateX(0px)'});
-			// $('.menu-content .btn-general').css({'opacity':'1', 'transform':'translateY(0%)', 'transition-delay': '1s'});
-		}
+	
+	//Responsive Menu
+	$('.sp_menu').click(function(){
+		$('.menu').slideToggle();
 	});
 
+	//Hover image about
+	$('.list-img li img').click(function(){
+		var src = $(this).attr('src');
+		$('.img-lg img').attr('src', src);
+	});
 
-	//Scroll Menu Header
+	//List Menu
+	var index = 'new';
+	$('.list-menu li').click(function(){
+		$('#menu-' + index).fadeOut(1000);
+		$('#' + index).removeClass('active');
+
+		index = $(this).attr('id');
+
+		$('#' + index).addClass('active');
+		$('#menu-' + index).fadeIn(1000);
+	});
 	
-	$('.menu-header li').click(function(event) {
-		menu_active.removeClass('active');
-		var index = $(this).attr('id');
-		menu_active = $(this);
-		menu_active.addClass('active');
-
-		var scroll_menu = 0;
-		if(index === 'home'){
-			$('html, body').animate({scrollTop : 0},1500);
-		}
-		if(index === 'service'){
-			scroll_menu = $('.service-section').offset().top - 20;
-			$('html, body').animate({scrollTop : scroll_menu},1500);
-		}
-		if(index === 'about'){
-			scroll_menu = $('.about-us-section').offset().top - 20;
-			$('html, body').animate({scrollTop : scroll_menu},1500);
-		}
-		if(index === 'menu'){
-			scroll_menu = $('.menu').offset().top - 20;
-			$('html, body').animate({scrollTop : scroll_menu},1500);
-		}
-		if(index === 'contact'){
-			scroll_menu = $('.footer').offset().top - 20;
-			$('html, body').animate({scrollTop : scroll_menu},1500);
-		}
+	//List carousel
+	var index_carousel = 1;
+	var carousel_ac = $('.carousel li:first-child');
+	$('.carousel li').click(function(){
+		$('.feed-body .feed-element:nth-child(' + index_carousel + ')').css('opacity','0');
+		carousel_ac.removeClass('active');
+		
+		index_carousel = $(this).index() + 1;
+		carousel_ac = $(this);
+		
+		carousel_ac.addClass('active');
+		$('.feed-body .feed-element:nth-child(' + index_carousel + ')').css('opacity','1');
 	});
 });
+
+//Set height parent for each element use absolute
+$(window).on({
+    resize: function (e) {
+		
+		$('.slider').each(function(){
+			var height = $('.slide-img img').height();
+			$(this).css('height', height + 'px');
+		});
+		
+        $('.parent').each(function(){
+			var height = $('.element').height();
+			$(this).css('height', height + 'px');
+		});
+
+		var h_feed_body = $('.feed-element').height() + $('.carousel').height();
+		$('.feed-body').css('height', h_feed_body + 'px');
+    }
+}, 500);
