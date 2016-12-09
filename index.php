@@ -6,6 +6,7 @@
 
 		<link rel="icon" type="image/png" href="img/img-profile-02/avata-01.jpg">
 		<link rel="stylesheet" type="text/css" href="css/profile.css">
+		<link rel="stylesheet" type="text/css" href="css/purecss.css">
 		<link rel="stylesheet" type="text/css" href="css/font.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -227,7 +228,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="portfolio-element hideme">
+						<!-- <div class="portfolio-element hideme">
 							<img src="img/img-profile-02/bed.jpg" alt="">
 							<div class="info-portfolio">
 								<div class="info">
@@ -253,7 +254,7 @@
 									</a>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<div class="portfolio-element hideme">
 							<img src="img/img-profile-02/restaurant.jpg" alt="">
 							<div class="info-portfolio">
@@ -385,6 +386,65 @@
 										<button class="btn-right"><i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
 									</div>
 								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section section-portfolio">
+				<div class="section-content container-fluid">
+					<h4 class="title title-main title-center">Pure CSS</h4>
+					<div class="purecss-content">
+						<div class="purecss-element">
+							<div class="frame">
+							  <div class="face">
+							    <div class="eyesbrown eyesbrown-left"></div>
+							    <div class="eyesbrown eyesbrown-right"></div>
+							    <div class="eyes eyes-left"></div>
+							    <div class="eyes eyes-right"></div>
+							    <div class="lip"></div>
+							    <div class="water"></div>
+							    <div class="water water-right"></div>
+							  </div>
+							</div>
+						</div>
+						<div class="purecss-element">
+							<div class="frame">
+							  <div class="face">
+							    <div class="eyesbrown eyesbrown-left"></div>
+							    <div class="eyesbrown eyesbrown-right"></div>
+							    <div class="eyes eyes-left"></div>
+							    <div class="eyes eyes-right"></div>
+							    <div class="lip"></div>
+							    <div class="water"></div>
+							    <div class="water water-right"></div>
+							  </div>
+							</div>
+						</div>
+						<div class="purecss-element">
+							<div class="frame">
+							  <div class="face">
+							    <div class="eyesbrown eyesbrown-left"></div>
+							    <div class="eyesbrown eyesbrown-right"></div>
+							    <div class="eyes eyes-left"></div>
+							    <div class="eyes eyes-right"></div>
+							    <div class="lip"></div>
+							    <div class="water"></div>
+							    <div class="water water-right"></div>
+							  </div>
+							</div>
+						</div>
+						<div class="purecss-element">
+							<div class="frame">
+							  <div class="face">
+							    <div class="eyesbrown eyesbrown-left"></div>
+							    <div class="eyesbrown eyesbrown-right"></div>
+							    <div class="eyes eyes-left"></div>
+							    <div class="eyes eyes-right"></div>
+							    <div class="lip"></div>
+							    <div class="water"></div>
+							    <div class="water water-right"></div>
+							  </div>
 							</div>
 						</div>
 					</div>
