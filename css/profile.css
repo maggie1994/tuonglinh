@@ -504,7 +504,7 @@ button{
 .skill-section .skill::before{
 	content: "";
 	position: absolute;
-	width: 75%;
+	width: 80%;
 	height: 29px;
 	background-color: #F6AB00;
 	top: 3px;
@@ -518,16 +518,16 @@ button{
 	width: 80%;
 }
 .skill-section .jquery::before{
-	width: 50%;
+	width: 70%;
 }
 .skill-section .pts::before{
-	width: 50%;
+	width: 70%;
 }
 .skill-section .communication::before{
 	width: 90%;
 }
 .skill-section .english::before{
-	width: 50%;
+	width: 60%;
 }
 .skill-section .skill .label{
 	display: inline-block;
