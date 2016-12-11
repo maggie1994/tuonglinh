@@ -17,14 +17,15 @@
 		<script src="js/profile.js"></script>
 	</head>
 	<body>
-		<img src="img/img-profile-02/bg-body.jpg" alt="" class="bg-body">
 		<div class="body-content">
 			<div class="section header-section">
 				<div class="header-content">
 					<img src="img/img-profile-02/avata-01.jpg" alt="" class="avata">
 					<div class="name">
-						<h1>Tong Tuong Linh</h1>
+						<img src="img/img-profile-02/tt-01.png" alt="" class="tt-header">
 						<p>I graduated at University Of Science. I just recently learn front-end about one year. I am a hard worker. I enjoy my job and I really want to be a professional Web Designer.</p>
+						<button class="btn-all">See Portfolio</button>
+						<a href="img/img-profile-02/CV_TTL.pdf" target="_blank"><button class="btn-all btn-red">My CV</button></a>
 					</div>
 				</div>
 			</div>
@@ -90,57 +91,59 @@
 				</div>
 			</div>
 			<div class="section section-history">
-				<h4 class="title title-main title-center">Experience</h4>
-				<h5 class="sub-title">
-					History education and work experience
-				</h5>
-				<div class="history-body">
-					<div class="h-element h-element-1"></div>
-					<div class="h-element h-element-2">
-						<h6 class="label-history">Study</h6>
-						<div class="info-history info-left">
-							<button class="icon">
-								<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-							</button>
-							<div class="info-detail">
-								<h6>9/2012 - 6/2015</h6>
-								<h5>University Of Science</h5>
+				<div class="section-content container-fluid">
+					<h4 class="title title-main title-center">Experience</h4>
+					<h5 class="sub-title">
+						History education and work experience
+					</h5>
+					<div class="history-body">
+						<div class="h-element h-element-1"></div>
+						<div class="h-element h-element-2">
+							<h6 class="label-history">Study</h6>
+							<div class="info-history info-left">
+								<button class="icon">
+									<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+								</button>
+								<div class="info-detail">
+									<h6>9/2012 - 6/2015</h6>
+									<h5>University Of Science</h5>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="h-element h-element-3">
-						<h6 class="label-history">Work</h6>
-						<div class="info-history info-right">
-							<button class="icon">
-								<i class="fa fa-briefcase" aria-hidden="true"></i>
-							</button>
-							<div class="info-detail">
-								<h6>9/2015 - 10/2015</h6>
-								<h5>Emotive Company</h5>
-								<h6 class="position">
-									<i class="fa fa-heart" aria-hidden="true"></i>
-									Tester
-								</h6>
+						<div class="h-element h-element-3">
+							<h6 class="label-history">Work</h6>
+							<div class="info-history info-right">
+								<button class="icon">
+									<i class="fa fa-briefcase" aria-hidden="true"></i>
+								</button>
+								<div class="info-detail">
+									<h6>9/2015 - 10/2015</h6>
+									<h5>Emotive Company</h5>
+									<h6 class="position">
+										<i class="fa fa-heart" aria-hidden="true"></i>
+										Tester
+									</h6>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="h-element h-element-4">
-						<h6 class="label-history">Work</h6>
-						<div class="info-history info-left">
-							<button class="icon">
-								<i class="fa fa-briefcase" aria-hidden="true"></i>
-							</button>
-							<div class="info-detail">
-								<h6>12/2015 - 9/2016</h6>
-								<h5>Golden Owl Consulting</h5>
-								<h6 class="position">
-									<i class="fa fa-heart" aria-hidden="true"></i>
-									Front-end Developer
-								</h6>
+						<div class="h-element h-element-4">
+							<h6 class="label-history">Work</h6>
+							<div class="info-history info-left">
+								<button class="icon">
+									<i class="fa fa-briefcase" aria-hidden="true"></i>
+								</button>
+								<div class="info-detail">
+									<h6>12/2015 - 9/2016</h6>
+									<h5>Golden Owl Consulting</h5>
+									<h6 class="position">
+										<i class="fa fa-heart" aria-hidden="true"></i>
+										Front-end Developer
+									</h6>
+								</div>
 							</div>
 						</div>
+						<div class="h-element-last"></div>
 					</div>
-					<div class="h-element-last"></div>
 				</div>
 			</div>
 			<div class="section section-portfolio">
@@ -148,7 +151,7 @@
 					<h4 class="title title-main title-center">Portfolio</h4>
 					<div class="container-fluid portfolio">
 						<div class="portfolio-element hideme">
-							<img src="img/img-profile-02/fashion.jpg" alt="">
+							<img src="img/img-profile-02/fashion.png" alt="">
 							<div class="info-portfolio">
 								<div class="info">
 									<label for="">Website</label>
@@ -175,7 +178,7 @@
 							</div>
 						</div>
 						<div class="portfolio-element hideme">
-							<img src="img/img-profile-02/cartoon.jpg" alt="">
+							<img src="img/img-profile-02/cartoon.png" alt="">
 							<div class="info-portfolio">
 								<div class="info">
 									<label for="">Website</label>
@@ -202,7 +205,7 @@
 							</div>
 						</div>
 						<div class="portfolio-element hideme">
-							<img src="img/img-profile-02/serumi.jpg" alt="">
+							<img src="img/img-profile-02/serumi.png" alt="">
 							<div class="info-portfolio">
 								<div class="info">
 									<label for="">Website</label>
@@ -229,7 +232,7 @@
 							</div>
 						</div>
 						<!-- <div class="portfolio-element hideme">
-							<img src="img/img-profile-02/bed.jpg" alt="">
+							<img src="img/img-profile-02/bed.png" alt="">
 							<div class="info-portfolio">
 								<div class="info">
 									<label for="">Website</label>
@@ -256,7 +259,7 @@
 							</div>
 						</div> -->
 						<div class="portfolio-element hideme">
-							<img src="img/img-profile-02/restaurant.jpg" alt="">
+							<img src="img/img-profile-02/restaurant.png" alt="">
 							<div class="info-portfolio">
 								<div class="info">
 									<label for="">Website</label>
@@ -283,7 +286,7 @@
 							</div>
 						</div>
 						<div class="portfolio-element hideme">
-							<img src="img/img-profile-02/profile.jpg" alt="">
+							<img src="img/img-profile-02/profile.png" alt="">
 							<div class="info-portfolio">
 								<div class="info">
 									<label for="">Website</label>
@@ -310,7 +313,7 @@
 							</div>
 						</div>
 						<div class="portfolio-element hideme mobile link">
-							<img src="img/img-profile-02/mimihi.jpg" alt="">
+							<img src="img/img-profile-02/mimihi.png" alt="">
 							<div class="info-portfolio">
 								<div class="info">
 									<label for="">Mobile</label>
@@ -349,7 +352,7 @@
 							</div>
 						</div>
 						<div class="portfolio-element hideme mobile link">
-							<img src="img/img-profile-02/chitchat.jpg" alt="">
+							<img src="img/img-profile-02/chitchat.png" alt="">
 							<div class="info-portfolio">
 								<div class="info">
 									<label for="">Mobile</label>
@@ -391,7 +394,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="section section-portfolio">
+			<!-- <div class="section section-portfolio">
 				<div class="section-content container-fluid">
 					<h4 class="title title-main title-center">Pure CSS</h4>
 					<div class="purecss-content">
@@ -449,17 +452,15 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- <div class="section section-footer">
-				<h1 class="title title-footer">
-					<span>Linh's</span> Profile
-				</h1>
+			</div> -->
+			<div class="section section-footer">
+				<img src="img/img-profile-02/tt-01.png" alt="" class="tt-header">
 				<p>
 					Copyright and Designed by 
 					<span>Tuong </span>
 					<span class="color-white">Linh</span>
 				</p>
-			</div> -->
+			</div>
 		</div>
 	</body>
 </html>
