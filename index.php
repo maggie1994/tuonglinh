@@ -57,7 +57,7 @@
 					<div class="skill-section">
 						<div class="skill">
 							<span class="label">HTML</span>
-							<label>75%</label>
+							<label>80%</label>
 						</div>
 						<div class="skill team">
 							<span class="label">Team Work</span>
@@ -65,7 +65,7 @@
 						</div>
 						<div class="skill">
 							<span class="label">CSS</span>
-							<label>75%</label>
+							<label>80%</label>
 						</div>
 						<div class="skill problem">
 							<span class="label">Problem Solving</span>
@@ -73,7 +73,7 @@
 						</div>
 						<div class="skill jquery">
 							<span class="label">Jquery</span>
-							<label>50%</label>
+							<label>70%</label>
 						</div>
 						<div class="skill communication">
 							<span class="label">Communication</span>
@@ -81,11 +81,11 @@
 						</div>
 						<div class="skill pts">
 							<span class="label">Photoshop</span>
-							<label>50%</label>
+							<label>70%</label>
 						</div>
 						<div class="skill english">
 							<span class="label">English</span>
-							<label>50%</label>
+							<label>60%</label>
 						</div>
 					</div>
 				</div>
