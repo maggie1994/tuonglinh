@@ -65,4 +65,10 @@ $(document).ready(function(){
 		img = 1;
 		$('.list-img > img:nth-child(' + img + ')').css('animation','img_02 0.1s forwards');
 	});
+
+	//Btn See Portfolio
+	$('.btn-portfolio').click(function(event) {
+		var top = $('.section-portfolio').offset().top;
+		$('body').animate({scrollTop: top }, 1500);
+	});
 });
