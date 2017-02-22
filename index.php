@@ -25,7 +25,7 @@
 						<img src="img/img-profile-02/tt-01.png" alt="" class="tt-header">
 						<p>I graduated at University Of Science. I just recently learn front-end about one year. I am a hard worker. I enjoy my job and I really want to be a professional Web Designer.</p>
 						<button class="btn-all btn-portfolio">See Portfolio</button>
-						<a href="img/img-profile-02/CV_TTL.pdf" target="_blank"><button class="btn-all btn-red">My CV</button></a>
+						<!-- <a href="img/img-profile-02/CV_TTL.pdf" target="_blank"><button class="btn-all btn-red">My CV</button></a> -->
 					</div>
 				</div>
 			</div>
@@ -35,23 +35,23 @@
 					<div class="infomation">
 						<h6>
 							<span><i class="fa fa-female" aria-hidden="true"></i></span>
-							Tong Tuong Linh
+							<!-- Tong Tuong Linh -->
 						</h6>
 						<h6>
 							<span><i class="fa fa-birthday-cake" aria-hidden="true"></i></span>
-							13-08-1994
+							<!-- 13-08-1994 -->
 						</h6>
 						<h6>
 							<span><i class="fa fa-phone" aria-hidden="true"></i></span>
-							0166 356 9501
+							<!-- 0166 356 9501 -->
 						</h6>
 						<h6>
 							<span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-							tuonglinhtong@gmail.com
+							<!-- tuonglinhtong@gmail.com -->
 						</h6>
 						<h6>
 							<span><i class="fa fa-skype" aria-hidden="true"></i></span>
-							tuonglinh1994
+							<!-- tuonglinh1994 -->
 						</h6>
 					</div>
 					<div class="skill-section">
