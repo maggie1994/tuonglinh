@@ -1,0 +1,173 @@
+/* CSS Document */
+
+/************** GENERAL ******************/
+
+*{padding: 0; margin: 0; background: transparent; border: 0; text-decoration: none; outline: 0}
+
+ul{list-style: none; padding-left: 0;}
+
+p{line-height: 1.5; color: #888; font-size: 16px;}
+
+h1, h2, h3, h4, h5, h6{margin: 0;}
+
+a, a:hover, a:visited, a:active{text-decoration: none;}
+html {height: 100%;}
+body{font-family: 'Cabin', sans-serif !important; font-size: 16px !important; font-weight: 400; overflow-x: hidden; width: 100%; height: 100%; -webkit-font-smoothing: antialiased;}
+
+.clearfix:after {clear: both; content: ".";display: block;height: 0;line-height: 0;visibility: hidden;}
+.clear{clear: both;}
+.container{max-width: 100%; width: 1280px; margin: auto; position: relative; padding: 0 60px; box-sizing: border-box;}
+.content{width: 100%; height: 100%;}
+.fleft{float: left}
+.fright{float: right !important}
+
+.btn{padding: 0 !important;}
+.btn:focus, .btn:active{box-shadow: none !important;}
+.btn a{letter-spacing: 0.2px; padding: 11px 35px; color: #fff; background: transparent; display: inline-block; transition: 0.5s; margin-top: 30px; border: 1px solid #fff; font-style: italic; position: relative}
+.btn a::before{content: ''; position: absolute; width: 100%; height: 100%; background: #be1e2d; top: 0; left: 0; transform: scale(0); transition: 0.5s;}
+.btn a i{margin-left: 5px; position: relative; left: 0; transition: 0.2s;}
+.btn a span{position: relative; z-index: 1}
+.btn a:hover{color: #fff; text-decoration: none;}
+.btn a:hover::before{transform: scale(1)}
+.btn a:hover i{left: 5px;}
+
+/************** HEADER ******************/
+header{padding: 20px 0; position: absolute; width: 100%; top: 0; left: 0; z-index: 1; background: transparent; transition: 0.5s;}
+header .navi li{position: relative; color: #c0c0c0; text-transform: uppercase; display: inline-block; margin-right: 30px; padding: 0 16px; height: 20px; overflow: hidden; cursor: pointer}
+header .navi li::before{content: '['; position: absolute; left: 0;}
+header .navi li::after{content: ']'; position: absolute; right: 0; top: 0;}
+header .navi li span{display: block; transition: 0.2s;}
+header .navi li .active{color: #ffa703; font-weight: 700;}
+header .navi .menu-active .default, header .navi li:hover .default{transform: translateY(-100%);}
+header .navi .menu-active .active, header .navi li:hover .active{transform: translateY(-100%);}
+/************** MAIN ******************/
+.about {background: url('../img/bg.jpg') left bottom; background-size: cover; width: 100%; height: 100%; position: relative; transition: 0.5s;}
+.main{text-align: right; position: absolute; left: 50%; top: 50%; transform: translateX(-50%) translateY(-70%);}
+.about .main .tt{font-size: 80px; font-weight: 600; font-family: 'Lora', serif !important; color: #fff; width: 100%; margin-bottom: 30px}
+.about .main p span{color: #ffa703;}
+.about .main p{color: #c0c0c0; width: 630px; float: right;}
+/************** EXPERIENCE ******************/
+.experience{background: url('../img/bg-experience.jpg') left bottom; background-size: cover; width: 100%; height: 100%; position: absolute; top: 0; transition: 0.5s; transform: translateX(200%);}
+.experience .main{text-align: left; transform: translateX(-50%) translateY(-40%);}
+.experience .main .col-md-6{float: left; width: 50%; padding: 0 30px; box-sizing: border-box; margin-bottom: 40px;}
+.experience .main .col-md-6:nth-child(2n+1){padding-left: 0;}
+.experience .main .col-md-6:nth-child(2n){padding-right: 0;}
+.experience .main p{width: 100%; box-sizing: border-box;}
+.experience .main .number{font-size: 35px; font-weight: 600; float: left; width: 50px; height: 50px; border-radius: 50%; background: #ffa703; color: #fff; text-align: center; position: relative}
+.experience .main .number::before{content: ''; position: absolute; width: 60px; height: 60px; border-radius: 50%; border: 1px solid #ffa703; left: -6px; top: -6px;}
+.experience .main .info{float: left; width: calc(100% - 95px); margin-left: 30px;}
+.experience .main .info .date{font-family: 'Lora', serif !important; color: #666; font-size: 14px;}
+.experience .main .info .date span{margin: 0 10px; display: inline-block; color: #666;}
+.experience .main .info .company{font-size: 22px; font-weight: 700; color: #000; text-transform: uppercase; margin-bottom: 15px; line-height: 1.2}
+.experience .main .info .company a{font-size: 14px; text-transform: none; color: #999;}
+.experience .main .info .list{color: #666; background: url('../img/icon-caret.png') no-repeat left 7px; padding-left: 30px; margin-bottom: 10px;}
+.experience .main .info .list b{color: #000;}
+/************** PORTFOLIO ******************/
+.portfolio{background: url('../img/bg-03.jpg') left bottom; background-size: cover; width: 100%; height: 100%; position: absolute; top: 0; transition: 0.5s; transform: translateX(200%);}
+.portfolio .main{text-align: left; transform: translateX(-50%) translateY(-45%);}
+.flipster__nav{display: none !important;}
+.flipster{overflow-x: visible !important;}
+.flipster__item img{width: 430px !important;}
+/************** FOOTER ******************/
+footer{padding: 10px 0; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%);}
+footer .info li{position: relative; color: #c0c0c0; display: inline-block; padding: 0 16px; height: 20px; overflow: hidden; cursor: pointer; transition: 0.3s;}
+footer .info li .icon{position: relative; padding: 0 10px;}
+footer .info li .icon::before{content: '['; position: absolute; left: 0;}
+footer .info li .icon::after{content: ']'; position: absolute; right: 0; top: 0;}
+footer .info li .text{margin-left: 5px;}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes left_before {
+    0%   {transform: translateX(0);}
+    100% {transform: translateX(-200%);}
+}
+/* Standard syntax */
+@keyframes left_before {
+    0%   {transform: translateX(0);}
+    100% {transform: translateX(-200%);}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes left_after {
+    0%   {transform: translateX(200%);}
+    100% {transform: translateX(0);}
+}
+/* Standard syntax */
+@keyframes left_after {
+    0%   {transform: translateX(200%);}
+    100% {transform: translateX(0);}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes right_before {
+    0%   {transform: translateX(0);}
+    100% {transform: translateX(200%);}
+}
+/* Standard syntax */
+@keyframes right_before {
+    0%   {transform: translateX(0);}
+    100% {transform: translateX(200%);}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes right_after {
+    0%   {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+/* Standard syntax */
+@keyframes right_after {
+    0%   {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+@media screen and (max-width: 1280px){
+	footer, .main, .container{width: 100%;}
+}
+@media screen and (max-width: 992px){
+	header{display: none;}
+	.main{position: static; transform: translateX(-50%) translateY(-70%); padding-top: 160px;}
+	.about .main{text-align: center; position: absolute}
+	.about .main .tt{line-height: 1}
+	.about .main p{width: 100%; float: none; color: #e0e0e0;}
+
+	.experience{position: static; transform: translateX(0); height: auto;}
+	.experience .main {transform: translateX(0) translateY(0); padding: 70px 0 30px;}
+
+	.portfolio{position: static; transform: translateX(0); height: auto; background: #fff; margin-bottom: 45px;}
+	.portfolio .main{transform: translateX(0) translateY(0); padding: 70px 0; overflow: hidden;}
+
+	.flipster__item img{border: 1px solid #d6d6d6;}
+
+	footer{background: #000; position: fixed;}
+}
+@media screen and (max-width: 768px){
+	.container{padding: 0 15px;}
+
+	.experience .main .col-md-6{width: 100%; padding: 0 0 25px !important; border-bottom: 1px dashed #d0d0d0;}
+	.experience .main .col-md-6:last-child{border-bottom: 0; margin-bottom: 0;}
+	footer .container{padding: 0;}
+	footer .info li{width: 49%; box-sizing: border-box}
+}
+@media screen and (max-width: 640px){
+	.about .main .tt{font-size: 50px;}
+}
+@media screen and (max-width: 520px){
+	.flipster__item img{width: 280px !important;}
+
+	.experience .main .number{float: none; margin: auto;}
+	.experience .main .info{float: none; margin-left: 0; width: 100%; margin-top: 30px;}
+	.experience .main .info .date, .experience .main .info .company{text-align: center;}
+	.experience .main .info .company{margin-bottom: 25px;}
+	.experience .main .info .company a{display: block;}
+
+	.portfolio{margin-bottom: 116px;}
+
+	footer .container ul{width: 245px; margin: auto;}
+	footer .info li{width: 100%; box-sizing: border-box; text-align: center;}
+}
+@media screen and (max-width: 420px){
+	
+}
+
+
+
