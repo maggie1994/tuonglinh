@@ -1,466 +1,147 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Linh's Profile</title>
-
+		<!-- CSS -->
 		<link rel="icon" type="image/png" href="img/img-profile-02/avata-01.jpg">
-		<link rel="stylesheet" type="text/css" href="css/profile.css">
-		<link rel="stylesheet" type="text/css" href="css/purecss.css">
-		<link rel="stylesheet" type="text/css" href="css/font.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Font -->
+		<link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+		<!-- JS -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<script src="jquery-1.10.2.min.js"></script>
-		<script src="js/profile.js"></script>
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/custom.js"></script>
+
+		<link rel="stylesheet" href="css/demo.css">
+	    <link rel="stylesheet" href="css/jquery.flipster.css">
+
+	    <script src="js/jquery.flipster.min.js"></script>
 	</head>
 	<body>
-		<div class="body-content">
-			<div class="section header-section">
-				<div class="header-content">
-					<img src="img/img-profile-02/avata-01.jpg" alt="" class="avata">
-					<div class="name">
-						<img src="img/img-profile-02/tt-01.png" alt="" class="tt-header">
-						<p>I graduated at University Of Science. I just recently learn front-end about one year. I am a hard worker. I enjoy my job and I really want to be a professional Web Designer.</p>
-						<button class="btn-all btn-portfolio">See Portfolio</button>
-						<!-- <a href="img/img-profile-02/CV_TTL.pdf" target="_blank"><button class="btn-all btn-red">My CV</button></a> -->
+		<header>
+			<div class="container">
+				<ul class="navi">
+					<li class="menu-active">
+						<span class="default">About Me</span>
+						<span class="active">About Me</span>
+					</li>
+					<li>
+						<span class="default">Work Experience</span>
+						<span class="active">Work Experience</span>
+					<li>
+						<span class="default">Portfolio</span>
+						<span class="active">Portfolio</span>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<div class="content">
+			<div class="about">
+				<div class="main">
+					<div class="container clearfix">
+						<p class="tt">Web Designer</p>
+						<p>I graduated at University Of Science and have <span>over one year experience</span> for Web Designer position. I have already worked with some websites, such as: bussiness website, Japan website, ...I really love this job, so I <span>always learn new thing</span> to improve my skill and want to become a professional Web Desginer. </p>
 					</div>
 				</div>
 			</div>
-			<div class="section section-body">
-				<div class="section-content container-fluid">
-					<h4 class="title title-main title-center">About Me</h4>
-					<div class="infomation">
-						<h6>
-							<span><i class="fa fa-female" aria-hidden="true"></i></span>
-							<!-- Tong Tuong Linh -->
-						</h6>
-						<h6>
-							<span><i class="fa fa-birthday-cake" aria-hidden="true"></i></span>
-							<!-- 13-08-1994 -->
-						</h6>
-						<h6>
-							<span><i class="fa fa-phone" aria-hidden="true"></i></span>
-							<!-- 0166 356 9501 -->
-						</h6>
-						<h6>
-							<span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-							<!-- tuonglinhtong@gmail.com -->
-						</h6>
-						<h6>
-							<span><i class="fa fa-skype" aria-hidden="true"></i></span>
-							<!-- tuonglinh1994 -->
-						</h6>
-					</div>
-					<div class="skill-section">
-						<div class="skill">
-							<span class="label">HTML</span>
-							<label>80%</label>
-						</div>
-						<div class="skill team">
-							<span class="label">Team Work</span>
-							<label>90%</label>
-						</div>
-						<div class="skill">
-							<span class="label">CSS</span>
-							<label>80%</label>
-						</div>
-						<div class="skill problem">
-							<span class="label">Problem Solving</span>
-							<label>80%</label>
-						</div>
-						<div class="skill jquery">
-							<span class="label">Jquery</span>
-							<label>70%</label>
-						</div>
-						<div class="skill communication">
-							<span class="label">Communication</span>
-							<label>90%</label>
-						</div>
-						<div class="skill pts">
-							<span class="label">Photoshop</span>
-							<label>70%</label>
-						</div>
-						<div class="skill english">
-							<span class="label">English</span>
-							<label>60%</label>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="section section-history">
-				<div class="section-content container-fluid">
-					<h4 class="title title-main title-center">Experience</h4>
-					<h5 class="sub-title">
-						History education and work experience
-					</h5>
-					<div class="history-body">
-						<div class="h-element h-element-1"></div>
-						<div class="h-element h-element-2">
-							<h6 class="label-history">Study</h6>
-							<div class="info-history info-left">
-								<button class="icon">
-									<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-								</button>
-								<div class="info-detail">
-									<h6>9/2012 - 6/2015</h6>
-									<h5>University Of Science</h5>
-								</div>
+			<div class="experience">
+				<div class="main">
+					<div class="container clearfix">
+						<div class="col-md-6 clearfix">
+							<p class="number">1</p>
+							<div class="info">
+								<p class="date">9/2012 - 6/2015</p>
+								<p class="company">Studied at university of science</p>
+								<p class="list">Rank: <b>Credit</b></p>
+								<p class="list">My score: <b>7.52</b></p>
 							</div>
 						</div>
-						<div class="h-element h-element-3">
-							<h6 class="label-history">Work</h6>
-							<div class="info-history info-right">
-								<button class="icon">
-									<i class="fa fa-briefcase" aria-hidden="true"></i>
-								</button>
-								<div class="info-detail">
-									<h6>9/2015 - 10/2015</h6>
-									<h5>Emotive Company</h5>
-									<h6 class="position">
-										<i class="fa fa-heart" aria-hidden="true"></i>
-										Tester
-									</h6>
-								</div>
+						<div class="col-md-6 clearfix">
+							<p class="number">2</p>
+							<div class="info">
+								<p class="date">Web Designer  <span>|</span>  11/2015 - 10/2016 </p>
+								<p class="company">Golden owl consulting <a href="http://goldenowl.asia/" target="_blank">(http://goldenowl.asia/)</a></p>
+								<p class="list">Responsible for designing and developing front end all websites of company</p>
+								<p class="list"><b>What’s I learn:</b> Design Business Website, HTML5, CSS3, Slim, SCSS, Basic SEO, Bootstrap </p>
 							</div>
 						</div>
-						<div class="h-element h-element-4">
-							<h6 class="label-history">Work</h6>
-							<div class="info-history info-left">
-								<button class="icon">
-									<i class="fa fa-briefcase" aria-hidden="true"></i>
-								</button>
-								<div class="info-detail">
-									<h6>12/2015 - Present</h6>
-									<h5>Golden Owl Consulting</h5>
-									<h6 class="position">
-										<i class="fa fa-heart" aria-hidden="true"></i>
-										Front-end Developer
-									</h6>
-								</div>
+						<div class="col-md-6 clearfix">
+							<p class="number">3</p>
+							<div class="info">
+								<p class="date">Web Designer  <span>|</span>  11/2016 - 4/2017  </p>
+								<p class="company">Freesale viet nam <a href="http://vn.freesale-vietnam.com/" target="_blank">(http://vn.freesale-vietnam.com/)</a></p>
+								<p class="list">Responsible for designing website, name card and maintaining front end all websites of company</p>
+								<p class="list"><b>What’s I learn:</b> Advantages of Photoshop, Basic AI, Japan Website.</p>
 							</div>
 						</div>
-						<div class="h-element-last"></div>
-					</div>
-				</div>
-			</div>
-			<div class="section section-portfolio">
-				<div class="section-content container-fluid">
-					<h4 class="title title-main title-center">Portfolio</h4>
-					<div class="container-fluid portfolio">
-						<div class="portfolio-element hideme">
-							<img src="img/img-profile-02/fashion.png" alt="">
-							<div class="info-portfolio">
-								<div class="info">
-									<label for="">Website</label>
-									<h6>Fashion</h6>
-									<p>
-										These are some websites I have done. Please take a look at each website.
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Design
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Organized Code
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Fully Responsive
-									</p>
-									<a href="html/fashion.html" target="_blank" class="link">
-										<button>Live Demo <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="portfolio-element hideme">
-							<img src="img/img-profile-02/cartoon.png" alt="">
-							<div class="info-portfolio">
-								<div class="info">
-									<label for="">Website</label>
-									<h6>Cartoon</h6>
-									<p>
-										These are some websites I have done. Please take a look at each website.
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Design
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Organized Code
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Fully Responsive
-									</p>
-									<a href="html/cartoon.html" target="_blank" class="link">
-										<button>Live Demo <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="portfolio-element hideme">
-							<img src="img/img-profile-02/serumi.png" alt="">
-							<div class="info-portfolio">
-								<div class="info">
-									<label for="">Website</label>
-									<h6>Naturion</h6>
-									<p>
-										These are some websites I have done. Please take a look at each website.
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Design
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Organized Code
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Fully Responsive
-									</p>
-									<a href="http://www.naturion.com/" target="_blank" class="link">
-										<button>Live Demo <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-									</a>
-								</div>
-							</div>
-						</div>
-						<!-- <div class="portfolio-element hideme">
-							<img src="img/img-profile-02/bed.png" alt="">
-							<div class="info-portfolio">
-								<div class="info">
-									<label for="">Website</label>
-									<h6>Monazo</h6>
-									<p>
-										These are some websites I have done. Please take a look at each website.
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Design
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Organized Code
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Fully Responsive
-									</p>
-									<a href="html/children.html" target="_blank" class="link">
-										<button>Live Demo <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-									</a>
-								</div>
-							</div>
-						</div> -->
-						<div class="portfolio-element hideme">
-							<img src="img/img-profile-02/restaurant.png" alt="">
-							<div class="info-portfolio">
-								<div class="info">
-									<label for="">Website</label>
-									<h6>Restaurant</h6>
-									<p>
-										These are some websites I have done. Please take a look at each website.
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Design
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Organized Code
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Fully Responsive
-									</p>
-									<a href="html/restaurant.html" target="_blank" class="link">
-										<button>Live Demo <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="portfolio-element hideme">
-							<img src="img/img-profile-02/profile.png" alt="">
-							<div class="info-portfolio">
-								<div class="info">
-									<label for="">Website</label>
-									<h6>Graphic Profile</h6>
-									<p>
-										These are some websites I have done. Please take a look at each website.
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Design
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Organized Code
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Fully Responsive
-									</p>
-									<a href="profile.html" target="_blank" class="link">
-										<button>Live Demo <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="portfolio-element hideme mobile link">
-							<img src="img/img-profile-02/mimihi.png" alt="">
-							<div class="info-portfolio">
-								<div class="info">
-									<label for="">Mobile</label>
-									<h6>Mimihi</h6>
-									<p>
-										These are some websites I have done. Please take a look at each website.
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Design
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Organized Code
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Fully Responsive
-									</p>
-									<button>Live Demo <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-								</div>
-							</div>
-							<div class="popup">
-								<div class="popup-content">
-									<div class="image-large">
-										<button class="btn-left"><i class="fa fa-angle-double-left" aria-hidden="true"></i></button>
-										<div class="list-img">
-											<img class="first" src="img/img-profile-02/mimihi-01.png" alt="">
-											<img src="img/img-profile-02/mimihi-02.png" alt="">
-											<img src="img/img-profile-02/mimihi-03.png" alt="">
-											<img src="img/img-profile-02/mimihi-04.png" alt="">
-										</div>
-										<button class="btn-right"><i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="portfolio-element hideme mobile link">
-							<img src="img/img-profile-02/chitchat.png" alt="">
-							<div class="info-portfolio">
-								<div class="info">
-									<label for="">Mobile</label>
-									<h6>ChitChat</h6>
-									<p>
-										These are some websites I have done. Please take a look at each website.
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Design
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Organized Code
-									</p>
-									<p class="check">
-										<span><i class="fa fa-check" aria-hidden="true"></i></span>
-										Fully Responsive
-									</p>
-									<button>Live Demo <i class="fa fa-angle-right" aria-hidden="true"></i></button>
-								</div>
-							</div>
-							<div class="popup">
-								<div class="popup-content">
-									<div class="image-large">
-										<button class="btn-left"><i class="fa fa-angle-double-left" aria-hidden="true"></i></button>
-										<div class="list-img">
-											<img class="first" src="img/img-profile-02/chitchat-01.png" alt="">
-											<img src="img/img-profile-02/chitchat-02.png" alt="">
-											<img src="img/img-profile-02/chitchat-03.png" alt="">
-											<img src="img/img-profile-02/chitchat-04.png" alt="">
-											<img src="img/img-profile-02/chitchat-05.png" alt="">
-										</div>
-										<button class="btn-right"><i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
-									</div>
-								</div>
+						<div class="col-md-6 clearfix">
+							<p class="number">4</p>
+							<div class="info">
+								<p class="date">Web Designer  <span>|</span>  2/2017 - Present </p>
+								<p class="company">Freelancer</p>
+								<p class="list">Responsible for front end of website such as: design website, logo, banner, convert PSD to HTML.  </p>
+								<p class="list"><b>What’s I learn:</b> Learn how to manage the entire project, capture the website needs of each type of customer, improve my design and HTML skills.</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- <div class="section section-portfolio">
-				<div class="section-content container-fluid">
-					<h4 class="title title-main title-center">Pure CSS</h4>
-					<div class="purecss-content">
-						<div class="purecss-element">
-							<div class="frame">
-							  <div class="face">
-							    <div class="eyesbrown eyesbrown-left"></div>
-							    <div class="eyesbrown eyesbrown-right"></div>
-							    <div class="eyes eyes-left"></div>
-							    <div class="eyes eyes-right"></div>
-							    <div class="lip"></div>
-							    <div class="water"></div>
-							    <div class="water water-right"></div>
-							  </div>
-							</div>
-						</div>
-						<div class="purecss-element">
-							<div class="frame">
-							  <div class="face">
-							    <div class="eyesbrown eyesbrown-left"></div>
-							    <div class="eyesbrown eyesbrown-right"></div>
-							    <div class="eyes eyes-left"></div>
-							    <div class="eyes eyes-right"></div>
-							    <div class="lip"></div>
-							    <div class="water"></div>
-							    <div class="water water-right"></div>
-							  </div>
-							</div>
-						</div>
-						<div class="purecss-element">
-							<div class="frame">
-							  <div class="face">
-							    <div class="eyesbrown eyesbrown-left"></div>
-							    <div class="eyesbrown eyesbrown-right"></div>
-							    <div class="eyes eyes-left"></div>
-							    <div class="eyes eyes-right"></div>
-							    <div class="lip"></div>
-							    <div class="water"></div>
-							    <div class="water water-right"></div>
-							  </div>
-							</div>
-						</div>
-						<div class="purecss-element">
-							<div class="frame">
-							  <div class="face">
-							    <div class="eyesbrown eyesbrown-left"></div>
-							    <div class="eyesbrown eyesbrown-right"></div>
-							    <div class="eyes eyes-left"></div>
-							    <div class="eyes eyes-right"></div>
-							    <div class="lip"></div>
-							    <div class="water"></div>
-							    <div class="water water-right"></div>
-							  </div>
-							</div>
-						</div>
-					</div>
+			<div class="portfolio">
+				<div class="main">
+					<div id="carousel">
+				        <ul class="flip-items">
+				            <li data-flip-title="Red">
+				                <a href="http://unitetheworldpte.com/" target="_blank"><img src="img/project1.jpg"></a>
+				            </li>
+				            <li data-flip-title="Razzmatazz" data-flip-category="Purples">
+				                <a href="http://star-forum-international.com/" target="_blank"><img src="img/project2.jpg"></a>
+				             </li>
+				            <li data-flip-title="Deep Lilac" data-flip-category="Purples">
+				                <a href="http://fraser-world.com/" target="_blank"><img src="img/project3.jpg"></a>
+				            </li>
+				            <li data-flip-title="Daisy Bush" data-flip-category="Purples">
+				                <a href="http://knishpte.com/" target="_blank"><img src="img/project4.jpg"></a>
+				            </li>
+				            <li data-flip-title="Cerulean Blue" data-flip-category="Blues">
+				                <a href="http://dynamicpartnerscapital.com/" target="_blank"><img src="img/project5.jpg"></a>
+				            </li>
+				            <li data-flip-title="Dodger Blue" data-flip-category="Blues">
+				                <a href="http://peakmasterholdings.com/" target="_blank"><img src="img/project6.jpg"></a>
+				            </li>
+				            <li data-flip-title="Dodger Blue" data-flip-category="Blues">
+				                <a href="http://www.goldenowl.asia/" target="_blank"><img src="img/project7.jpg"></a>
+				            </li>
+				        </ul>
+				    </div>
 				</div>
-			</div> -->
-			<div class="section section-footer">
-				<img src="img/img-profile-02/tt-01.png" alt="" class="tt-header">
-				<p>
-					Copyright and Designed by 
-					<span>Tuong </span>
-					<span class="color-white">Linh</span>
-				</p>
 			</div>
 		</div>
+		<footer>
+			<div class="container">
+				<ul class="info">
+					<li>
+						<span class="icon"><i class="fa fa-birthday-cake" aria-hidden="true"></i></span>
+						<span class="text">13/08/1994</span>
+					</li>
+					<li>
+						<span class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
+						<span class="text">01663569501</span>
+					</li>
+					<li>
+						<span class="icon"><i class="fa fa-skype" aria-hidden="true"></i></span>
+						<span class="text">tuonglinh1994</span>
+					</li>
+					<li>
+						<span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+						<span class="text">tuonglinhtong@gmail.com</span>
+					</li>
+				</ul>
+			</div>
+		</footer>
 	</body>
 </html>
