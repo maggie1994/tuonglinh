@@ -47,7 +47,7 @@ header .navi .menu-active .active, header .navi li:hover .active{transform: tran
 .about .main p span{color: #ffa703;}
 .about .main p{color: #c0c0c0; width: 630px; float: right;}
 /************** EXPERIENCE ******************/
-.experience{background: url('../img/bg-experience.jpg') left bottom; background-size: cover; width: 100%; height: 100%; position: absolute; top: 0; transition: 0.5s; transform: translateX(200%);}
+.experience{background: url('../img/bg-experience.jpg') left bottom; background-size: cover; width: 100%; height: 100%; position: absolute; top: 0; transition: 0.5s; transform: translateX(100%);}
 .experience .main{text-align: left; transform: translateX(-50%) translateY(-40%);}
 .experience .main .col-md-6{float: left; width: 50%; padding: 0 30px; box-sizing: border-box; margin-bottom: 40px;}
 .experience .main .col-md-6:nth-child(2n+1){padding-left: 0;}
@@ -63,7 +63,7 @@ header .navi .menu-active .active, header .navi li:hover .active{transform: tran
 .experience .main .info .list{color: #666; background: url('../img/icon-caret.png') no-repeat left 7px; padding-left: 30px; margin-bottom: 10px;}
 .experience .main .info .list b{color: #000;}
 /************** PORTFOLIO ******************/
-.portfolio{background: url('../img/bg-03.jpg') left bottom; background-size: cover; width: 100%; height: 100%; position: absolute; top: 0; transition: 0.5s; transform: translateX(200%);}
+.portfolio{background: url('../img/bg-03.jpg') left bottom; background-size: cover; width: 100%; height: 100%; position: absolute; top: 0; transition: 0.5s; transform: translateX(100%);}
 .portfolio .main{text-align: left; transform: translateX(-50%) translateY(-45%);}
 .flipster__nav{display: none !important;}
 .flipster{overflow-x: visible !important;}
@@ -79,34 +79,34 @@ footer .info li .text{margin-left: 5px;}
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes left_before {
     0%   {transform: translateX(0);}
-    100% {transform: translateX(-200%);}
+    100% {transform: translateX(-100%);}
 }
 /* Standard syntax */
 @keyframes left_before {
     0%   {transform: translateX(0);}
-    100% {transform: translateX(-200%);}
+    100% {transform: translateX(-100%);}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes left_after {
-    0%   {transform: translateX(200%);}
+    0%   {transform: translateX(100%);}
     100% {transform: translateX(0);}
 }
 /* Standard syntax */
 @keyframes left_after {
-    0%   {transform: translateX(200%);}
+    0%   {transform: translateX(100%);}
     100% {transform: translateX(0);}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes right_before {
     0%   {transform: translateX(0);}
-    100% {transform: translateX(200%);}
+    100% {transform: translateX(100%);}
 }
 /* Standard syntax */
 @keyframes right_before {
     0%   {transform: translateX(0);}
-    100% {transform: translateX(200%);}
+    100% {transform: translateX(100%);}
 }
 
 /* Safari 4.0 - 8.0 */
