@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Linh's Profile</title>
 		<!-- CSS -->
-		<link rel="icon" type="image/png" href="img/img-profile-02/avata-01.jpg">
+		<link rel="icon" type="image/png" href="img/favicon.jpg">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">

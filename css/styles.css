@@ -47,14 +47,14 @@ header .navi .menu-active .active, header .navi li:hover .active{transform: tran
 .about .main p span{color: #ffa703;}
 .about .main p{color: #c0c0c0; width: 630px; float: right;}
 /************** EXPERIENCE ******************/
-.experience{background: url('../img/bg-experience.jpg') left bottom; background-size: cover; width: 100%; height: 100%; position: absolute; top: 0; transition: 0.5s; transform: translateX(100%);}
+.experience{background: url('../img/bg-experience.jpg') left top; background-size: cover; width: 100%; height: 100%; position: absolute; top: 0; transition: 0.5s; transform: translateX(100%);}
 .experience .main{text-align: left; transform: translateX(-50%) translateY(-40%);}
 .experience .main .col-md-6{float: left; width: 50%; padding: 0 30px; box-sizing: border-box; margin-bottom: 40px;}
 .experience .main .col-md-6:nth-child(2n+1){padding-left: 0;}
 .experience .main .col-md-6:nth-child(2n){padding-right: 0;}
 .experience .main p{width: 100%; box-sizing: border-box;}
 .experience .main .number{font-size: 35px; font-weight: 600; float: left; width: 50px; height: 50px; border-radius: 50%; background: #ffa703; color: #fff; text-align: center; position: relative}
-.experience .main .number::before{content: ''; position: absolute; width: 60px; height: 60px; border-radius: 50%; border: 1px solid #ffa703; left: -6px; top: -6px;}
+.experience .main .number::before{content: ''; position: absolute; width: 60px; height: 60px; border-radius: 50%; border: 1px solid #ffa703; left: -5px; top: -5px;}
 .experience .main .info{float: left; width: calc(100% - 95px); margin-left: 30px;}
 .experience .main .info .date{font-family: 'Lora', serif !important; color: #666; font-size: 14px;}
 .experience .main .info .date span{margin: 0 10px; display: inline-block; color: #666;}
@@ -68,6 +68,7 @@ header .navi .menu-active .active, header .navi li:hover .active{transform: tran
 .flipster__nav{display: none !important;}
 .flipster{overflow-x: visible !important;}
 .flipster__item img{width: 430px !important;}
+.flipster__button{color: #fff;}
 /************** FOOTER ******************/
 footer{padding: 10px 0; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%);}
 footer .info li{position: relative; color: #c0c0c0; display: inline-block; padding: 0 16px; height: 20px; overflow: hidden; cursor: pointer; transition: 0.3s;}
@@ -137,6 +138,7 @@ footer .info li .text{margin-left: 5px;}
 	.portfolio .main{transform: translateX(0) translateY(0); padding: 70px 0; overflow: hidden;}
 
 	.flipster__item img{border: 1px solid #d6d6d6;}
+	.flipster__button{color: #000;}
 
 	footer{background: #000; position: fixed;}
 }
