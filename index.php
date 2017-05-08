@@ -116,7 +116,12 @@
 					                <p>Dynamic Partners Capital</p>
 					            </li>
 					            <li data-flip-title="Dodger Blue" data-flip-category="Blues">
-					                <a href="http://beta.dandylionholdings.com/" target="_blank"><img src="img/project8.jpg"></a>
+					                <p class="img-items"><img src="img/project8.jpg"></p>
+					                <p>Tim Benh Vien</p>
+					                <p class="img-items-l"><img src="img/project8.jpg"></p>
+					            </li>
+					            <li data-flip-title="Dodger Blue" data-flip-category="Blues">
+					                <a href="http://beta.dandylionholdings.com/" target="_blank"><img src="img/project7.jpg"></a>
 					                <p>Dandy-Lion Holdings</p>
 					            </li>
 					            <li data-flip-title="Deep Lilac" data-flip-category="Purples">
@@ -126,10 +131,6 @@
 					            <li data-flip-title="Daisy Bush" data-flip-category="Purples">
 					                <a href="http://knishpte.com/" target="_blank"><img src="img/project4.jpg"></a>
 					                <p>Knish PTE</p>
-					            </li>
-					            <li data-flip-title="Dodger Blue" data-flip-category="Blues">
-					                <a href="http://www.goldenowl.asia/" target="_blank"><img src="img/project7.jpg"></a>
-					                <p>Golden Owl Consulting</p>
 					            </li>
 					        </ul>
 					    </div>

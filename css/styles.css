@@ -77,8 +77,15 @@ header .navi .menu-active .active, header .navi li:hover .active{transform: tran
 .portfolio .flip-items p{color: #fff; text-transform: uppercase; text-align: center; font-size: 18px; padding-top: 10px;}
 .flipster__nav{display: none !important;}
 .flipster{overflow-x: visible !important;}
-.flipster__item img{width: 430px !important;}
+.flipster__item img{width: 430px !important; cursor: pointer}
 .flipster__button{color: #fff;}
+
+.img-items-l{position: fixed; width: 100%; transform: scale(0); transition: 0.3s; top: 0; left: 0; text-align: center; z-index: 999; height: 100%;}
+.img-items-l::before{content: ''; position: absolute; width: 100%; height: 100%; background: #000; opacity: 1; top: 0; left: 0;}
+.img-items-l p{width: 900px; height: 100%; max-width: 80%; overflow: scroll; overflow-x: hidden; box-sizing: border-box; margin: auto; position: relative}
+.img-items-l img{width: 100%;}
+
+.close-items{color: #fff; font-size: 30px; position: absolute; top: 20px; right: 20px; cursor: pointer;}
 /************** FOOTER ******************/
 footer{padding: 10px 0; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%);}
 footer .info li{position: relative; color: #c0c0c0; display: inline-block; padding: 0 16px; height: 20px; overflow: hidden; cursor: pointer; transition: 0.3s;}
@@ -150,7 +157,7 @@ footer .info li .text{margin-left: 5px;}
 	.experience .main .info .date{margin-bottom: 10px;}
 	.experience .main .info .company{font-size: 20px;}
 
-	.portfolio{position: static; transform: translateX(0); height: auto; background: #fff; margin-bottom: 45px;}
+	.portfolio{position: static; transform: translateX(0); height: auto; background: #fff; margin-bottom: 100px;}
 	.portfolio .main{transform: translateX(0) translateY(0); padding: 40px 0 50px; overflow: hidden;}
 	.portfolio .flip-items p{color: #888;}
 
@@ -182,6 +189,8 @@ footer .info li .text{margin-left: 5px;}
 	.experience .main .info .date span{margin: 0 5px;}
 
 	.portfolio{margin-bottom: 116px;}
+	.img-items-l p{max-width: 100%;}
+	.close-items{background: #fff; border-radius: 50%; width: 40px; height: 40px; z-index: 1; line-height: 1; top: 10px; right: 10px; color: #000; box-shadow: 0 0 3px #b0b0b0; font-size: 25px;}
 	
 	footer{padding: 0;}
 	footer .container ul{width: 100%;}

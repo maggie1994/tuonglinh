@@ -37,4 +37,36 @@ $(document).ready(function() {
         nav: true,
         buttons:   true,
     });
+
+    //Image Item
+    var h = $(window).height();
+    var img_items = $('#timbenhvien-l');
+    var img_items_h = img_items.height();
+    $('.img-items').click(function(event) {
+        var id = $(this).attr('id');
+        img_items = $('#' + id + '-l');
+        img_items.css({'transform':'scale(1)'});
+        img_items_h = img_items.find('img').height();
+        if(img_items_h <= h){
+            img_items.find('p').css({'overflow':'auto', 'height': 'auto', 'position':'absolute','top': '50%', 'left': '50%', 'transform': 'translateX(-50%) translateY(-50%)'});
+        }
+        if(img_items_h > h){
+            img_items.find('p').css({'overflow':'scroll', 'overflow-x':'hidden', 'height': '100%', 'position':'relative','top': '0', 'left': '0', 'transform': 'translateX(0) translateY(0)'});
+        }
+    });
+    $('.close-items').click(function(event) {
+        $('.img-items-l').css({'transform':'scale(0)'});
+    });
+
+    //Window Resize
+    
+    $(window).resize(function(){
+        img_items_h = img_items.find('img').height();
+        if(img_items_h <= h){
+            img_items.find('p').css({'overflow':'auto', 'height': 'auto', 'position':'absolute','top': '50%', 'left': '50%', 'transform': 'translateX(-50%) translateY(-50%)'});
+        }
+        if(img_items_h > h){
+            img_items.find('p').css({'overflow':'scroll', 'overflow-x':'hidden', 'height': '100%', 'position':'relative','top': '0', 'left': '0', 'transform': 'translateX(0) translateY(0)'});
+        }
+    });
 });
