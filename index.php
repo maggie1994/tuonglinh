@@ -103,6 +103,10 @@
 					                <a href="http://unitetheworldpte.com/" target="_blank"><img src="img/project1.jpg"></a>
 					                <p>Unite The World PTE</p>
 					            </li>
+					            <li data-flip-title="Deep Lilac" data-flip-category="Purples">
+					                <a href="http://fraser-world.com/" target="_blank"><img src="img/project3.jpg"></a>
+					                <p>Fraser World</p>
+					            </li>
 					            <li data-flip-title="Razzmatazz" data-flip-category="Purples">
 					                <a href="http://star-forum-international.com/" target="_blank"><img src="img/project2.jpg"></a>
 					                <p>Star Forum International</p>
@@ -116,27 +120,51 @@
 					                <p>Dynamic Partners Capital</p>
 					            </li>
 					            <li data-flip-title="Dodger Blue" data-flip-category="Blues">
-					                <p class="img-items"><img src="img/project8.jpg"></p>
+					                <p id="timbenhvien" class="img-items"><img src="img/project8.jpg"></p>
 					                <p>Tim Benh Vien</p>
-					                <p class="img-items-l"><img src="img/project8.jpg"></p>
 					            </li>
 					            <li data-flip-title="Dodger Blue" data-flip-category="Blues">
 					                <a href="http://beta.dandylionholdings.com/" target="_blank"><img src="img/project7.jpg"></a>
 					                <p>Dandy-Lion Holdings</p>
 					            </li>
-					            <li data-flip-title="Deep Lilac" data-flip-category="Purples">
-					                <a href="http://fraser-world.com/" target="_blank"><img src="img/project3.jpg"></a>
-					                <p>Fraser World</p>
-					            </li>
 					            <li data-flip-title="Daisy Bush" data-flip-category="Purples">
 					                <a href="http://knishpte.com/" target="_blank"><img src="img/project4.jpg"></a>
 					                <p>Knish PTE</p>
+					            </li>
+					            <li data-flip-title="Dodger Blue" data-flip-category="Blues">
+					                <p id="ilovehcm" class="img-items"><img src="img/project10.jpg"></p>
+					                <p>I Love HoChiMinh</p>
+					            </li>
+					            <li data-flip-title="Dodger Blue" data-flip-category="Blues">
+					                <p id="banner1" class="img-items"><img src="img/banner1.jpg"></p>
+					                <p>Banner</p>
+					            </li>
+					            <li data-flip-title="Dodger Blue" data-flip-category="Blues">
+					                <p id="banner2" class="img-items"><img src="img/banner2.jpg"></p>
+					                <p>Banner</p>
 					            </li>
 					        </ul>
 					    </div>
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<div id="timbenhvien-l" class="img-items-l">
+			<button class="close-items"><i class="fa fa-times" aria-hidden="true"></i></button>
+			<p><img src="img/project8-l.jpg"></p>
+		</div>
+		<div id="ilovehcm-l" class="img-items-l">
+			<button class="close-items"><i class="fa fa-times" aria-hidden="true"></i></button>
+			<p><img src="img/project10-l.jpg"></p>
+		</div>
+		<div id="banner1-l" class="img-items-l">
+			<button class="close-items"><i class="fa fa-times" aria-hidden="true"></i></button>
+			<p><img src="img/banner1-l.jpg"></p>
+		</div>
+		<div id="banner2-l" class="img-items-l">
+			<button class="close-items"><i class="fa fa-times" aria-hidden="true"></i></button>
+			<p><img src="img/banner2-l.jpg"></p>
 		</div>
 		<footer>
 			<div class="container">
