@@ -8,6 +8,7 @@
 		<link rel="icon" type="image/png" href="img/favicon.jpg">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	    <link rel="stylesheet" href="css/jquery.flipster.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<!-- Font -->
 		<link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700" rel="stylesheet">
@@ -16,10 +17,6 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script src="js/jquery-1.10.2.min.js"></script>
 		<script src="js/custom.js"></script>
-
-		<link rel="stylesheet" href="css/demo.css">
-	    <link rel="stylesheet" href="css/jquery.flipster.css">
-
 	    <script src="js/jquery.flipster.min.js"></script>
 	</head>
 	<body>
