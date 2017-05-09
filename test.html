@@ -124,7 +124,7 @@
 					                <p>Tim Benh Vien</p>
 					            </li>
 					            <li data-flip-title="Dodger Blue" data-flip-category="Blues">
-					                <a href="http://beta.dandylionholdings.com/" target="_blank"><img src="img/project7.jpg"></a>
+					                <a href="http://dandylionholdings.com/" target="_blank"><img src="img/project7.jpg"></a>
 					                <p>Dandy-Lion Holdings</p>
 					            </li>
 					            <li data-flip-title="Daisy Bush" data-flip-category="Purples">
