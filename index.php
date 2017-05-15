@@ -42,7 +42,7 @@
 				<div class="main">
 					<div class="container clearfix">
 						<p class="tt">Web Designer</p>
-						<p>I graduated at University Of Science and have <span>over one year experience</span> for Web Designer position. I have already worked with some websites, such as: bussiness website, Japan website, ...I really love this job, so I <span>always learn new thing</span> to improve my skill and want to become a professional Web Desginer. </p>
+						<p>I graduated at University Of Science and have <span>over one year experience</span> for Web Designer position. I have already worked with some websites, such as: business website, Japan website, ...I really love this job, so I <span>always learn new thing</span> to improve my skill and want to become a professional Web Designer. </p>
 					</div>
 				</div>
 			</div>
